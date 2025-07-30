@@ -1,0 +1,875 @@
+/*
+ Localizable.strings
+ PWallet
+ 
+ Created by 陈健 on 2018/9/18.
+ Copyright © 2018年 陈健. All rights reserved.
+ */
+
+//通用
+"完成" = "Terminado";
+"确定" = "Confirmar";
+"取消" = "Cancelar";
+"余额" = "Saldo";
+"返回" = "Regresar";
+"退出" = "Salir";
+"确认退出" = "Confirmar salida";
+"游戏币" = "Moneda del juego";
+"币" = "Moneda";
+"个" = ""; //(对可数名词，无需“个”，不可数名词，“个”有不同的表达）
+"钱包余额不足" = "Saldo insuficiente de la cartera";
+"余额不足" = "Saldo insuficiente";
+"暂无数据" = "Sin datos";
+"密码错误" = "Contraseña incorrecta";
+"删除" = "Borrar";
+"确认删除" = "Confirmar para eliminar";
+"删除成功" = "Eliminado correctamente";
+"删除失败" = "No se pudo eliminar";
+"请输入钱包密码" = "Introducir contraseña";
+"充值" = "Depósito";
+"去充值" = "Depósito ahora";
+"充值成功" = "Depositado correctamente";
+"充值失败" = "Error al depositar";
+"提现" = "Retirar";
+"提现成功" = "Retirado correctamente";
+"提现失败" = "No se pudo retirar";
+"错误" = "Error";
+"朋友圈" = "Momentos";
+"微信好友" = "Wechat";
+"收款码" = "Recibir código QR";
+"确定转币" = "Confirmar para transferir";
+"构造签名失败" = "Falló la firma";
+"转币成功" = "Transferido correctamente";
+"转币失败" = "Error al transferir";
+"点击二维码复制地址" = "Presione el código para copiar la dirección";
+"复制成功" = "Copiado";
+"相册" = "Álbum";
+"请将镜头对准二维码进行扫描" = "Escanear el código QR";
+"冷钱包-导出地址-二维码" = "Monedero frío - dirección de exportación - código QR";
+"摄像头" = "Cámara";
+"请前往设置打开摄像头权限" = "Permita que Pwallet acceda a su cámara";
+"摄像头故障" = "Error en la cámara";
+"请检查手机摄像头设备" = "Compruebe la cámara";
+"访问受限" = "Acceso limitado";
+"请前往设置打开照片权限" = "Acceda a “Configuración” y active la autorización del álbum";
+"请输入8～16位数字、字母组合" = "Introduzca de 8 a 16 dígitos de números y letras";
+"网络请求失败" = "Error en la solicitud de red";
+
+
+
+//barra de pestañas
+"首页" = "Inicio";
+"探索" = "Explorar";
+"我的" = "Yo";
+"行情" = "Mercado";
+"资讯" = "Noticias";
+"聊天" = "Chat";
+
+/*------------------------------------------------首页----------------------------------------------------*/
+"总资产" = "Activos totales";
+"一键小钱包" = "Cartera de una sola llave";
+"我已阅读并同意《用户协议》" = "He leído y acepto el 《Acuerdo de usuario》";
+"用户协议" = "Acuerdo de usuario";
+"小钱包提示" = "Recordatorio de monedero";
+"是否已经备份助记词?" = "¿Retrocedes la palabra mnemotécnica?";
+"为了您的资金安全，请前往备份助记词！" = "Ve a la copia de seguridad de tu palabra mnemotécnica";
+"稍后备份" = "hacer una copia de seguridad de este último";
+"去备份" = "Copia de seguridad";
+"备份提示" = "Recordatorio de copia de seguridad";
+"请备份您的钱包，以便钱包丢失后找回" = "Haga una copia de seguridad de su billetera para poder recuperarla";
+"这是我的第一个钱包" = "Mi primera cartera";
+"未备份" = "Sin copia de seguridad";
+"总资产" = "Activos totales";
+//交易记录列表
+"简介" = "Introducción";
+"转账" = "Transferir";
+"收款" = "Recibir";
+"交易成功" = "transacción exitosa";
+"交易失败" = "Transacción fallida";
+"确认中" = "Confirmación de transacción";
+" 交易记录" = "Historial de transacciones";
+"暂无交易记录" = "Sin transacciones";
+"钱包收币" = "Compartir código QR";
+
+//交易详情
+"交易详情" = "Detalles de la transacción";
+"数量" = "Cantidad";
+"矿工费" = "tarifa de minero";
+"转账地址" = "Dirección del beneficiario";
+"收款地址" = "Dirección de recepción";
+"区块信息" = "Información del bloque";
+"交易哈希" = "Comerciar hash";
+"备注" = "Comentario";
+"暂无备注" = "Sin comentarios";
+"添加联系人" = "Agregar contacto";
+"发至:%@" = "Enviar a:%@"; //%@是占位符 比如 发至:张伟
+"来自:%@" = "De:%@"; //%@是占位符 比如 来自:小明
+"已经是好友" = "Añadido como amigo";
+
+//转账
+"请输入数量" = "Cantidad";
+"备注（选填)" = "Comentario (Opcional)";
+"收币地址" = "Dirección del destinatario";
+"发币地址" = "Dirección del remitente";
+"矿工费" = "Tarifa de minero";
+"慢" = "Lento";
+"正常" = "Normal";
+"快" = "Rápido";
+"扫一扫" = "Escanear";
+"请使用冷钱包扫码" ="Escanee el código con la billetera fría";
+
+
+//收款
+
+"最新交易" = "Más reciente";
+"分享地址" = "Compartir dirección";
+
+
+//简介
+"基本资料" = "Información";
+"币种介绍" = "Introducción";
+"全称" = "Nombre completo";
+"简称" = "Nombre corto";
+"发行时间" = "Fecha de emisión";
+"发行总量" = "Suministro emitido";
+"流通总量" = "Suministro circulante";
+"众筹价格" = "Precio de financiación colectiva";
+"官网" = "Sitio web oficial";
+"白皮书" = "Informe técnico";
+"区块链浏览器" = "Navegador Blockchain";
+"社群" = "Comunidad";
+"上架交易所" = "Listado en intercambio";
+"暂无" = "Sin información";
+
+//添加币种
+"添加币种" = "Añadir moneda";
+"搜索币种" = "Buscar moneda";
+"请输入币种名称" = "Por favor, introduzca el nombre de la moneda";
+"搜索不到该币种哦" = "Esta moneda no se encuentra";
+
+/*---------------------------------------Piedra Papel tijeras ------ ---------------------------------*/
+"石头" = "Roca";
+"剪刀" = "Tijeras";
+"布" = "Papel";
+"设置昵称" = "Establecer apodo";
+"请输入昵称" = "Introduzca su apodo";
+"昵称不能为空" = "El apodo no puede estar vacío";
+"请返回钱包添加BTY币种" = "Vuelva a la billetera y agregue BTY";
+"昵称设置成功" = "Configuración de apodo";
+"创建对局" = "Crear juego";
+"选择对战" = "Seleccionar juego";
+"我的对局" = "Mi juego";
+"未知\n" = "Desconocido";
+"创建者" = "Creador";
+"奖池" = "Premio mayor";
+"奖池(币)" = "Premio mayor (moneda)";
+"创建时间" = "Hora de creación";
+"完成时间" = "Tiempo completo";
+"胜" = "Gana";
+"负" = "Perder";
+"平" = "Dibujar";
+"超时" = "Con el tiempo";
+"匹配中" = "Coincidencia";
+"历史战绩" = "Historial del juego";
+"取消对决" = "Cancelar la batalla";
+
+"等待开奖" = "Esperando sorteo";
+"等待匹配" = "Esperando coincidencia";
+"已取消" = "Cancelado";
+"已开奖" = "Dibujado";
+"开奖中..." = "Dibujo...";
+"参与中..." = "Unirse...";
+"取消中..." = "cancelando...";
+
+"已结算，保证金已退" = "Liquidado y devolución del depósito";
+"已结算，奖金已到账" = "Se liquidó y llegó la bonificación";
+"已结算，保证金已退" = "Liquidado y devolución del depósito";
+"开奖超时，保证金已扣" = "Drar horas extra，depósito descontado";
+
+
+"已结算，资金已退" = "Liquidado，fondo devuelto";
+"已结算" = "Resuelto";
+"已结算，奖金已到账" = "Finalizado，el fondo llegó";
+"开奖超时，奖金已到账" = "se agotó el tiempo de sorteo, llegó el fondo";
+
+
+//匹配中
+"确认取消对局" = "Confirmar para cancelar el juego";
+"正在取消" = "Cancelando";
+"游戏取消失败" = "No se pudo cancelar el juego";
+"游戏已取消\n 这需要一点时间" = "Juego cancelado\n Espere más tiempo";
+
+//游戏详情
+"保证金:%.0f币" = "Depósito:%.0f Moneda";
+"敌方" = "La otra parte";
+"我方" = "Nuestro grupo";
+"未进入" = "No entrar";
+"等待对手进入" = "Esperando a que entre la otra parte";
+"ID del juego 复制成功" = "ID del juego copiado";
+
+//商店
+"游戏币充值" = "Recargar la moneda del juego";
+"游戏币提现" = "Retirar la moneda del juego";
+"全部兑换" = "intercambiar todo";
+"游戏币不足" = "moneda de juego insuficiente";
+"请选择充值金额" = "seleccione la cantidad de recarga";
+"确定充值 %@ 游戏币" = "Confirmar para recargar %@ moneda del juego"; //%@是占位符 比如 确定充值 5 游戏币
+"请输入提现金额" = "Introduzca el importe a retirar";
+"确定提现 %@ 游戏币" = "Confirmar para retirar %@ 游戏币"; //%@是占位符 比如 确定提现 8 游戏币
+"%@币可兑换%@BTY" = "%@ puede intercambiarse por %@BTY"; //%@是占位符 比如 6币可兑换9BTY
+"充值提示: \n1.进行游戏的钱包中至少保留1BTY作为游戏燃料。 \n2.游戏币与比特元1:1数量锚定，充值/提现都需要一定时间。请耐心等待，如长时间未到账，请联系官方客服。"
+=
+"Recordatorio: \n1.Al menos 1 1BTY en la billetera del juego como gas. \n2.La tasa de cambio de la moneda del juego y BTY es 1:1，Toma tiempo depositar o retirar。Si el fondo no llega, por favor póngase en contacto con el servicio de atención al cliente。 ";
+//创建对局
+"参与金额" = "La cantidad del juego";
+"需暂扣和参与个数等额的保证金" = "Se requiere el mismo depósito que el monto del Juego";
+"已选中" = "Seleccionado";
+"随机" = "Aleatorio";
+"\n创建规则: \n1.创建对战需要质押参与金额双倍数量的游戏币\n"
+=
+"\nCrear regla: \n1. Para crear una batalla, se requiere el doble de la cantidad del juego como compromiso \n";
+"创建游戏失败" = "No se pudo crear el juego";
+"\n游戏币不足，请充值" = "Moneda de juego insuficiente, recargue";
+"钱包BTY余额不足\n\n钱包中至少保留1BTY作为游戏燃料"
+=
+"BTY insuficiente en la billetera\nAl menos 1BTY debe estar en la billetera como gas";
+"¿确定使用 %d币 创建对局?" = "¿Confirmar para crear batalla con %d?";
+"创建" = "Crear";
+"创建游戏失败" = "No se pudo crear";
+
+//选择对战
+"对战列表" = "Lista de juegos";
+"参与游戏失败" = "No se pudo unir al juego";
+"PK失败" = "PK falló";
+
+/*---------------------------------------红包-------- ------------------------------*/
+
+"红包记录" = "Registro de paquete rojo";
+"代币" = "Moneda de paquete rojo";
+"总数额" = "Cantidad total";
+"最小1" = "Al menos 1";
+"红包个数" = "El número del paquete rojo";
+"恭喜发财, 大吉大利" = "Mis mejores deseos";
+"拼手气红包" = "Paquete rojo por suerte";
+"推广红包" = "Promocionar el paquete rojo";
+"联系客服" = "Contáctenos";
+"可用%@%@" = "%@%@ disponible"; //比如 可用100YCC
+"金额或地址未输入" = "El importe o la dirección no pueden estar vacíos";
+"当前钱包无%@币种\t\n请更换钱包" = "El monedero actual no tiene %@\t\n, cambie su monedero."; // \t\n是换行
+"%@个%@已包好" = "%@%@ está en el paquete rojo"; //比如 10个YCC已包好
+"—— 请选择分享方式 ——" = "—— Elija el tipo de recurso compartido ——";
+"收到一份%@糖果" = "Recibido un %@caramelo";
+"原链YCC—企业级区块链SaaS平台" = "Yuan Chain: una plataforma de cadena de bloques SaaS de nivel corporativo";
+"一种简单稳定、拓展性强的区块链网络" = "Una red de cadena de bloques simple, estable y escalable";
+"红包已分享，\t\n可在红包记录里查看领取详情！"
+=
+"El paquete rojo está compartido, \t\n vea más en el registro del paquete rojo.";
+"托管地址" = "Dirección de depósito en garantía";
+"如需使用其他钱包进行充值，请扫描二维码转币"
+=
+"Si necesita usar otras billeteras para depositar, escanee el código QR";
+"二维码已保存到相册" = "El código QR está guardado";
+
+/*--------------------------------------------我的--------- -------------------------------------*/
+"我" = "Yo";
+"托管账户" = "Cuentas de depósito en garantía";
+"联系人" = "Contactos";
+"管理钱包" = "Mi billetera";
+"消息中心" = "Centro de mensajes";
+"分享下载" = "Compartir";
+"关于我们" = "Acerca de nosotros";
+"检测更新" = "Buscar actualizaciones";
+"更新" = "Actualizar";
+"更新提示" = "Actualizar sugerencia";
+"\n检测到新版本，是否更新" = "\nSe ha detectado una nueva versión, ¿quiere actualizarla?";
+"暂不更新" = "No";
+"当前已是最新版本" = "Es la última versión";
+"红包" = "Paquete rojo";
+"版本%@" = "Versión%@";//%@是占位符 比如 版本1.2.4
+"Copyright © 杭州本链科技 版权所有" = "©Hangzhou Benlian Technology Copyright";
+//托管账户
+"托管资产" = "Activos en custodia";
+"可用（个）" = "Disponible";
+"价值（元)" = "Valor";
+
+
+
+//联系人
+"搜索" = "Buscar";
+"请输入联系人姓名" = "Introduzca un nombre de contacto";
+"搜索不到联系人" = "No se puede encontrar el contacto";
+"昵称" = "Apodo";
+"昵称需小于16字符" = "Debe tener menos de 16 caracteres";
+"昵称不能为空" = "El apodo no puede estar vacío";
+"手机号" = "Número de teléfono";
+"请输入正确的手机号" = "Introduzca el número de teléfono correcto";
+"请输入11位手机号" = "Por favor, introduzca el número de teléfono";
+"地址" = "Dirección";
+"添加地址" = "Añadir una dirección";
+"主链" = "Cadena principal";
+"联系人详情" = "Detalle de los contactos";
+"编辑" = "Editar";
+"编辑联系人" = "Editar contacto";
+"去转账" = "Ir a la transferencia";
+"首页钱包不含%@" = "El monedero no contiene %@"; //比如 首页钱包不含BTY
+"保存" = "Guardar";
+"您还没有添加联系人" = "No se agregó el contacto";
+"联系人不存在%@地址" = "El contacto %@no existe";
+
+//管理钱包
+"钱包" = "Cartera";
+"我的钱包" = "Mi billetera";
+"创建钱包" = "Crear monedero";
+"导入钱包" = "Importar monedero";
+"钱包详情" = "Detalle de la cartera";
+"修改密码" = "Cambiar contraseña";
+"设置密码" = "Establecer contraseña";
+"导出私钥" = "Exportar clave privada";
+"删除钱包" = "Eliminar monedero";
+"安全警告" = "Advertencia de seguridad";
+"\n删除钱包仅能通过助记词和私钥找回，是否确定删除该钱包"
+=
+"\nEliminar una billetera solo se puede hacer a través de semillas y claves privadas, ¿estás seguro?";
+"备份助记词" = "Copia de seguridad de semillas";
+"私钥二维码" = "Código QR de clave privada";
+"助记词二维码" = "Código bidimensional de palabras mnemotécnicas";
+
+
+//修改钱包名称
+"修改钱包名称" = "Cambiar el nombre de la cartera";
+
+//备份助记词
+"请务必抄下助记词，确定之后将进行校验"
+=
+"Asegúrese de copiar las semillas y verificarlas después de confirmar";
+"下一步" = "Siguiente";
+"提示：请勿截图！如果有人获取你的助记词将直接获取你的资产！请抄下助记词并存放在安全的地方。"
+=
+"Consejo: ¡No tome una captura de pantalla! Si alguien obtiene sus semillas, ¡sus activos pueden estar seguros! Copie las semillas y guárdelas en un lugar seguro.";
+"提示：请勿直接截图保存!\n\n正确做法：\n\n方式一：使用另一离线设备，拍照保存。\n方式二：正确抄写助记词，存放在安全的地方。\n\n点击［开始备份］后，需要对你记住的助记词进行校验。" = "Consejo: ¡No guarde las capturas de pantalla directamente! Si alguien obtiene sus palabras mnemotécnicas, ¡obtendrá activos directamente!\n\nEnfoque correcto:\n\nMétodo 1: use otro dispositivo sin conexión y tome fotos para guardar.\nMétodo 2: copie las palabras mnemotécnicas correctamente y guárdelas en un lugar seguro. \n\nDespués de hacer clic en [Iniciar copia de seguridad], debe verificar las palabras mnemotécnicas que recuerda.";
+"请务必妥善保存助记词，确定之后将进行校验" = "Asegúrese de guardar el mnemónico correctamente y verifíquelo después de confirmarlo.";
+
+"备份钱包" = "Copia de seguridad del monedero";
+"请按顺序点击助记词" = "Seleccione las semillas en orden";
+"助记词错误" = "Semillas incorrectas";
+"备份成功" = "Copia de seguridad correcta";
+
+//导出私钥
+"请选择主链" = "Seleccione la moneda";
+"复制" = "Copiar";
+"私钥复制成功" = "La clave privada se copió correctamente";
+
+//修改密码
+"请输入旧密码" = "Por favor, introduzca la contraseña anterior";
+"请输入新密码" = "Por favor, introduzca la nueva contraseña";
+"重新输入新密码" = "Vuelva a introducir la nueva contraseña";
+"两次密码不相同" = "Dos contraseñas son diferentes";
+"密码修改成功" = "La contraseña se cambió correctamente";
+"密码设置成功" = "La contraseña se estableció correctamente";
+"请为账号" = "";
+"设置成功！" = "Con éxito";
+//创建钱包
+"创建钱包" = "Crear monedero";
+"中文" = "chino";
+"Inglés" = "Inglés";
+"请设置钱包名称！" = "Establezca el nombre de su monedero";
+"设置钱包名称" = "Establezca el nombre de su monedero";
+"钱包名称已存在" = "El nombre de la billetera ya existe";
+"更换助记词" = "Cambiar semillas";
+
+
+//导入钱包
+"请输入" = "Entrar";
+"助记词" = "semillas";
+"请输入英文助记词，用空格隔开" = "Introduzca las semillas en inglés y sepárelas por espacios";
+"助记词已存在" = "Las semillas ya existen";
+"助记词不存在" = "Seeds no existe";
+"钱包创建失败" = "Cartera creada sin éxito";
+
+
+
+//消息中心
+"暂无消息" = "Sin mensaje nuevo";
+"转账收款消息" = "Mensaje de transacción";
+"系统消息" = "Información del sistema";
+"全部已读" ="Leer todo";
+//分享下载
+"复制下载地址" = "Copiar dirección de descarga";
+"分享下载地址" = "Compartir dirección de descarga";
+"分享至" = "Compartir con";
+
+//关于我们
+"币钱包" = "Bwallet";
+"币钱包是一款移动端货币钱包App，旨在为用户提供安全，好用，功能强大数字资产管理工具。 "
+=
+"Pwallet es una aplicación de billetera de dinero móvil diseñada para proporcionar a los usuarios herramientas de gestión de activos digitales potentes, seguras y fáciles de usar";
+"W钱包" = "Wwallet";
+"W钱包是一款移动端货币钱包App，旨在为用户提供安全，好用，功能强大数字资产管理工具。"
+=
+"Wwallet es una aplicación de billetera de dinero móvil diseñada para proporcionar a los usuarios herramientas de administración de activos digitales potentes, seguras y fáciles de usar";
+"豆子钱包" = "Pwallet";
+"豆子钱包是一款移动端货币钱包Aplicación，旨在为用户提供安全，好用，功能强大数字资产管理工具。"
+=
+"Pwallet es una aplicación de billetera de dinero móvil diseñada para proporcionar a los usuarios herramientas de gestión de activos digitales potentes, seguras y fáciles de usar";
+"SFTwallet是一款移动端货币钱包App，旨在为用户提供安全，好用，功能强大数字资产管理工具。" = "SFT wallet es una aplicación de billetera de dinero móvil diseñada para proporcionar a los usuarios una cuenta segura y fácil de usar. , potentes herramientas de gestión de activos digitales.";
+
+"%@是一款移动端货币钱包App，旨在为用户提供安全，好用，功能强大数字资产管理工具。" = "%@ es un aplicación de billetera de dinero móvil diseñada para proporcionar a los usuarios seguridad, fácil de -utilizar potentes herramientas de gestión de activos digitales.";
+"%@是一款移动数字钱包App，旨在为用户提供安全好用、功能强大的数字资产管理工具。" = "%@ es una billetera digital móvil aplicación diseñada para proporcionar a los usuarios seguridad, fácil de usar utilizar potentes herramientas de gestión de activos digitales.";
+"%@是一款移动端多链钱包，旨在为用户提供安全好用、功能强大的数字资产管理工具。" = "%@ es un móvil Monedero multicadena diseñado para proporcionar a los usuarios seguridad, fácil de usar. utilizar potentes herramientas de gestión de activos digitales.";
+"使用协议" = "Acuerdo";
+"反馈建议" = "Comentarios";
+"反馈意见" = "Comentarios";
+
+
+//反馈建议
+"您的宝贵意见是我们进步的动力！"
+=
+"¡Sus valiosas opiniones son la fuerza motriz de nuestro progreso!";
+"还能输入%lu个字" = "%lu caracteres restantes"; //%lu是占位符
+"请留下您的邮箱、手机号或者微信" = "Deje su correo electrónico, teléfono móvil o Wechat";
+"提交" = "enviar";
+"反馈成功" = "enviado";
+"感谢您对币钱包的关注和支持，我们将会在第一时间认真处理您的反馈。"
+=
+"Gracias por su atención y apoyo en Pwallet, nos ocuparemos de sus comentarios lo antes posible";
+
+"已添加" = "Agregado";
+"切换钱包" = "Cambiar monedero";
+"已备份" = "copia de seguridad";
+"请输入密码" = "Por favor, introduzca su contraseña";
+"请重新输入密码" = "Vuelva a introducir su contraseña";
+"设置钱包密码 8-16位数字、字母组合" = "Introduzca de 8 a 16 dígitos de números y letras";
+"提示：请勿截图！如果有人获取你的助记词将直接获取你的资产！请抄写下 助记词并存放在安全的地方，我们会在下一屏进行校验。" = "Consejo: hacer ¡No tome una captura de pantalla! Si alguien obtiene sus semillas, ¡sus activos pueden estar seguros! Copie los sedds y guárdelos en un lugar seguro. Verificaremos el siguiente paso";
+"开始备份" = "iniciar copia de seguridad";
+"验证您备份的助记词" = "verifique los sedds de los que ha realizado una copia de seguridad";
+"请按照正确的顺序点击每个单词" = "Seleccione las semillas en orden";
+"导入助记词" = "Importar monedero";
+"请输英文助记词，用空格隔开" = "Por favor, introduzca mnemónicos en inglés y sepárelos por espacios";
+"请设置钱包密码" = "Establecer contraseña";
+"确认钱包密码" = "Confirmar contraseña";
+"开始导入" = "Iniciar importación";
+"输入Token名称或合约地址" = "Introduzca el nombre del token o la dirección del contrato";
+"请输入Token名称或合约地址，如果没有找到您要添加的币种，请向我们提交反馈。" = "Ingrese el nombre del token o la dirección del contrato. Si no t encuentre la moneda que desea agregar, por favor envíenos sus comentarios";
+"抱歉，未能找到相关币种" = "Lo sentimos, no se pudo encontrar la moneda";
+"扫描二维码或输入地址" = "Escanear o ingresar la dirección";
+"复制下载链接" = "Copiar el enlace de descarga";
+"查看助记词" = "Ver nemónico";
+" 请妥善保管您的助记词，以便丢失后找回" = " Por favor, mantenga su mnemónico seguro, para que pueda recuperarlo si lo pierde";
+"知道了" = "Lo sé";
+"输入/扫一扫" = "Introducir/Escanear";
+"发送数量" = "Número de envíos";
+"上链备注(选填)" = "Nota sobre la cadena (opcional)";
+"本地备注(选填)" = "Nota sobre el local (opcional)";
+"上链备注" = "Nota sobre la cadena";
+"本地备注" = "Nota sobre el local";
+"上链备注：信息上链，可以在链上查询" = "Nota sobre la cadena: información sobre la cadena, puede consultar sobre la cadena";
+"本地备注：信息不上链，保存在本地" = "Nota sobre el local: la información no está en la cadena, guárdela localmente";
+"地址有误" = "Dirección incorrecta";
+"收币地址和发币地址一致" = "La dirección de recepción es la misma que la dirección de envío";
+"转账金额不能小于矿工费" = "El monto de la transferencia no puede ser inferior a la tarifa del minero";
+"手续费不足" = "Tarifa de procesamiento insuficiente";
+"请输入转币金额" = "Introduzca el importe a transferir";
+"地址复制成功" = "Dirección copiada";
+"区块" = "Bloquear";
+"交易时间" = "Tiempo de transacción";
+"区块查询" = "Bloquear consulta";
+"暂无简介" = "Sin presentación";
+"语言" = "Idioma";
+"8-20位数字、字母组合" = "Introduzca de 8 a 20 dígitos de números y letras";
+"(当前钱包)" = "(Monedero actual)";
+"请前往设置打开相册访问权限" = "Vaya a Configuración para abrir el acceso al álbum";
+"请选择币种" = "Seleccione una moneda";
+"钱包设置" = "Configuración";
+"修改本地备注" = "Modificar notas locales";
+"无" = "ninguno";
+"最佳" = "óptimo";
+
+//新版登录
+
+"密码最大长度为20位" = "La longitud máxima de la contraseña es de 20 dígitos.";
+
+"密码登录" = "Contraseña de inicio de sesión";
+
+"已发送(%dS)" = "enviado(%dS)";
+
+"忘记密码？" = "¿Olvidó su contraseña?";
+
+"我们会以电话的方式告知您验证码，请注意接听！" = "Le informaremos del código de verificación por teléfono, ¡preste atención!";
+
+"手机登录" = "número de teléfono de inicio de sesión";
+
+"收不到验证码？" = "¿No puede recibir el código de verificación?";
+
+"新用户登录将自动注册" = "El nuevo inicio de sesión de usuario se registrará automáticamente";
+
+"用手机号重置" = "Restablecer con número de teléfono";
+
+"用邮箱重置" = "Restablecer con buzón";
+
+"绑定手机" = "Enlazar teléfono";
+
+"绑定邮箱" = "Enlazar buzón";
+
+"设置新密码" = "Establecer nueva contraseña";
+
+"设置新密码 (6-20位)" = "Establecer una nueva contraseña (6 - 20 dígitos)";
+
+"请输入手机号" = "Por favor, introduzca el número de teléfono";
+
+"请输入邮箱" = "Introduzca buzón";
+
+"输入的密码过短" = "Contraseña demasiado corta";
+
+"邮箱登录" = "Inicio de sesión en el buzón";
+
+"验证码登录" = "Código de verificación de inicio de sesión";
+
+"个人中心" = "Centro personal";
+
+"请输入正确的手机号！" = "Introduzca un número de teléfono válido";
+"您还没有绑定邮箱" = "El buzón no está vinculado";
+"请输入6位验证码" = "Por favor, introduzca el código de verificación";
+"创建失败，请重新登录" = "Error en la creación, vuelva a iniciar sesión";
+"您还没有绑定手机" = "El número de teléfono no está vinculado";
+"您尚未注册" = "No registrado";
+"语音验证" = "Verificación de voz";
+"请填写完整邮箱" = "Rellene el buzón completo";
+"请输入4位语音验证码" = "Introduzca un código de verificación de voz de 4 dígitos";
+"两次输入不一致" = "Las dos contraseñas son incoherentes";
+"修改成功！" = "¡Éxito!";
+"提示：请勿截图！如果有人获取你的助记词将直接获取你的资产！请抄写下助记词并存放到安全的地方，我们会在下一屏进行校验。" = "Consejo: hacer ¡No tome una captura de pantalla! Si alguien obtiene sus semillas, sus activos pueden estar seguros. Copie las semillas y guárdelas en un lugar seguro.";
+"请输入%@收到的验证码" = "Introducir código";
+"请输入邮箱%@收到的验证码" = "Introducir código";
+"请输入手机号%@收到的验证码" = "Introducir código";
+
+"邮箱" = "buzón";
+"登录密码" = "contraseña de inicio de sesión";
+"支付密码" = "contraseña de pago";
+"去设置" = "Configuración";
+"去修改" = "Cambiar";
+"去绑定" = "Enlazar";
+"服务器开小差了" = "Error del servidor";
+"安全验证" = "Verificación de seguridad";
+"转账金额" = "Importe de la transferencia";
+"邀请好友领奖励" = "Invita a amigos para recibir recompensas";
+"规则" = "Regla";
+"发送邀请给您好友" = "Envía una invitación a tu amigo";
+"好友注册完成相应任务" = "Registro de amigos para completar la tarea correspondiente";
+"获得奖励" = "Gana recompensas";
+"我的收益" = "Ingresos";
+"已邀请%@人 太棒了！" = "se ha invitado a gente, ¡genial!";
+"邀请列表" = "Lista de invitados";
+"邀请小技巧" = "Consejos de invitación";
+"1.邀请您的家人/朋友/同学同事等熟人的成功率最高。\n2.分享至微信群/QQ群，可以提升成功邀请几率。\n3.多多关注公告，可能会有新的奖励活动哦。\n4.每天坚持分享，你会比别人得到更多。" = "1. Invite a su familia/amigos/compañeros de clase y otros conocidos con la tasa de éxito más alta. \n2. Compartir en el grupo WeChat/grupo qq puede aumentar la posibilidad de una invitación exitosa. \n3. Preste más atención al anuncio, puede haber nuevas actividades de recompensa. \n4. Siga compartiendo todos los días, obtendrá más que otros ~";
+"生成邀请海报" = "Generar póster de invitación";
+"生成邀请链接" = "Generar enlace de invitación";
+"面对面邀请" = "Invitación presencial";
+"筛选" = "Filtro";
+"邀请人数(人)" = "Invitar（persona）";
+"收益" = "Ingresos";
+"我的邀请" = "Mi invitación";
+"已注册" = "Registrado";
+"未实名" = "Sin verificar";
+"已实名" = "Verificado";
+"奖励明细" = "Detalles de la recompensa";
+"任务" = "Tarea";
+"奖励" = "Recompensa";
+"发放时间" = "Hora de lanzamiento";
+"注册" = "Registrarse";
+"实名" = "Verificar";
+"推荐等级" = "Nivel recomendado";
+"一级" = "Primer nivel";
+"二级" = "Segundo nivel";
+"三级" = "Tercer nivel";
+"重置" = "Reiniciar";
+"月份筛选" = "Filtrar por mes";
+"安全好用多链钱包" = " Monedero fácil y seguro";
+"支持海量币种存储" = "Admite almacenamiento masivo de divisas";
+"年" = "Año";
+"月" = "Mes";
+"口令分享" = "Compartir contraseña";
+"口令复制成功" = "Éxito";
+"分享到" = "Compartir con";
+"选择海报" = "Elija un póster";
+"保存图片" = "Guardar imagen";
+"全部" = "Todos";
+"助你畅游日本的加密资产钱包" = "Un monedero de criptomonedas que puede ayudarte a viajar por Japón";
+"签到" = "Iniciar sesión";
+"个人中心" = "Centro personal";
+"邀请有礼" = "Cortesía de invitación";
+"欢迎使用" = "Bienvenido a";
+"长按识别二维码" = "Pulsación prolongada para identificar el código QR";
+"已邀请0人，继续加油哦" = "0 invitados, continuar animando";
+"实名才有奖励哦" = "Se recompensa la certificación de nombre real";
+"签到有礼" = "Iniciar sesión de cortesía";
+//探索
+
+"分享" = "Compartir";
+"复制链接" = "Copiar enlace";
+"在浏览器中打开" = "Abrir el navegador";
+//计价货币
+"计价货币" = "Divisa de precio";
+"人民币" = "RMB";
+"美元" = "Dólar";
+"西镑" = "GBP";
+"港币" = "HKD";
+"日元" = "JPY";
+
+"点击登录" = "Iniciar sesión";
+"请输入账号" = "Introducir cuenta";
+"获取验证码" = "Obtener código";
+"请输入验证码" = "Introduzca el código de verificación";
+"登录" = "Iniciar sesión";
+"已发送" = "enviado";
+"个人信息" = "Información personal";
+"头像" = "Avatar";
+"设置支付密码" = "Establecer contraseña de pago";
+"身份认证" = "Verificación de identidad";
+"去认证" = "Para verificar";
+"已认证" = "Verificado";
+"退出登录" = "Cerrar sesión";
+"验证码已经发送到您的手机" = "enviado";
+"6位数字验证码" = "Código de verificación de 6 dígitos";
+"您可以使用设置的密码来确认%@账号的操作" = "Puede confirmar la operación con la contraseña establecida.";
+"确认密码" = "Confirmar contraseña";
+"再次输入密码" = "Introduzca la contraseña de nuevo";
+"退出" = "Cerrar sesión";
+"进入" = "entrar";
+
+"\n托管账户未设置支付密码，请先设置支付密码" = "\nLa contraseña de pago no está establecida para la cuenta de depósito en garantía. Establezca primero la contraseña de pago";
+"托管账户未设置支付密码，请先设置支付密码" = "La contraseña de pago no está configurada para la cuenta de depósito en garantía. Establezca primero la contraseña de pago";
+
+"多地址" = "Direcciones múltiples";
+"交易记录" = "Historial de transacciones";
+"修改支付密码" = "Cambiar contraseña";
+"请输入6位原密码" = "Introduzca 6 contraseñas originales";
+"忘记密码" = "Olvidé mi contraseña";
+"原密码修改" = "Cambiar contraseña";
+"设置6位数字支付密码" = "Establezca una contraseña de pago de 6 dígitos";
+"确认支付密码" = "Confirmar contraseña de pago";
+"实名认证" = "Certificación";
+"热门专题" = "Temas candentes";
+
+//"请上传身份证人像面" = "请上传身份证人像面";
+//"大陆公民持有的本人有效二代身份证" = "大陆公民持有的本人有效二代身份证";
+//"证件拍摄须知" = "大陆公民持有的本人有效二代身份证";
+//"拍摄" = "拍摄";
+//"相册上传" = "相册上传";
+//"姓名" = "姓名";
+//"身份证" = "身份证";
+"请输入真实姓名" = "Por favor, introduzca su nombre real";
+//"下一步" = "下一步";
+//"暂未开放" = "暂未开放";
+"真实姓名" = "nombre real";
+"所属国家" = "País";
+"请选择国籍" = "seleccione la nacionalidad";
+"证件类型" = "Tipo de certificado";
+"请选择证件类型" = "Seleccione el tipo de certificado";
+"证件号码" = "Número de identificación";
+"请输入有效证件号码" = "Introduzca un número de identificación válido";
+//"有效证件正面照" = "有效证件正面照";
+//"手持证件照" = "手持证件照";
+"图片示例" = "Foto de ejemplo";
+"拍照" = "Hacer una foto";
+"从相册选择" = "Elegir del álbum";
+"请上传手持证件正面照" = "Cargue una foto de la tarjeta de identificación portátil (positiva)";
+"请上传手持证件反面照" = "Cargue mi tarjeta de identificación portátil (Negativo)";
+"提交审核" = "Enviar";
+"您的申请已提交，请等待客服审核。若3个工作日内仍然没有结果，请及时发送邮件联系客服。" = "Su solicitud ha sido enviada, espere la revisión del servicio de atención al cliente. Si todavía no hay resultado dentro de los 3 días hábiles, envíe un correo electrónico para ponerse en contacto con el servicio al cliente.";
+"客服邮箱：" = "Buzón de servicio：";
+"您的申请已提交，请等待客服审核。" = "Su solicitud ha sido enviada, espere la revisión del servicio de atención al cliente.";
+"您的申请已提交，请等待客服审核。若3个工作日内仍然没有结果，请及时联系客服。" = "Su solicitud ha sido enviada , espere la revisión del servicio de atención al cliente. Si todavía no hay resultados dentro de 3 días hábiles, comuníquese con el servicio al cliente.";
+"客服微信：" = "Servicio Wechat：";
+//"温馨提示" = "温馨提示";
+//"1.认证提交后不能修改证件类型 2.目前我们不接受来自阿尔及利亚、厄瓜多尔、印度尼西亚、伊朗、朝鲜、缅甸、叙利亚共和国以及美国等国家和地区的用户" = "1.认证提交后不能2.目前我们不接受来自阿尔及利亚、厄瓜多尔、印度尼西亚、伊朗、朝鲜、缅";
+//"边角完整" = "边角完整";
+//"字体清晰" = "字体清晰";
+//"亮度均匀" = "亮度均匀";
+//"请核对您的身份信息是否正确" = "请核对您的身份信息是否正确";
+//"重新上传" = "重新上传";
+//"摄像头" = "摄像头";
+//"未授权" = "未授权";
+//"动作错误，请根据提示做相应的动作" = "动作错误，请根据提示做相应的动作";
+//"请前往手机设置->%@,打开相机权限" = "请前往手机设置->%@,打开相机权限";
+//"检测超时，请稍后再试" = "检测超时，请稍后再试";
+//"检测失败,请稍后再试" = "检测失败,请稍后再试";
+//"认证成功" = "认证成功";
+//"认证失败，是否重试" = "认证失败，是否重试";
+//"是" = "是";
+//"否" = "否";
+"1.脸部清晰无遮挡证件\n 2.全部信息清晰无遮挡\n 3.完全露出双手" = "1. La cara es clara y sin obstrucciones\n 2. Todos los documentos son claros y sin obstrucciones\n 3. Exponga completamente ambas manos";
+"人工认证" = "Certificación manual ";
+"很遗憾，您未通过人工审核" = "Lo siento, no ha pasado la revisión";
+"重新提交资料" = "Reenviar";
+"待审核" = "esperar revisión";
+"未通过" = "No aprobar";
+"中国大陆" = "China";
+"非中国大陆" = "No China";
+"日本及国际用户" = "Japón e internacional";
+
+"1. 、伊朗、朝鲜、缅甸、叙利亚共和国以及美国等国家和地区的用户" = "";
+"您的好友邀请你注册币钱包，登录即享好礼！" = "¡Estás invitado a registrar la billetera B, iniciar sesión para disfrutar del regalo! ";
+"币钱包&上链购狂撒百万STO奖励，可兑换阳澄湖大闸蟹，先到先得！" = "B wallet & Shopping To Chain regalando locas recompensas de STO, se pueden intercambiar cangrejos peludos del lago Yangcheng, primero en llegar servido!";
+"切换语言" = "Idioma";
+
+"网络不给力，请稍后重试" = "Error de red";
+"请输入中文助记词，以3个字为一组" = "Introduzca semillas chinas en grupos de 3 palabras";
+"分享二维码" = "Compartir código QR";
+"验证码已发送，请耐心查收。" = "¡Enviado!";
+"请输入支付密码" = "Introduzca la contraseña de pago";
+"操作成功！" = "Éxito";
+
+"暂未开放" = "Todavía no abierto";
+"未检测到托管账户，前往登录？" = "No detectó la cuenta de depósito en garantía, ¿ir a iniciar sesión?";
+"已检测到托管账户，前往切换？" = "¿Ha detectado la cuenta de depósito en garantía y ha cambiado?";
+"未检测到去中心化钱包，前往创建？" = "¿No detectó la billetera descentralizada y fue a crearla?";
+"已检测到去中心化钱包，前往切换?" = "¿Ha detectado el monedero descentralizado y ha cambiado?";
+
+"正在加载" = "cargando";
+
+"热门币种" = "Monedas calientes";
+"自选" = "Favoritos";
+"名称" = "Nombre";
+"最新价" = "Precio de mercado";
+"24H涨跌" = "Cambiar/24H";
+"24H最高" = "Alto/24H";
+"24H最低" = "Baja/24H";
+"24H数量" = "Cantidad/24H";
+"添加自选成功" = "Añadido a favoritos";
+"移除自选成功" = "Eliminado";
+"资讯" = "Noticias";
+"快讯" = "Boletín";
+"公告" = "Boletín";
+"文章" = "Artículo";
+"今天" = "Hoy";
+"昨天" = "Ayer";
+"星期一" = "Lun";
+"星期二" = "Mar";
+"星期三" = "Mié";
+"星期四" = "Jue";
+"星期五" = "Viernes";
+"星期六" = "Sábado";
+"星期日" = "Sol";
+"查看详情" = "Detalles";
+"扫码下载「%@」APP" = "Descarga de código de escaneo";
+"公告详情" = "Detalles";
+"文章详情" = "Detalles";
+"收起" = "Empacar";
+"热门搜索" = "Caliente";
+"历史搜索" = "Historial";
+"清空全部" = "Limpiar";
+"找币" = "zhaobi";
+"币安网" = "binance";
+"火币全球站" = "huobi";
+"比特纳斯达克" = "BitNasdaq";
+"您还未添加自选，快去左滑添加吧" = "No ha agregado su moneda favorita, vaya a la izquierda y agréguela.";
+
+"线路切换" = "Cambiar línea";
+"中国" = "China";
+"日本" = "Japón";
+
+"责任声明" = "Declaración de responsabilidad";
+"DApp使用情况，均由该DApp的供应商负责。" = "Está a punto de usar una DApp de terceros, confirme que acepta el acuerdo de usuario de terceros y la política de privacidad, y que todas sus acciones y el uso de esta DApp son responsabilidad del proveedor de la DApp.";
+"立即创建" = "Crear ahora";
+"立即切换" = "Cambiar ahora";
+"立即登录" = "iniciar sesión";
+"考虑一下" = "Más tarde";
+"开始体验" = "Inicio";
+"探索精彩DApp" = "Explorar la Dapp";
+"什么是DApp?DApp就是区块链上的应用，快和我一起来体验下吧" = "¿Qué es DApp? DApp es una aplicación en la cadena de bloques. Venga y experiméntela.";
+"最近使用" = "Usado recientemente";
+"全部" = "Todos";
+"应用" = "aplicación";
+"确认" = "Confirmar";
+"提示" = "Consejo";
+"此应用需要满足条件才可进入：\n· 手机号绑定\n· 邮箱绑定\n· 实名认证成功" = "La aplicación debe cumplir las condiciones para ingresar:\n· Vincular teléfono\n· Vincular buzón\n· Verificar éxito";
+"此应用需要满足条件才可进入：\n· 手机号绑定\n· 邮箱绑定" = "La aplicación debe cumplir las condiciones para ingresar:\n· Vincular teléfono\n· Vincular buzón";
+"此应用需要满足条件才可进入：\n· 手机号绑定\n· 实名认证成功" = "La aplicación debe cumplir las condiciones para ingresar:\n· Vincular teléfono\n· Verificar éxito";
+"此应用需要满足条件才可进入：\n· 邮箱绑定\n· 实名认证成功" = "La aplicación debe cumplir las condiciones para ingresar:\n· Vincular buzón\n· Verificar éxito";
+"此应用需要满足条件才可进入：\n· 手机号绑定" = "La aplicación debe cumplir las condiciones para ingresar:\n· Vincular teléfono";
+"此应用需要满足条件才可进入：\n· 邮箱绑定" = "La aplicación debe cumplir las condiciones para ingresar:\n· Vincular buzón";
+"此应用需要满足条件才可进入：\n· 实名认证成功" = "La aplicación debe cumplir las condiciones para participar:\n· Verificar que se haya realizado correctamente";
+"前往个人中心" = "Ir al Centro personal";
+"面容支付" = "Pago presencial";
+"指纹支付" = "Toque Pagar";
+"登录注册解锁更多功能" = "Iniciar sesión para desbloquear más funciones";
+"本机号码一键登录" = "Registro rápido del número de teléfono";
+"其它方式登录" = "Cambiar método";
+"¿确定关闭指纹支付?" = "¿Realmente deshabilitar Touch Pay?";
+"¿确定关闭面容支付?" = "¿Realmente deshabilitar Face Pay?";
+"开通成功" = "Éxito";
+// 新首页
+
+"请输入助记词，用空格分隔" = "Introduzca mnemónicos, separados por espacios";
+"请输入私钥或者扫描私钥生成的二维码录入" = "Introduzca la clave privada o introduzca el código QR generado al escanear la clave privada";
+"请输入地址或者扫描地址生成的二维码录入" = "Introduzca la dirección o introduzca el código QR generado al escanear la clave privada";
+"%@支持导入所有遵循BIP标准生成的助记词" = "%@ admite la importación de todas las palabras mnemotécnicas generadas siguiendo el estándar BIP";
+"钱包支持导入所有遵循BIP标准生成的助记词" = "Wallet admite la importación de todas las palabras mnemotécnicas generadas siguiendo el estándar BIP";
+"主链:" = "Cadena principal:";
+"导入助记词" = "Importar mnemónicos";
+"导入私钥" = "Importar clave privada";
+"导入地址" = "Importar dirección";
+"私钥有误" = "Clave privada incorrecta";
+"¡助记词重复!" = "¡Palabras mnemotécnicas repetidas!";
+"当前钱包不支持该项目" = "No compatible";
+"创建/导入" = "Crear/Importar";
+"观察钱包" = "Observar billetera";
+"注册/登录" = "Registrarse/Iniciar sesión";
+"助记词钱包" = "Monedero mnemotécnico";
+"修改钱包名称" = "Modificar nombre de monedero";
+"请先勾选协议" = "Verifique primero el acuerdo";
+"钱包设置" = "Configuración";
+"请添加对应币种" = "Agregue la moneda correspondiente";
+"HD钱包" = "HDwallet";
+"区块链钱包" = "Cartera de cadena de bloques";
+"我已阅读并同意" = "Aceptar";
+"隐私服务协议" = "Acuerdo de servicio de privacidad";
+"暂不支持" = "No compatible temporalmente";
+"登录/注册" = "Iniciar sesión/Registrarse";
+"托管钱包" = "Cuenta de depósito en garantía";
+"选择主链" = "Cadena principal de elección";
+"钱包名称" = "Nombre de monedero";
+"当前钱包" = "Cartera actual";
+"请输入钱包名称" = "Ingrese el nombre de la billetera";
+"私钥钱包" = "Cartera de clave privada";
+"导出助记词" = "Exportar mnemónico";
+"通用" = "Universal";
+"专属" = "Exclusivo";
+"适用于所有钱包收款" = "Aplicable a todos los monederos";
+"仅适用于%@收款" = "Solo aplicable a %@";
+"请转入" = "Transferir";
+"指定金额" = "Especificar cantidad";
+"指定收款" = "Especificar cantidad";
+"请输入转币数量" = "Ingrese el monto";
+"修改金额" = "Modificar importe";
+"通用二维码适用于所有钱包收款" = "Código QR universal aplicable a todos los monederos";
+"专属二维码仅适用于%@收款" = "El código QR exclusivo solo se aplica a %@";
+"账户管理" = "Administración de cuentas";
+"设置" = "Configuración";
+"应用下载" = "Descargar";
+"语言切换" = "Idioma";
+"客服微信" = "Servicio Wechat";
+"客服邮箱" = "Buzón de servicio";
+"钱包地址" = "Dirección de monedero";
+"扫码下载APP" = "APLICACIÓN de descarga de código APPScan";
+"客服微信已复制" = "Copiado";
+"已复制" = "Copiado";
+"去微信粘贴" = "Pegar en WeChat";
+"暂无资产，快去添加吧" = "Sin elementos, añádalo ahora";
+"快来创建一个区块链钱包，私钥自主管理，海量币种支持，畅游各类智能合约" = "Venga y cree una billetera blockchain, administración de claves privadas, soporte masivo de divisas, y varios contratos inteligentes";
+"币钱包下载页" = "Página de descarga de Bwallet";
+"BNwallet下载页" = "Página de descarga de BNwallet";
+"极速收发数字资产，让您感受不一样的红包体验" = "Envíe y reciba activos digitales a alta velocidad, le permitirá experimentar una experiencia de sobre rojo diferente";
+"好友给你发了一个%@大红包，快来领取！" = "Un amigo te envió un gran sobre rojo %@, ¡ven a buscarlo!";
+// 币种管理y页面
+"首页币种" = "Moneda local";
+"退出排序" = "Ordenar";
+"重新加载" = "Recargar";
+"该币种维护中..." = "Mantenimiento...";
+"云矿机" = "Minero de nubes";
+"通证介绍" = "Introducción al token";
+"人脸识别" = "Reconocimiento facial";
+"人工认证" = "Autenticación manual";
+"用户名" = "Nombre de usuario";
+"修改成功" = "Modificado correctamente";
+

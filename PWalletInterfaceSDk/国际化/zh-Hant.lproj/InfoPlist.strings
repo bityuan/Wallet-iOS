@@ -1,0 +1,7 @@
+{
+	"NSCameraUsageDescription" = "APP\U9700\U8981\U8bbf\U95ee\U6444\U50cf\U5934\Uff0c\U4ee5\U4fbf\U4e8e\U8fdb\U884c\U5b9e\U540d\U8ba4\U8bc1\U6216\U8005\U626b\U63cf\U4e8c\U7ef4\U7801\Uff0c\U662f\U5426\U5141\U8bb8\Uff1f";
+	"NSContactsUsageDescription" = "\U201cAPP\U201d\U60f3\U8bbf\U95ee\U60a8\U7684\U901a\U8baf\U5f55,\U4ee5\U4fbf\U4e8e\U6dfb\U52a0\U8054\U7cfb\U4eba";
+	"NSPhotoLibraryAddUsageDescription" = "\U201cAPP\U201d\U9700\U8981\U8bbf\U95ee\U76f8\U518c\Uff0c\U4ee5\U4fbf\U4e8e\U8fdb\U884c\U5b9e\U540d\U8ba4\U8bc1\U6216\U626b\U63cf\U4e8c\U7ef4\U7801\Uff0c\U662f\U5426\U5141\U8bb8\Uff1f";
+	"NSPhotoLibraryUsageDescription" = "APP\U9700\U8981\U8bbf\U95ee\U76f8\U518c\Uff0c\U4ee5\U4fbf\U4e8e\U8fdb\U884c\U5b9e\U540d\U8ba4\U8bc1\U6216\U626b\U63cf\U4e8c\U7ef4\U7801\Uff0c\U662f\U5426\U5141\U8bb8\Uff1f";
+	"NSMicrophoneUsageDescription" = "APP\U60f3\U8981\U8bbf\U95ee\U9ea6\U514b\U98ce\Uff0c\U4ee5\U4fbf\U4e8e\U8fdb\U884c\U5b9e\U540d\U8ba4\U8bc1\Uff0c\U662f\U5426\U5141\U8bb8";
+}

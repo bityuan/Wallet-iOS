@@ -1,0 +1,875 @@
+/*
+ Localizable.strings
+ PWallet
+ 
+ Created by 陈健 on 2018/9/18.
+ Copyright © 2018年 陈健. All rights reserved.
+ */
+
+//通用
+"完成" = "Bitti";
+"确定" = "Onayla";
+"Giriş" = "İptal";
+"余额" = "Bakiye";
+"返回" = "Dönüş";
+"退出" = "Çıkış";
+"确认退出" = "Çıkışı Onayla";
+"游戏币" = "Oyun Para Birimi";
+"币" = "Para";
+"个" = ""; //(对可数名词，无需“个”，不可数名词，“个”有不同的表达)
+"钱包余额不足" = "Cüzdanda Yetersiz Bakiye";
+"余额不足" = "Yetersiz Bakiye";
+"暂无数据" = "Veri Yok";
+"密码错误" = "Yanlış Şifre";
+"删除" = "Sil";
+"确认删除" = "Silmek için onaylayın";
+"删除成功" = "Başarıyla Silindi";
+"删除失败" = "Silinemedi";
+"请输入钱包密码" = "Şifreyi Girin";
+"充值" = "Para Yatırma";
+"去充值" = "Şimdi para yatır";
+"充值成功" = "Başarıyla Yatırıldı";
+"充值失败" = "Para yatırma başarısız";
+"提现" = "Çek";
+"提现成功" = "Başarıyla Geri Çekildi";
+"提现失败" = "Geri Çekme Başarısız";
+"错误" = "Hata";
+"朋友圈" = "Anlar";
+"微信好友" = "Wechat";
+"收款码" = "QR Kodunu Al";
+"确定转币" = "Aktarmayı onaylayın";
+"构造签名失败" = "İmza başarısız oldu";
+"转币成功" = "Başarıyla Aktarıldı";
+"转币失败" = "Aktarılamadı";
+"点击二维码复制地址" = "Adresi kopyalamak için koda basın";
+"复制成功" = "Kopyalandı";
+"相册" = "Albüm";
+"请将镜头对准二维码进行扫描" = "QR kodunu tarayın";
+"冷钱包-导出地址-二维码" = "Cold Wallet - dışa aktarma adresi - QR kodu";
+"摄像头" = "Kamera";
+"请前往设置打开摄像头权限" = "Lütfen Pwallet'in kameranıza erişmesine izin verin";
+"摄像头故障" = "Kamerada Hata";
+"请检查手机摄像头设备" = "Lütfen kamerayı kontrol edin";
+"访问受限" = "Sınırlı Erişim";
+"请前往设置打开照片权限" = "“Ayarlar”a gidin ve Albüm yetkilendirmeyi açın";
+"请输入8～16位数字、字母组合" = "Lütfen 8-16 basamaklı sayı ve harf girin";
+"网络请求失败" = "Ağ isteği başarısız oldu";
+
+
+
+//tabBar
+"首页" = "Ev";
+"探索" = "Keşfet";
+"我的" = "Ben";
+"行情" = "Pazar";
+"资讯" = "Haberler";
+"聊天" = "Sohbet";
+
+/*------------------------------------------------首页------------------------------------*/
+"总资产" = "Toplam Varlıklar";
+"一键小钱包" = "Tek Anahtarlı Cüzdan";
+"我已阅读并同意《用户协议》" = "《Kullanıcı Sözleşmesi》'ni okudum ve kabul ettim";
+"用户协议" = "Kullanıcı Sözleşmesi";
+"小钱包提示" = "Cüzdan hatırlatıcısı";
+"是否已经备份助记词？" = "Hatırlatıcı kelimeyi yedekliyor musunuz?";
+"为了您的资金安全，请前往备份助记词！" = "Hatırlatıcı kelimenizi yedeklemek için gidin ";
+"稍后备份" = "sonrasını yedekle";
+"去备份" = "Yedekleme";
+"备份提示" = "Yedekleme hatırlatıcısı";
+"请备份您的钱包，以便钱包丢失后找回" = "Cüzdanınızı geri alabilmek için lütfen cüzdanınızı yedekleyin";
+"这是我的第一个钱包" = "İlk Cüzdanım";
+"未备份" = "Yedekleme Yok";
+"总资产" = "Toplam Varlıklar";
+//Yazılımı Görüntüle
+"简介" = "Giriş";
+"转账" = "Aktarım";
+"收款" = "Al";
+"交易成功" = "işlem başarılı";
+"交易失败" = "İşlem Başarısız";
+"确认中" = "İşlem onaylanıyor";
+" 交易记录" = "İşlem Geçmişi";
+"暂无交易记录" = "İşlem yok";
+"钱包收币" = "QR Kodunu Paylaş";
+
+//Yazdırma
+"交易详情" = "İşlem ayrıntıları";
+"数量" = "Miktar";
+"矿工费" = "madenci ücreti";
+"转账地址" = "Alacaklı Adresi";
+"收款地址" = "Adresi Al";
+"区块信息" = "Blok Bilgileri";
+"交易哈希" = "Karma İşlem";
+"备注" = "Yorum";
+"暂无备注" = "Yorum Yok";
+"添加联系人" = "Kişi Ekle";
+"Gönder:%@" = "Gönder:%@"; //%@是占位符 比如 发至:张伟
+"Yazılım:%@" = "Kimden:%@"; //%@是占位符 比如 来自:小明
+"已经是好友" = "Arkadaş olarak eklendi";
+
+//Yazdır
+"请输入数量" = "Miktar";
+"备注（选填）" = "Yorum(İsteğe bağlı)";
+"收币地址" = "Alıcı Adresi";
+"发币地址" = "Gönderen Adresi";
+"矿工费" = "Madenci ücreti";
+"慢" = "Yavaş";
+"正常" = "Normal";
+"快" = "Hızlı";
+"扫一扫" = "Tara";
+"请使用冷钱包扫码" ="Lütfen kodu soğuk cüzdan ile tarayın";
+
+
+//收款
+
+"最新交易" = "En Son";
+"分享地址" = "Adresi Paylaş";
+
+
+// 简介
+"基本资料" = "Bilgi";
+"币种介绍" = "Giriş";
+"全称" = "Tam Ad";
+"简称" = "Kısa Ad";
+"发行时间" = "Yayın Tarihi";
+"发行总量" = "Verilen Malzeme";
+"流通总量" = "Dönüşümdeki Arz";
+"众筹价格" = "Kitle Fonlaması Fiyatı";
+"官网" = "Resmi Web Sitesi";
+"白皮书" = "Teknik Belge";
+"区块链浏览器" = "Blockchain Tarayıcısı";
+"社群" = "Topluluk";
+"上架交易所" = "Borsa kote";
+"暂无" = "Bilgi Yok";
+
+//Gençler
+"添加币种" = "Para Ekle";
+"搜索币种" = "Para Ara";
+"请输入币种名称" = "Lütfen bozuk para adını girin";
+"搜索不到该币种哦" = "Bu madeni para bulunamadı";
+
+/*---------------------------------------Taş kağıt makas ------ --------------------------------*/
+"石头" = "Kaya";
+"剪刀" = "Makas";
+"布" = "Kağıt";
+"设置昵称" = "Takma Ad Belirle";
+"请输入昵称" = "Takma adınızı girin";
+"昵称不能为空" = "Rumuz boş bırakılamaz";
+"请返回钱包添加BTY币种" = "Lütfen cüzdana geri dönün ve BTY'yi ekleyin";
+"昵称设置成功" = "Takma ad ayarı";
+"创建对局" = "Oyun Oluştur";
+"选择对战" = "Oyun Seç";
+"我的对局" = "Oyunum";
+"未知\n" = "Bilinmeyen";
+"创建者" = "Yaratıcı";
+"奖池" = "İkramiye";
+"奖池(币)" = "Jackpot(madeni para)";
+"创建时间" = "Oluşturma zamanı";
+"完成时间" = "Tamamlanma süresi";
+"胜" = "Kazan";
+"负" = "Kaybet";
+"平" = "Çek";
+"超时" = "Zamanla";
+"匹配中" = "Eşleştirme";
+"历史战绩" = "Oyun Geçmişi";
+"取消对决" = "Savaşı iptal et";
+
+"等待开奖" = "Çekiliş bekleniyor";
+"等待匹配" = "Eşleştirme bekleniyor";
+"已取消" = "İptal edildi";
+"已开奖" = "Çizildi";
+"开奖中..." = "Çizim...";
+"参与中..." = "Katılıyor...";
+"取消中..." = "iptal ediliyor...";
+
+"已结算，保证金已退" = "Ödeme yapıldı ve depozito iade edildi";
+"已结算，奖金已到账" = "Ödendi ve ikramiye geldi ";
+"已结算，保证金已退" = "Ödeme yapıldı ve depozito iade edildi";
+"开奖超时，保证金已扣" = "Fazla mesai, depozito düşüldü";
+
+
+"已结算，资金已退" = "Ödendi, fon iade edildi";
+"已结算" = "Yerleşik";
+"已结算，奖金已到账" = "Ödendi, fon geldi";
+"开奖超时，奖金已到账" = "çekiliş zaman aşımına uğradı, fon geldi";
+
+
+//匹配中
+"确认取消对局" = "Oyunu iptal etmek için onaylayın";
+"正在取消" = "İptal Ediliyor";
+"游戏取消失败" = "Oyun iptal edilemedi";
+"游戏已取消\n 这需要一点时间" = "Oyun iptal edildi\n Uzatma süresini bekleyin";
+
+//游戏详情
+"保证金:%.0f币" = "Para Yatırma:%.0f Madeni Para";
+"敌方" = "Karşı taraf";
+"我方" = "Partimiz";
+"未进入" = "Girilmiyor";
+"等待对手进入" = "Karşı tarafın girmesi bekleniyor";
+"Oyun Kimliği 复制成功" = "Oyun Kimliği Kopyalandı";
+
+//商店
+"游戏币充值" = "Oyun para birimini yeniden yükleyin";
+"游戏币提现" = "Oyun para birimini çek";
+"全部兑换" = "hepsini değiştir";
+"游戏币不足" = "yetersiz oyun para birimi";
+"请选择充值金额" = "şarj miktarını seçin";
+"确定充值 %@ 游戏币" = "%@ oyun para birimini yeniden yüklemeyi onaylayın"; //%@是占位符 比如 确定充值 5 游戏币
+"请输入提现金额" = "Çekilecek tutarı girin";
+"确定提现 %@ 游戏币" = "%@ 游戏币 çekmeyi onaylayın"; //%@是占位符 比如 确定提现 8 游戏币
+"%@币可兑换%@BTY" = "%@, %@BTY ile takas edebilir"; //%@是占位符 比如 6币可兑换9BTY
+"Örnek: \n1.进行游戏的钱包中至少保留1BTY作为游戏燃料。 \n2.游戏币与比特元1:1数量锚定，充值/提现都需要一定时间。请耐心等待，如长时间未到账，请联系官方客服。"
+=
+"Hatırlatma: \n1.Oyun cüzdanında gas olarak en az 1 1BTY. \n2.Oyun para birimi ve BTY'nin döviz kuru 1:1, Para yatırmak veya çekmek zaman alıyor。Para gelmezse, lütfen müşteri hizmetleri ile iletişime geçin。 ";
+//Genişletilmiş
+"参与金额" = "Oyun Miktarı";
+"需暂扣和参与个数等额的保证金" = "Oyun miktarı kadar depozito gereklidir ";
+"已选中" = "Seçildi";
+"随机" = "Rastgele";
+"\n创建规则： \n1.创建对战需要质押参与金额双倍数量的游戏币\n"
+=
+"\nKural oluştur： \n1.Bir savaş oluşturmak için, rehin olarak oyun miktarının iki katı gereklidir \n";
+"创建游戏失败" = "Oyun oluşturulamadı";
+"\n游戏币不足，请充值" = "Yetersiz oyun para birimi, lütfen yeniden doldurun";
+"钱包BTY余额不足\n\n钱包中至少保留1BTY作为游戏燃料"
+=
+"Cüzdanda yetersiz BTY\nCüzdanda gas olarak en az 1BTY olmalıdır";
+"%d币 创建对局 确定使用?" = "%d ile savaş oluşturmak için onayla?";
+"创建" = "Oluştur";
+"创建游戏失败" = "Oluşturulamadı";
+
+//Genişletilmiş
+"对战列表" = "Oyun Listesi";
+"参与游戏失败" = "Oyuna katılma başarısız oldu";
+"PK失败" = "PK başarısız oldu";
+
+/*----------------------------------- ------------------------------*/
+
+"红包记录" = "Kırmızı paket kaydı";
+"代币" = "Kırmızı paket madeni para";
+"总数额" = "Toplam tutar";
+"最小1" = "En az 1";
+"红包个数" = "Kırmızı paketin numarası";
+"恭喜发财, 大吉大利" = "En İyi Dilekler";
+"拼手气红包" = "Şans eseri Kırmızı Paket";
+"推广红包" = "Kırmızı paketi tanıtın";
+"联系客服" = "Bize ulaşın";
+"可用%@%@" = "%@%@ kullanılabilir"; //比如 可用100YCC
+"金额或地址未输入" = "Miktar veya adres boş olamaz";
+"当前钱包无%@币种\t\n请更换钱包" = "Mevcut cüzdanda %@\t\n yok, lütfen cüzdanınızı değiştirin."; // \t\n是换行
+"%@个%@已包好" = "%@%@ kırmızı pakette"; //比如 10个YCC已包好
+"—— 请选择分享方式 ——" = "—— Lütfen paylaşım türünü seçin ——";
+"收到一份%@糖果" = "Bir %@şeker alındı";
+"原链YCC—企业级区块链SaaS平台" = "Yuan Chain - kurumsal düzeyde bir SaaS blockchain platformu";
+"一种简单稳定、拓展性强的区块链网络" = "Basit, kararlı ve ölçeklenebilir bir blockchain ağı";
+"红包已分享，\t\n可在红包记录里查看领取详情！"
+=
+"Kırmızı paket paylaşılıyor, \t\n lütfen kırmızı paket kaydında daha fazlasını görüntüleyin.";
+"托管地址" = "Emanet adresi";
+"Örneğin 其他钱包进行充值，请扫描二维码转币"
+=
+"Para yatırmak için başka cüzdanlara ihtiyacınız varsa, lütfen QR kodunu tarayın";
+"二维码已保存到相册" = "QR kodu kaydedildi";
+
+/*----------------------------------------------- --------------------------------------------------*/
+"我" = "Ben";
+"托管账户" = "Emanet hesapları";
+"联系人" = "Kişiler";
+"管理钱包" = "Cüzdanım";
+"消息中心" = "Mesaj merkezi";
+"分享下载" = "Paylaş";
+"关于我们" = "Hakkımızda";
+"检测更新" = "Güncellemeleri kontrol et";
+"更新" = "Güncelle";
+"更新提示" = "İpucunu güncelle";
+"\n检测到新版本，是否更新" = "\nYeni bir sürüm algılandı, güncellemek istiyor musunuz?";
+"暂不更新" = "Hayır";
+"当前已是最新版本" = "En son sürüm";
+"红包" = "Kırmızı paket";
+"版本%@" = "Sürüm%@";//%@是占位符 比如 版本1.2.4
+"Telif hakkı © 杭州本链科技 版权所有" = "©Hangzhou Benlian Technology Telif Hakkı";
+//托管账户
+"托管资产" = "Emanet varlıklar";
+"可用（个）" = "Mevcut";
+"价值（元）" = "Değer";
+
+
+
+//Çizim
+"搜索" = "Ara";
+"请输入联系人姓名" = "Lütfen bir kişi adı girin";
+"搜索不到联系人" = "Kişi bulunamadı";
+"昵称" = "Takma ad";
+"昵称需小于16字符" = "16 karakterden az olmalıdır";
+"昵称不能为空" = "Rumuz boş bırakılamaz";
+"手机号" = "Telefon numarası";
+"请输入正确的手机号" = "Lütfen doğru telefon numarasını girin";
+"请输入11位手机号" = "Lütfen telefon numarasını girin";
+"地址" = "Adres";
+"添加地址" = "Bir adres ekleyin";
+"主链" = "Ana Zincir";
+"联系人详情" = "Kişi ayrıntıları";
+"编辑" = "Düzenle";
+"编辑联系人" = "Kişiyi düzenle";
+"去转账" = "Aktarıma git";
+"首页钱包不含%@" = "Cüzdan %@ içermiyor"; //比如 首页钱包不含BTY
+"保存" = "Kaydet";
+"您还没有添加联系人" = "Kişi eklenmedi";
+"联系人不存在%@地址" = "Kişi %@ mevcut değil";
+
+//管理钱包
+"钱包" = "Cüzdan";
+"我的钱包" = "Cüzdanım";
+"创建钱包" = "Cüzdan oluştur";
+"导入钱包" = "Cüzdanı içe aktar";
+"钱包详情" = "Cüzdan detayı";
+"修改密码" = "Parolayı değiştir";
+"设置密码" = "Şifreyi ayarla";
+"导出私钥" = "Özel anahtarı ver";
+"删除钱包" = "Cüzdanı sil";
+"安全警告" = "Güvenlik uyarısı";
+"\n删除钱包仅能通过助记词和私钥找回，是否确定删除该钱包"
+=
+"\nBir cüzdanı silmek yalnızca tohumlar ve özel anahtarlar aracılığıyla olabilir, emin misiniz?";
+"备份助记词" = "Tohumları yedekle";
+"私钥二维码" = "Özel anahtar QR kodu";
+"助记词二维码" = "Hatırlatıcı sözcüklerin iki boyutlu kodu";
+
+
+//Yürüyüş Noktası
+"修改钱包名称" = "Cüzdan adını değiştir";
+
+//Görüntüler
+"请务必抄下助记词，确定之后将进行校验"
+=
+"Lütfen tohumları kopyaladığınızdan ve onayladıktan sonra doğruladığınızdan emin olun";
+"下一步" = "Sonraki";
+"Daha fazla bilgi için:的地方"
+=
+"İpucu: Ekran görüntüsü almayın! Birisi tohumlarınızı alırsa, varlıklarınız sigortalanabilir! Lütfen tohumları kopyalayın ve güvenli bir yerde saklayın.";
+"Daha fazla bilgi için:式一：使用另一离线设备，拍照保存。\n方式二：正确抄写助记词，存放在安全的地方。\n\n点击［开始备份］后，需要对你记住的助记词进行校验。" = "İpucu: Ekran görüntülerini doğrudan kaydetmeyin! biri anımsatıcı kelimelerinizi alırsa, doğrudan varlıkları alır!\n\nDoğru yaklaşım:\n\nYöntem 1: Başka bir çevrimdışı cihaz kullanın ve kaydetmek için fotoğraf çekin.\nYöntem 2: Hatırlatıcı sözcükleri doğru şekilde kopyalayın ve güvenli bir yerde saklayın. \n\n[Yedeklemeyi Başlat]'a tıkladıktan sonra hatırladığınız anımsatıcı sözcükleri doğrulamanız gerekir.";
+"请务必妥善保存助记词，确定之后将进行校验" = "Hatırlatıcıyı doğru şekilde kaydettiğinizden emin olun ve onayladıktan sonra doğrulayın.";
+
+"备份钱包" = "Cüzdanı yedekle";
+"请按顺序点击助记词" = "Lütfen tohumları sırayla seçin";
+"助记词错误" = "Yanlış tohumlar";
+"备份成功" = "Yedekleme başarılı";
+
+//导出私钥
+"请选择主链" = "Parayı seçin";
+"复制" = "Kopyala";
+"私钥复制成功" = "Özel anahtar başarıyla kopyalandı";
+
+//Yürüyüş Noktası
+"请输入旧密码" = "Lütfen eski parolayı girin";
+"请输入新密码" = "Lütfen yeni parolayı girin";
+"重新输入新密码" = "Lütfen yeni parolayı yeniden girin";
+"两次密码不相同" = "İki parola farklı";
+"密码修改成功" = "Şifre başarıyla değiştirildi";
+"密码设置成功" = "Şifre başarıyla ayarlandı";
+"Örnek" = "";
+"设置成功！" = "Başarıyla";
+//Görüntüler
+"创建钱包" = "Cüzdan oluştur";
+"中文" = "Çince";
+"İngilizce" = "İngilizce";
+"请设置钱包名称！" = "Lütfen cüzdan adınızı girin";
+"设置钱包名称" = "Cüzdan adınızı belirleyin";
+"钱包名称已存在" = "Cüzdan adı zaten var";
+"更换助记词" = "Tohumları değiştir";
+
+
+//导入钱包
+"请输入" = "Gir";
+"助记词" = "tohumlar";
+"请输入英文助记词，用空格隔开" = "Lütfen tohumları İngilizce olarak girin ve boşlukla ayırın";
+"助记词已存在" = "Tohumlar zaten var";
+"助记词不存在" = "Tohum yok";
+"钱包创建失败" = "Cüzdan başarısız bir şekilde oluşturuldu";
+
+
+
+//消息中心
+"暂无消息" = "Yeni mesaj yok";
+"转账收款消息" = "İşlem mesajı";
+"系统消息" = "Sistem bilgisi";
+"全部已读" ="Tümünü Oku";
+//Görüntüleri göster
+"复制下载地址" = "İndirme adresini kopyala";
+"分享下载地址" = "İndirme adresini paylaş";
+"分享至" = "Paylaş";
+
+//Görüntüler
+"币钱包" = "Bcüzdan";
+"App, App, App "
+=
+"Pwallet, kullanıcılara güvenli, kullanımı kolay, güçlü dijital varlık yönetimi araçları sağlamak için tasarlanmış bir mobil para cüzdanı uygulamasıdır.";
+"W钱包" = "Wcüzdan";
+"W钱包是一款移动端货币钱包App，旨在为用户提供安全，好用，功能强大数字资产管理工具。"
+=
+"Wwallet, kullanıcılara güvenli, kullanımı kolay, güçlü dijital varlık yönetimi araçları sağlamak için tasarlanmış bir mobil para cüzdanı uygulamasıdır.";
+"豆子钱包" = "P-cüzdan";
+"Uygulama Uygulaması, Uygulama, Uygulama 。"
+=
+"Pwallet, kullanıcılara güvenli, kullanımı kolay, güçlü dijital varlık yönetimi araçları sağlamak için tasarlanmış bir mobil para cüzdanı uygulamasıdır.";
+"SFTwallet 是一款移动端货币钱包App，旨在为用户提供安全，好用，功能强大数字资产管理工具。" = "SFT cüzdan, kullanıcılara güvenli, kullanımı kolay para cüzdanı sağlamak için tasarlanmış bir mobil para cüzdanı uygulamasıdır. , güçlü dijital varlık yönetimi araçları.";
+
+"%@是一款移动端货币钱包App，旨在为用户提供安全，好用，功能强大数字资产管理工具。" = "%@ is a a kullanıcılara güvenli, kolay erişim sağlamak için tasarlanmış mobil para cüzdanı uygulaması -güçlü dijital varlık yönetimi araçlarını kullanın.";
+"%@是一款移动数字钱包Uygulama, kullanıcılara güvenli, kolay güçlü dijital varlık yönetimi araçlarını kullanın.";
+"%@是一款移动端多链钱包，旨在为用户提供安全好用、功能强大的数字资产管理工具。" = "%@ mobil bir Multicha'dır kullanıcılara güvenli, kolay erişim sağlamak için tasarlanmış cüzdanda güçlü dijital varlık yönetimi araçlarını kullanın.";
+"使用协议" = "Sözleşme";
+"反馈建议" = "Geri Bildirim";
+"反馈意见" = "Geri Bildirim";
+
+
+//Görüntüler
+"您的宝贵意见是我们进步的动力！"
+=
+"Değerli görüşleriniz ilerlememizin itici gücüdür!";
+"还能输入%lu个字" = "%lu karakter kaldı"; //%lu是占位符
+"请留下您的邮箱、手机号或者微信" = "Lütfen e-postanızı, cep telefonunuzu veya Wechat'i bırakın";
+"提交" = "gönder";
+"反馈成功" = "gönderildi";
+"感谢您对币钱包的关注和支持，我们将会在第一时间认真处理您的反馈。"
+=
+"Pwallet'e gösterdiğiniz ilgi ve desteğiniz için teşekkür ederiz, geri bildiriminizle en kısa sürede ilgileneceğiz.";
+
+"已添加" = "Eklendi";
+"切换钱包" = "Cüzdan değiştir";
+"已备份" = "yedeklenmiş";
+"请输入密码" = "Lütfen şifrenizi girin";
+"请重新输入密码" = "Lütfen şifrenizi tekrar girin";
+"设置钱包密码 8-16位数字、字母组合" = "Lütfen 8-16 basamaklı sayı ve harf girin";
+"Daha fazla bilgi için:安全的地方，我们会在下一屏进行校验。" = "İpucu: Yap ekran görüntüsü almayın! Birisi tohumlarınızı alırsa, varlıklarınız sigortalanabilir! Lütfen tohumları kopyalayın ve güvenli bir yerde saklayın. Bir sonraki adımda kontrol edeceğiz";
+"开始备份" = "yedeklemeyi başlat";
+"验证您备份的助记词" = "yedeklediğiniz dosyaları doğrulayın";
+"请按照正确的顺序点击每个单词" = "Lütfen tohumları sırayla seçin";
+"导入助记词" = "Cüzdanı içe aktar";
+"请输英文助记词，用空格隔开" = "Lütfen anımsatıcıyı İngilizce olarak girin ve boşlukla ayırın";
+"请设置钱包密码" = "Parolayı ayarla";
+"确认钱包密码" = "Şifreyi onaylayın";
+"开始导入" = "İçe aktarmayı başlat";
+"输入Token名称或合约地址" = "Token adını veya sözleşme adresini girin";
+"请输入Token名称或合约地址，如果没有找到您要添加的币种，请向我们提交反馈。" = "Token adını veya sözleşme adresini girin. Eklemek istediğiniz para birimini bulamayın, lütfen bize geri bildirim gönderin";
+"抱歉，未能找到相关币种" = "Üzgünüz, para birimi bulunamadı";
+"扫描二维码或输入地址" = "Adresi tarayın veya girin";
+"复制下载链接" = "İndirme bağlantısını kopyalayın";
+"查看助记词" = "Hatırlatıcıyı görüntüle";
+" 请妥善保管您的助记词，以便丢失后找回" = " Kaybetmeniz durumunda geri alabilmek için lütfen anımsatıcı güvenliğinizi saklayın";
+"知道了" = "Biliyorum";
+"输入/扫一扫" = "Giriş/Tarama";
+"发送数量" = "Gönderilenlerin sayısı";
+"上链备注(选填)" = "Zincirle ilgili not(isteğe bağlı)";
+"本地备注(选填)" = "Yerel not(isteğe bağlı)";
+"上链备注" = "Zincirle ilgili not";
+"本地备注" = "Yerelle ilgili not";
+"上链备注：信息上链，可以在链上查询" = "Zincirle ilgili not:zincirle ilgili bilgileri, zincirle ilgili sorgulayabilirsiniz";
+"本地备注：信息不上链，保存在本地" = "Yerel ile ilgili not: bilgi zincirde değil, yerel olarak saklayın ";
+"地址有误" = "Yanlış adres";
+"收币地址和发币地址一致" = "Alıcı adres, gönderen adresle aynı";
+"转账金额不能小于矿工费" = "Aktarım tutarı madenci ücretinden az olamaz";
+"手续费不足" = "Yetersiz işlem ücreti";
+"请输入转币金额" = "Aktarılacak tutarı girin";
+"地址复制成功" = "Adres kopyalandı";
+"区块" = "Blok";
+"交易时间" = "İşlem süresi";
+"区块查询" = "Sorgulamayı engelle";
+"暂无简介" = "Giriş Yok";
+"语言" = "Dil";
+"8-20位数字、字母组合" = "Lütfen 8-20 basamaklı sayı ve harf girin";
+"(当前钱包)" = "(Geçerli cüzdan)";
+"请前往设置打开相册访问权限" = "Albüme erişimi açmak için lütfen Ayarlar'a gidin";
+"请选择币种" = "Lütfen bir para birimi seçin";
+"钱包设置" = "Ayar";
+"修改本地备注" = "Yerel notları değiştir";
+"无" = "yok";
+"最佳" = "en uygun";
+
+//Görüntüler
+
+"密码最大长度为20位" = "Maksimum şifre uzunluğu 20 hanedir.";
+
+"密码登录" = "Parola ile oturum açma";
+
+"Gönderildi(%dS)" = "gönderildi(%dS)";
+
+"忘记密码？" = "Parolayı mı unuttunuz?";
+
+"我们会以电话的方式告知您验证码，请注意接听！" = "Doğrulama kodunu size telefonla bildireceğiz, lütfen dikkat edin!";
+
+"手机登录" = "telefon numarası girişi";
+
+"收不到验证码？" = "Doğrulama kodunu alamıyor musunuz?";
+
+"新用户登录将自动注册" = "Yeni kullanıcı girişi otomatik olarak kaydedilecektir";
+
+"用手机号重置" = "Telefon numarası ile sıfırla";
+
+"用邮箱重置" = "Posta kutusuyla sıfırla";
+
+"绑定手机" = "Telefonu bağla";
+
+"绑定邮箱" = "Posta kutusunu bağla";
+
+"设置新密码" = "Yeni parola belirleyin";
+
+"设置新密码 (6-20位)" = "Yeni bir şifre belirleyin (6 - 20 basamaklı)";
+
+"请输入手机号" = "Lütfen telefon numarasını girin";
+
+"请输入邮箱" = "Lütfen posta kutusunu girin";
+
+"输入的密码过短" = "Parola çok kısa";
+
+"邮箱登录" = "Posta kutusu girişi";
+
+"验证码登录" = "Doğrulama kodu girişi";
+
+"个人中心" = "Kişisel merkez";
+
+"请输入正确的手机号！" = "Lütfen geçerli bir telefon numarası girin";
+"您还没有绑定邮箱" = "Posta kutusu bağlı değil";
+"请输入6位验证码" = "Lütfen doğrulama kodunu girin";
+"创建失败，请重新登录" = "Oluşturulamadı, lütfen tekrar oturum açın";
+"您还没有绑定手机" = "Telefon numarası bağlı değildir";
+"您尚未注册" = "Kayıtsız";
+"语音验证" = "Ses doğrulaması";
+"请填写完整邮箱" = "Lütfen posta kutusunu tam olarak doldurun";
+"请输入4位语音验证码" = "Lütfen 4 haneli bir sesli doğrulama kodu girin";
+"两次输入不一致" = "İki parola tutarsız";
+"修改成功！" = "Başarılı!";
+"提示：请勿截图！如果有人获取你的助记词将直接获取你的资产!全的地方，我们会在下一屏进行校验。" = "İpucu: Yap ekran görüntüsü almayın! Birisi tohumlarınızı alırsa, varlıklarınız sigortalanabilir! Lütfen tohumları kopyalayın ve güvenli bir yerde saklayın.";
+"请输入%@收到的验证码" = "Kodu girin";
+"请输入邮箱%@收到的验证码" = "Kodu girin";
+"请输入手机号%@收到的验证码" = "Kodu girin";
+
+"邮箱" = "posta kutusu";
+"登录密码" = "oturum açma şifresi";
+"支付密码" = "ödeme şifresi";
+"去设置" = "Ayar";
+"去修改" = "Değiştir";
+"去绑定" = "Bağla";
+"服务器开小差了" = "Sunucu hatası";
+"安全验证" = "Güvenlik doğrulaması";
+"转账金额" = "Aktarım tutarı";
+"邀请好友领奖励" = "Arkadaşlarınızı ödül almaya davet edin";
+"规则" = "Kural";
+"发送邀请给您好友" = "Arkadaşınıza davetiye gönderin";
+"好友注册完成相应任务" = "İlgili görevi tamamlamak için arkadaş kaydı";
+"获得奖励" = "Ödül kazanın";
+"我的收益" = "Gelir";
+"已邀请%@人 太棒了！" = "Kişiler davet edildi, harika!";
+"邀请列表" = "Davet listesi";
+"邀请小技巧" = "Davet ipuçları";
+"1. En İyi Tasarımlar邀请几率。\n3.多多关注公告，可能会有新的奖励活动哦。\n4.每天坚持分享，你会比别人得到更多。" = "1. Ailenizi/arkadaşlarınızı/sınıf arkadaşlarınızı ve en yüksek başarı oranına sahip diğer tanıdıklarınızı davet edin. \n2. WeChat grubu/qq grubu ile paylaşım artabilir \n3. Duyuruya daha fazla dikkat edin, yeni ödül etkinlikleri olabilir. \n4. Her gün paylaşmaya devam edin, diğerlerinden daha fazlasını alacaksınız~";
+"生成邀请海报" = "Davetiye posteri oluştur";
+"生成邀请链接" = "Davet bağlantısı oluştur";
+"面对面邀请" = "Yüz yüze davet";
+"筛选" = "Filtre";
+"邀请人数(人)" = "(kişi) davet et";
+"收益" = "Gelir";
+"我的邀请" = "Davetim";
+"已注册" = "Kayıtlı";
+"未实名" = "Doğrulanmamış";
+"已实名" = "Doğrulandı";
+"奖励明细" = "Ödül ayrıntıları";
+"任务" = "Görev";
+"奖励" = "Ödül";
+"发放时间" = "Bırakma zamanı";
+"注册" = "Kayıt Ol";
+"实名" = "Doğrula";
+"推荐等级" = "Önerilen seviye";
+"一级" = "Birinci seviye";
+"二级" = "İkinci düzey";
+"三级" = "Üçüncü düzey";
+"重置" = "Sıfırla";
+"月份筛选" = "Aya göre filtrele";
+"安全好用多链钱包" = " Güvenli ve kolay cüzdan";
+"支持海量币种存储" = "Yığın para depolamayı destekle";
+"年" = "Yıl";
+"月" = "Ay";
+"口令分享" = "Şifre paylaşılıyor";
+"口令复制成功" = "Başarılı";
+"分享到" = "Paylaş";
+"选择海报" = "Bir poster seçin";
+"保存图片" = "Resmi kaydet";
+"全部" = "Tümü";
+"助你畅游日本的加密资产钱包" = "Japonya'da seyahat etmenize yardımcı olabilecek bir kripto para cüzdanı";
+"签到" = "Giriş yap";
+"个人中心" = "Kişisel merkez";
+"邀请有礼" = "Davetiye nezaketi";
+"欢迎使用" = "Hoş Geldiniz";
+"长按识别二维码" = "QR kodunu belirlemek için uzun basın";
+"已邀请0人，继续加油哦" = "0 Davetli, Neşelenmeye devam edin";
+"实名才有奖励哦" = "Gerçek ad sertifikası ödüllendirilir";
+"签到有礼" = "Nezaketle oturum açın";
+//探索
+
+"分享" = "Paylaş";
+"复制链接" = "Bağlantıyı kopyala";
+"在浏览器中打开" = "Tarayıcıyı aç";
+//Yazdırma
+"计价货币" = "Fiyatlandırma para birimi";
+"人民币" = "RMB";
+"美元" = "Dolar";
+"英镑" = "GBP";
+"港币" = "HKD";
+"日元" = "JPY";
+
+"点击登录" = "Oturum aç";
+"请输入账号" = "Hesabı girin";
+"获取验证码" = "Kod Al";
+"请输入验证码" = "Doğrulama kodunu girin";
+"登录" = "Giriş";
+"已发送" = "gönderildi";
+"个人信息" = "Kişisel bilgiler";
+"头像" = "Avatar";
+"设置支付密码" = "Ödeme şifresini ayarla";
+"身份认证" = "Kimlik doğrulama";
+"去认证" = "Doğrulamak için";
+"已认证" = "Doğrulandı";
+"退出登录" = "Oturumu kapat";
+"验证码已经发送到您的手机" = "gönderildi";
+"6位数字验证码" = "6 haneli doğrulama kodu";
+"您可以使用设置的密码来确认%@账号的操作" = "Belirlenen parola ile işlemi onaylayabilirsiniz.";
+"确认密码" = "Şifreyi onaylayın";
+"再次输入密码" = "Şifreyi tekrar girin";
+"退出" = "Oturumu kapat";
+"进入" = "girin";
+
+"\n托管账户未设置支付密码，请先设置支付密码" = "\nEmanet hesabı için ödeme şifresi ayarlanmamış. Lütfen önce ödeme şifresini belirleyin";
+"托管账户未设置支付密码，请先设置支付密码" = "Emanet hesabı için ödeme şifresi ayarlanmamış. Lütfen önce ödeme şifresini belirleyin";
+
+"多地址" = "Birden çok adres";
+"交易记录" = "İşlem Geçmişi";
+"修改支付密码" = "Parolayı değiştir";
+"请输入6位原密码" = "Lütfen 6 orijinal parola girin";
+"忘记密码" = "Parolayı unut";
+"原密码修改" = "Şifreyi değiştir";
+"设置6位数字支付密码" = "6 haneli bir ödeme şifresi belirleyin";
+"确认支付密码" = "Ödeme şifresini onaylayın";
+"实名认证" = "Sertifika";
+"热门专题" = "Önemli konular";
+
+//"Örnek Konum" = "Yönlendirilen Konum";
+//"Örn.
+//"Örnek" = "Örneğin;
+//"Geliştirilmiş" = "Geliştirilmiş";
+//"Örneğin Bulunduğu Yer" = "Yanıldığı Yer";
+//"姓名" = "姓名";
+//"Ana Sayfa" = "Ana Sayfa";
+"请输入真实姓名" = "Lütfen gerçek adınızı girin";
+//"Örneğin konumu" = "Ön konumu";
+//"Geliştirilmiş" = "Yollandırılmış";
+"真实姓名" = "gerçek ad";
+"所属国家" = "Ülke";
+"请选择国籍" = "lütfen uyruğu seçin";
+"证件类型" = "Sertifika türü";
+"请选择证件类型" = "Lütfen sertifika türünü seçin";
+"证件号码" = "Kimlik numarası";
+"请输入有效证件号码" = "Lütfen geçerli bir kimlik numarası girin";
+//"Öngörülenler" = "Gösterilenler";
+//"Yönlendirme" = "Yönlendirme";
+"图片示例" = "Fotoğraf örneği";
+"拍照" = "Fotoğraf çek";
+"从相册选择" = "Albümden seç";
+"请上传手持证件正面照" = "Lütfen kimlik kartının bir fotoğrafını yükleyin (olumlu)";
+"请上传手持证件反面照" = "Lütfen elde tutulan kimlik kartımı yükleyin (Negatif)";
+"提交审核" = "Gönder";
+"您的申请已提交，请等待客服审核。若3个工作日内仍然没有结果，请及时发送邮件联系客服。" = "Başvurunuz gönderildi, lütfen müşteri hizmetlerinin incelemesini bekleyin. 3 iş günü içinde sonuç, lütfen müşteri hizmetleri ile iletişime geçmek için bir e-posta gönderin.";
+"客服邮箱：" = "Servis Posta Kutusu：";
+"您的申请已提交，请等待客服审核。" = "Başvurunuz gönderildi, lütfen müşteri hizmetlerinin incelemesini bekleyin.";
+"您的申请已提交，请等待客服审核。若3个工作日内仍然没有结果，请及时联系客服。" = "Başvurunuz gönderildi , lütfen müşteri hizmetlerinin incelemesini bekleyin. 3 iş günü, lütfen müşteri hizmetleri ile iletişime geçin.";
+"客服微信：" = "Wechat Hizmeti：";
+//"Geliştirilmiş" = "Yollandırılmış";
+//"1.认证提交后不能修改证件类型 2.目前我们不接受来自阿尔及利亚、厄瓜多尔、印度尼西亚、伊朗、朝鲜、缅甸、叙利亚共和国以及美国等国家和地区的用户" = "1.认证提交后不能修改证件类型 2.目前我们不接受来自阿尔及利亚、厄瓜多尔、印度尼西亚、伊朗、朝鲜、缅甸、叙利亚共和国以及美国等国家和地区的用户";
+//"Çözüm" = "Çıkış Noktası";
+//"Geniş Konum" = "Ön Konum";
+//"Örnek Konum" = "Özgür Konum";
+//"Örneğin 寷核对您的身份信息是否正确" = "Dönüştürücü 对您的身份信息是否正确";
+//"重新上传" = "重新上传";
+//"Geliştirilmiş" = "Yollandırılmış";
+//"Geliştir" = "Geliştir";
+//"Genişletilmiş Yönlendirme" = "Özgür Konumlandırma";
+//"Ayrıntılı Bilgiler->%@,Yönlendirme Merkezi" = "Çalışma Alanı->%@,Ölçme Alanı";
+//"Yürütmeyi Engelle" = "Yönlendirmeyi Değiştir";
+//"Yönlendirme,Önleme" = "Ölçme,Önleme,Önleme";
+//"Çizim" = "Özgürlük";
+//"认证失败，是否重试" = "认证失败，是否重试";
+//"是" = "是";
+//"否" = "否";
+"1.脸部清晰无遮挡证件\n 2.全部信息清晰无遮挡\n 3.完全露出双手" = "1. Yüz açık ve engelsiz\n 2. Tüm belgeler açık ve engelsiz\n 3. İki elinizi de tamamen açın";
+"人工认证" = "Manuel sertifikalandırma";
+"很遗憾，您未通过人工审核" = "Üzgünüz, incelemeyi geçemediniz";
+"重新提交资料" = "Yeniden Gönder";
+"待审核" = "İncelemeyi Bekle";
+"未通过" = "Geçmedi";
+"中国大陆" = "Çin";
+"非中国大陆" = "Çin Dışı";
+"日本及国际用户" = "Japonya ve uluslararası";
+
+"1. Birim Tasarım Kılavuzu朗、朝鲜、缅甸、叙利亚共和国以及美国等国家和地区的用户" = "";
+"您的好友邀请你注册币钱包，登录即享好礼！" = "B cüzdanını kaydetmeye davetlisiniz, hediyenin tadını çıkarmak için giriş yapın! ";
+"币钱包&上链购狂撒百万STO奖励，可兑换阳澄湖大闸蟹，先到先得！" = "Çılgın STO ödülü veren B wallet & Shopping To Chain, takas edilebilir Yangcheng Gölü kıllı yengeçleri, önce gelen servis!";
+"切换语言" = "Dil";
+
+"网络不给力，请稍后重试" = "Ağ hatası";
+"请输入中文助记词，以3个字为一组" = "Çin tohumlarını lütfen 3 kelimelik gruplar halinde girin";
+"分享二维码" = "QR kodunu paylaş";
+"验证码已发送，请耐心查收。" = "Gönderildi!";
+"请输入支付密码" = "Ödeme şifresini girin";
+"操作成功！" = "Başarılı";
+
+"暂未开放" = "Henüz açılmadı";
+"未检测到托管账户，前往登录？" = "Emanet hesabı bulunamadı, oturum açmaya gidin?";
+"已检测到托管账户，前往切换？" = "Emanet hesabını algılayıp geçiş yapmaya gittiniz mi?";
+"未检测到去中心化钱包，前往创建？" = "Merkezi olmayan cüzdanı algılayıp oluşturmaya gitmediniz mi?";
+"已检测到去中心化钱包，前往切换？" = "Merkezi olmayan cüzdanı saptadınız ve geçiş yapmaya gittiniz mi?";
+
+"正在加载" = "yükleniyor";
+
+"热门币种" = "Sıcak Paralar";
+"自选" = "Favoriler";
+"名称" = "Ad";
+"最新价" = "Piyasa Fiyatı";
+"24H" = "Değiştir/24H";
+"24H最高" = "Yüksek/24H";
+"24H" = "Düşük/24H";
+"24H" = "Miktar/24H";
+"添加自选成功" = "Favorilere eklendi";
+"移除自选成功" = "Silindi";
+"资讯" = "Haberler";
+"快讯" = "Bülten";
+"公告" = "Bülten";
+"文章" = "Makale";
+"今天" = "Bugün";
+"昨天" = "Bugün";
+"星期一" = "Pzt";
+"星期二" = "Sal";
+"星期三" = "Çar";
+"星期四" = "Per";
+"星期五" = "Cuma";
+"星期六" = "Cmt";
+"星期日" = "Güneş";
+"查看详情" = "Ayrıntılar";
+"扫码下载「%@」APP" = "Kod indirmeyi tara";
+"公告详情" = "Ayrıntılar";
+"文章详情" = "Ayrıntılar";
+"收起" = "Paketle";
+"热门搜索" = "Sıcak";
+"历史搜索" = "Geçmiş";
+"清空全部" = "Temiz";
+"找币" = "zhaobi";
+"币安网" = "binance";
+"火币全球站" = "huobi";
+"比特纳斯达克" = "BitNasdaq";
+"您还未添加自选，快去左滑添加吧" = "Favori paranızı eklemediniz, sola gidin ve ekleyin.";
+
+"线路切换" = "Hat değiştir";
+"中国" = "Çin";
+"日本" = "Japonya";
+
+"责任声明" = "Sorumluluk beyanı";
+"En İyi Uygulamalar使用情况，均由该DApp的供应商负责。" = "Kullanmak üzeresiniz üçüncü taraf bir DApp, üçüncü taraf kullanıcı sözleşmesini ve gizlilik politikasını kabul ettiğinizi ve bu DApp'teki tüm eylemleriniz ve kullanımınızın DApp satıcısının sorumluluğunda olduğunu onaylayın.";
+"立即创建" = "Şimdi oluştur";
+"立即切换" = "Şimdi değiştir";
+"立即登录" = "oturum aç";
+"考虑一下" = "Sonra";
+"开始体验" = "Başlat";
+"探索精彩DApp" = "Dapp'ı keşfedin";
+"什么是DApp?DApp就是区块链上的应用，快和我一起来体验下吧" = "DApp nedir? DApp, blockchain üzerindeki bir uygulamadır. Gelin ve deneyimleyin.";
+"最近使用" = "Son Kullanılan";
+"全部" = "Tümü";
+"应用" = "uygulama";
+"确认" = "Onayla";
+"提示" = "İpucu";
+"此应用需要满足条件才可进入：\n· 手机号绑定\n· 邮箱绑定\n· 实名认证成功" = "Uygulamanın girmek için koşulları karşılaması gerekiyor：\n· Telefonu bağla\n· Bağla posta kutusu\n· Başarıyı doğrulayın";
+"此应用需要满足条件才可进入:\n· 手机号绑定\n· 邮箱绑定" = "Uygulamanın girmek için koşulları karşılaması gerekiyor：\n· Telefonu bağla\n· Posta kutusunu bağla";
+"此应用需要满足条件才可进入：\n· 手机号绑定\n· 实名认证成功" = "Uygulamanın girmek için koşulları karşılaması gerekiyor：\n· Telefonu bağla\n· Başarıyı doğrula";
+"此应用需要满足条件才可进入：\n· 邮箱绑定\n· 实名认证成功" = "Uygulamanın girmek için koşulları karşılaması gerekiyor：\n· Posta kutusunu bağla\n· Başarıyı doğrula";
+"此应用需要满足条件才可进入:\n· 手机号绑定" = "Uygulamanın girmek için koşulları karşılaması gerekiyor：\n· Telefonu bağla";
+"此应用需要满足条件才可进入：\n· 邮箱绑定" = "Uygulamanın girmek için koşulları karşılaması gerekiyor：\n· Posta kutusunu bağla";
+"此应用需要满足条件才可进入:\n· 实名认证成功" = "Uygulamanın girmek için koşulları karşılaması gerekiyor：\n· Başarıyı doğrulayın";
+"前往个人中心" = "Kişisel Merkeze Git";
+"面容支付" = "Yüzden Ödeme";
+"指纹支付" = "Dokunmatik Ödeme";
+"登录注册解锁更多功能" = "Daha fazla özelliğin kilidini açmak için oturum açın";
+"本机号码一键登录" = "Telefon numarası için hızlı kayıt";
+"其它方式登录" = "Metodu değiştir";
+"Nerede?" = "Touch Pay gerçekten devre dışı bırakılsın mı?";
+"Öyle mi?" = "Face Pay gerçekten devre dışı bırakılsın mı?";
+"开通成功" = "Başarılı";
+// 新首页
+
+"请输入助记词，用空格分隔" = "Lütfen anımsatıcıları boşluklarla ayırarak girin";
+"请输入私钥或者扫描私钥生成的二维码录入" = "Lütfen özel anahtarı girin veya özel anahtarı tarayarak oluşturulan QR kodunu girin";
+"请输入地址或者扫描地址生成的二维码录入" = "Lütfen adresi girin veya özel anahtarı tarayarak oluşturulan QR kodunu girin";
+"%@支持导入所有遵循BIP标准生成的助记词" = "%@, BIP standardına göre oluşturulan tüm anımsatıcı sözcüklerin içe aktarılmasını destekler";
+"钱包支持导入所有遵循BIP标准生成的助记词" = "Cüzdan, BIP standardına göre oluşturulan tüm anımsatıcı sözcüklerin içe aktarılmasını destekler";
+"主链:" = "Ana zincir:";
+"导入助记词" = "Hatırlatıcıları içe aktar";
+"导入私钥" = "Özel anahtarı içe aktar";
+"导入地址" = "İthalat adresi";
+"私钥有误" = "Yanlış özel anahtar";
+"Öyleyse 记词重复!" = "Tekrarlanan anımsatıcı sözcükler!";
+"当前钱包不支持该项目" = "Desteklenmiyor";
+"创建/导入" = "Oluştur/İçe Aktar";
+"观察钱包" = "Cüzdanı gözlemle";
+"注册/登录" = "Kayıt Ol/Giriş Yap";
+"助记词钱包" = "Anımsatıcı cüzdan";
+"修改钱包名称" = "Cüzdan adını değiştir";
+"请先勾选协议" = "Lütfen önce sözleşmeyi kontrol edin";
+"钱包设置" = "Ayar";
+"请添加对应币种" = "Lütfen ilgili para birimini ekleyin";
+"HD包" = "HDwallet";
+"区块链钱包" = "Blockchain cüzdanı";
+"我已阅读并同意" = "Kabul Et";
+"隐私服务协议" = "Gizlilik Hizmeti Sözleşmesi";
+"暂不支持" = "Geçici olarak desteklenmiyor";
+"登录/注册" = "Giriş Yap/Kayıt Ol";
+"托管钱包" = "Emanet hesabı";
+"选择主链" = "Seçim Ana zincir";
+"钱包名称" = "Cüzdan Adı";
+"当前钱包" = "Mevcut cüzdan";
+"请输入钱包名称" = "Lütfen Cüzdan Adını Girin";
+"私钥钱包" = "Özel anahtar cüzdanı";
+"导出助记词" = "Hatırlatıcıyı dışa aktar";
+"通用" = "Evrensel";
+"专属" = "Özel";
+"适用于所有钱包收款" = "Tüm cüzdanlar için geçerlidir";
+"仅适用于%@收款" = "Yalnızca %@ için geçerlidir";
+"请转入" = "Lütfen aktarın";
+"指定金额" = "Miktarı belirtin";
+"指定收款" = "Miktarı belirtin";
+"请输入转币数量" = "Lütfen miktarı girin";
+"修改金额" = "Miktarı değiştir";
+"通用二维码适用于所有钱包收款" = "Tüm cüzdanlar için geçerli evrensel QR kodu";
+"专属二维码仅适用于%@收款" = "Özel QR kodu yalnızca %@ için geçerlidir";
+"账户管理" = "Hesap yönetimi";
+"设置" = "Ayar";
+"应用下载" = "İndir";
+"语言切换" = "Dil";
+"客服微信" = "Wechat Hizmeti";
+"客服邮箱" = "Servis Posta Kutusu";
+"钱包地址" = "Cüzdan adresi";
+"扫码下载APP" = "APPScan code download APP";
+"客服微信已复制" = "Kopyalandı";
+"已复制" = "Kopyalandı";
+"去微信粘贴" = "WeChat'e Yapıştır";
+"暂无资产，快去添加吧" = "Varlık yok, şimdi ekleyin";
+"快来创建一个区块链钱包,私钥自主管理，海量币种支持，畅游各类智能合约" = "Gelin ve bir blockchain cüzdanı, özel anahtar yönetimi, büyük para birimi desteği oluşturun, ve çeşitli akıllı sözleşmeler";
+"币钱包下载页" = "Bcüzdan indirme sayfası";
+"BNwallet下载页" = "BNwallet indirme sayfası";
+"极速收发数字资产，让您感受不一样的红包体验" = "Dijital varlıkları yüksek hızda gönderip alın, farklı bir kırmızı zarf deneyimi yaşamanıza izin verin";
+"好友给你发了一个%@大红包，快来领取！" = "Bir arkadaşınız size büyük kırmızı bir zarf gönderdi %@, gelin ve alın!";
+// 币种管理y页面
+"首页币种" = "Ev Parası";
+"退出排序" = "Sırala";
+"重新加载" = "Yeniden Yükle";
+"该币种维护中..." = "Bakım...";
+"云矿机" = "Bulut Madenci";
+"通证介绍" = "Belirteç Tanıtımı";
+"人脸识别" = "Yüz tanıma";
+"人工认证" = "Manuel kimlik doğrulama";
+"用户名" = "Kullanıcı Adı";
+"修改成功" = "Başarıyla değiştirildi";
+

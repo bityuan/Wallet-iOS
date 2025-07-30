@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSCameraUsageDescription</key>
+	<string>APP需要访问摄像头，以便于进行实名认证或者扫描二维码，是否允许？</string>
+	<key>NSContactsUsageDescription</key>
+	<string>“APP”想访问您的通讯录,以便于添加联系人</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>“APP”需要访问相册，以便于进行实名认证或扫描二维码，是否允许？</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>APP需要访问相册，以便于进行实名认证或扫描二维码，是否允许？</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>APP想要访问麦克风，以便于进行实名认证，是否允许</string>
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>APP想要访问蓝牙，以便于进行转账，是否允许</string>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>APP想要访问蓝牙，以便于进行转账，是否允许</string>
+    <key>NSLocationAlwaysUsageDescription</key>
+    <string>APP想要访问定位，以便于进行实名认证，是否允许</string>
+</dict>
+</plist>

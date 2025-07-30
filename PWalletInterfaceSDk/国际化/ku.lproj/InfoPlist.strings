@@ -1,0 +1,17 @@
+/* 
+  InfoPlist.strings
+  PWallet
+
+  Created by 陈健 on 2018/9/18.
+  Copyright © 2018年 陈健. All rights reserved.
+*/
+
+"NSCameraUsageDescription" = "APP requires access to the camera,In order to authenticate real names or scan two-dimensional codes. Is it allowed?";
+"NSContactsUsageDescription" = "“APP” require access to the address list,To facilitate the addition of contacts";
+"NSPhotoLibraryAddUsageDescription" = "APP” require access to the album,In order to authenticate real names or scan two-dimensional codes. Is it allowed？";
+"NSPhotoLibraryUsageDescription" = "APP require access to the album,In order to authenticate real names or scan two-dimensional codes. Is it allowed？";
+"NSMicrophoneUsageDescription" = "APP wants to access the microphone so that it can authenticate its name. Is it allowed?";
+//"NSCameraUsageDescription" = "“Scan” requires access to the camera. Is it allowed?";
+//"NSContactsUsageDescription" = "“PWallet” require access to the address list";
+//"NSPhotoLibraryAddUsageDescription" = "“PWallet” require access to the album. Is it allowed？";
+//"NSPhotoLibraryUsageDescription" = "“Scan” require access to the album. Is it allowed？";

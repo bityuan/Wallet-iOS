@@ -1,0 +1,871 @@
+/*
+ Localizable.strings
+ PWallet
+ 
+ Created by 陈健 on 2018/9/18.
+ Copyright © 2018年 陈健. All rights reserved.
+ */
+
+//通用
+"完成" = "Dest kirin";
+"确定" = "Pêşrast bike";
+"取消" = "Betal bike";
+"余额" = "Balance";
+"返回" = "Vegere";
+"退出" = "Derketin";
+"确认退出" = "Derketin Tesdîq bike";
+"游戏币" = "Pereyê Lîstikê";
+"币" = "Dirav";
+"个" = ""; //(对可数名词，无需"个"，不可数名词，"个"有不同的表达）
+"钱包余额不足" = "Balansa Pêlikê Kêmasî";
+"余额不足" = "Balansek ne bes e";
+"暂无数据" = "Daneyên tune";
+"密码错误" = "Şîfreya çewt";
+"删除" = "Jêbibe";
+"确认删除" = "Ji bo jêbirinê piştrast bike";
+"删除成功" = "Bi serketî hat jêbirin";
+"删除失败" = "Nehat jêbirin";
+"请输入钱包密码" = "Şîfreyê Têkeve";
+"充值" = "Deposit";
+"去充值" = "Niha razînin";
+"充值成功" = "Bi serketî hat razandin";
+"充值失败" = "Depokirin bi ser neket";
+"提现" = "Derkêşî";
+"提现成功" = "Bi serketî hat kişandin";
+"提现失败" = "Derkêşî bi ser neket";
+"错误" = "Çewtî";
+"朋友圈" = "Çikî";
+"微信好友" = "Wechat";
+"收款码" = "Koda QR bistînin";
+"确定转币" = "Veguhestinê tesdîq bike";
+"构造签名失败" = "Îmze têk çû";
+"转币成功" = "Bi serketî hat veguhestin";
+"转币失败" = "Veguhestin bi ser neket";
+"点击二维码复制地址" = "Ji bo kopîkirina navnîşanê kodê bitikîne";
+"复制成功" = "Kopî kirin";
+"相册" = "Album";
+"请将镜头对准二维码进行扫描" = "Koda QR bişopîne";
+"冷钱包-导出地址-二维码" = "Baletê sar - navnîşana hinardekirinê - koda QR";
+"摄像头" = "Kamera";
+"请前往设置打开摄像头权限" = "Ji kerema xwe rê bidin ku Pwallet xwe bigihîne kameraya xwe";
+"摄像头故障" = "Çewtiya di kamerayê de";
+"请检查手机摄像头设备" = "Ji kerema xwe kamerayê kontrol bikin";
+"访问受限" = "Gehîştina Bisînorkirî";
+"请前往设置打开照片权限" = "Biçin Settings û destûra albûmê çalak bikin";
+"请输入8～16位数字、字母组合" = "Ji kerema xwe 8-16 reqemên jimare û tîpan binivîse";
+"网络请求失败" = "Daxwaza torê têk çû";
+
+
+
+//tabBar
+"首页" = "Mal";
+"探索" = "Lêkolîn";
+"我的" = "Ez";
+"行情" = "Bazar";
+"资讯" = "Nûçe";
+"聊天" = "Chat";
+
+/*---------------------------------------------首页------------------------------------*/
+"总资产" = "Tevahiya Malî";
+"一键小钱包" = "Baletê Yek Key";
+"我已阅读并同意《用户协议》" = "Min 《Peymana Bikarhêner》 xwend û pejirand";
+"用户协议" = "Peymana Bikarhêner";
+"小钱包提示" = "Bîra berîka";
+"是否已经备份助记词？" = "Ma tu pişta xwe didî peyva bîrnasî?";
+"为了您的资金安全，请前往备份助记词！" = "Here peyva xwe ya bîrnasî piştgir bike";
+"稍后备份" = "paşê paşde hilde";
+"去备份" = "Paş hilde";
+"备份提示" = "Başkirina bibîranînê";
+"请备份您的钱包，以便钱包丢失后找回" = "Ji kerema xwe berîka xwe vegerîne da ku tu berîka xwe vegerînî";
+"这是我的第一个钱包" = "Baleta min a yekem";
+"未备份" = "Baş tune";
+"总资产" = "Tevahiya Malî";
+//交易记录列表
+"简介" = "Pêşgotin";
+"转账" = "Veguhastin";
+"收款" = "Bistîne";
+"交易成功" = "danûstandineke serkeftî";
+"交易失败" = "Danûstandin têk çû";
+"确认中" = "Danûstandin hat pejirandin";
+" 交易记录" = "Dîroka danûstandinê";
+"暂无交易记录" = "Tu danûstandin tune";
+"钱包收币" = "Koda QR parve bike";
+
+//交易详情
+"交易详情" = "Hêtayên danûstandinê";
+"数量" = "Heqdar";
+"矿工费" = "xerca karkeran";
+"转账地址" = "Navnîşana Xerîdar";
+"收款地址" = "Navnîşan Bistîne";
+"区块信息" = "Agahdariya Asteng bike";
+"交易哈希" = "Bazirganî";
+"备注" = "Şîrove";
+"暂无备注" = "Bê Şîrove";
+"添加联系人" = "Têkiliyê lê zêde bike";
+"发至:%@" = "Ji:%@ re bişîne"; //%@是占位符 比如 发至:张伟
+"来自:%@" = "Ji:%@"; //%@是占位符 比如 来自:小明
+"已经是好友" = "Wek heval hat zêdekirin";
+
+//转账
+"请输入数量" = "Heqdar";
+"备注（选填）" = "Şîrove(Bijarte)";
+"收币地址" = "Navnîşana wergir";
+"发币地址" = "Navnîşana şandinê";
+"矿工费" = "Heqê karkeran";
+"慢" = "Hêdî";
+"正常" = "Normal";
+"快" = "Zû";
+"扫一扫" = "Scan";
+"请使用冷钱包扫码" ="Ji kerema xwe kodê bi berîka sar bişopîne";
+
+
+//收款
+
+"最新交易" = "Nûtirîn";
+"分享地址" = "Navnîşana Parvekirinê";
+
+
+// 简介
+"基本资料" = "Agahdarî";
+"币种介绍" = "Pêşgotin";
+"全称" = "Navê Tev";
+"简称" = "Kurtenav";
+"发行时间" = "Dîroka Hejmarê";
+"发行总量" = "Pêşkêşî Hat Derkirin";
+"流通总量" = "Pêşkêşiya Circulating";
+"众筹价格" = "Bihayê dravdanînê";
+"官网" = "Malpera Fermî";
+"白皮书" = "Kaxeza Spî";
+"区块链浏览器" = "Browser Blockchain";
+"社群" = "Civak";
+"上架交易所" = "Di berdêlê de lîste";
+"暂无" = "Agahdarî tune";
+
+//添加币种
+"添加币种" = "Perve zêde bike";
+"搜索币种" = "Li Pereyê Bigerin";
+"请输入币种名称" = "Ji kerema xwe navê diravê binivîse";
+"搜索不到该币种哦" = "Ev coin nehat dîtin";
+
+/*----------------------------------------------------- -------------------------------*/
+"石头" = "Zinar";
+"剪刀" = "Quç";
+"布" = "Kaxez";
+"设置昵称" = "Nasnav destnîşan bike";
+"请输入昵称" = "Navê xwe binivîse";
+"昵称不能为空" = "Nasnav vala nabe";
+"请返回钱包添加BTY币种" = "Ji kerema xwe vegere berîka xwe û BTY lê zêde bike";
+"昵称设置成功" = "Nasnav hat sazkirin";
+"创建对局" = "Lîstik biafirîne";
+"选择对战" = "Lîstik Hilbijêre";
+"我的对局" = "Lîstika Min";
+"未知\n" = "Nenas";
+"创建者" = "Afirîner";
+"奖池" = "Jackpot";
+"奖池(币)" = "Jackpot(coin)";
+"创建时间" = "Dema afirandinê";
+"完成时间" = "Wext temam bibe";
+"胜" = "Serkeftin";
+"负" = "Windan";
+"平" = "Dkêşandin";
+"超时" = "Bi demê re";
+"匹配中" = "Lihevhatî";
+"历史战绩" = "Dîroka Lîstik";
+"取消对决" = "Şer betal bike";
+
+"等待开奖" = "Li benda kişandinê";
+"等待匹配" = "Li benda lihevhatinê";
+"已取消" = "Betal kirin";
+"已开奖" = "Dêkêşandin";
+"开奖中..." = "Dêkêşandin...";
+"参与中..." = "Tevlîbûn...";
+"取消中..." = "betalkirin...";
+
+"已结算，保证金已退" = "Rast kirin û depo tê vegerandin";
+"已结算，奖金已到账" = "Berguman û bonus hat";
+"已结算，保证金已退" = "Rast kirin û depo tê vegerandin";
+"开奖超时，保证金已扣" = "Zêdetir dem, spar hat daxistin";
+
+
+"已结算，资金已退" = "Dirav hat vegerandin";
+"已结算" = "Bicîbûyî";
+"已结算，奖金已到账" = "Danek hat çareserkirin";
+"开奖超时，奖金已到账" = "wextan bikişîne, pere hat";
+
+
+//匹配中
+"确认取消对局" = "Betalkirina lîstikê piştrast bike";
+"正在取消" = "Betalkirin";
+"游戏取消失败" = "Lîstik nehat betalkirin";
+"游戏已取消\n 这需要一点时间" = "Lîstik hat betalkirin\n Li benda demeke din bisekinin";
+
+//游戏详情
+"保证金:%.0f币" = "Deposit:%.0f Coin";
+"敌方" = "Aliya din";
+"我方" = "Partiya me";
+"未进入" = "Nakeve";
+"等待对手进入" = "Li benda ketina aliyê din";
+"Nasnameya lîstikê 复制成功" = "Nasnameya lîstikê hat kopîkirin";
+
+//商店
+"游戏币充值" = "Pereyê lîstikê ji nû ve şarj bike";
+"游戏币提现" = "Pereyê lîstikê vekişîne";
+"全部兑换" = "hemûyan biguherîne";
+"游戏币不足" = "pereyê lîstikê têr nake";
+"请选择充值金额" = "hejmara barkirinê hilbijêre";
+"确定充值 %@ 游戏币" = "Tesir bike ku %@ pereyê lîstikê ji nû ve şarj bike"; //%@是占位符 比如 确定充值 5 游戏币
+"请输入提现金额" = "Heqê vekişînê binivîse";
+"确定提现 %@ 游戏币" = "Vekêşana %@ 游戏币 piştrast bike"; //%@是占位符 比如 确定提现 8 游戏币
+"%@币可兑换%@BTY" = "%@ dikare bi%@BTY biguhere"; //%@是占位符 比如 6币可兑换9BTY
+"充值提示： \n1.进行游戏的钱包中至少保留1BTY作为游戏燃料。 \n2.游戏币丕充值/提现都需要一定时间。请耐心等待，如长时间未到账，请联系官方客服."
+=
+"Bîranîn: \n1. Bi kêmanî 1 1BTY di berîka lîstikê de wekî gaz. \n2. Rêjeya pevguhertina pereyê lîstikê û BTY 1:1 e. Demek pêdivî ye ku were razandin an vekişandin. Ger fon negihe ji kerema xwe. bi karûbarê xerîdar re têkilî daynin. ";
+//创建对局
+"参与金额" = "Heqê Lîstik";
+"需暂扣和参与个数等额的保证金" = "Depoya bi mîqdara Lîstikê re eynî ye";
+"已选中" = "Hilbijartî";
+"随机" = "Tesaduf";
+"\n创建规则： \n1.创建对战需要质押参与金额双倍数量的游戏币\n"
+=
+"\nQanîdeyek biafirîne: \n1.Ji bo çêkirina şerekî, du qat ji mîqdara lîstikê wekî soz lazim e \n";
+"创建游戏失败" = "Lîstik nehat afirandin";
+"\n游戏币不足，请充值" = "Pereyê lîstikê têr nake, ji kerema xwe ji nû ve şarj bike";
+"钱包BTY余额不足\n\n钱包中至少保留1BTY作为游戏燃料"
+=
+"Kêmasiya BTY di berîka xwe de\nDivê herî kêm 1BTY wekî gaz di berîka xwe de be";
+"Ji %d-ê tê xwestin?" = "Perast bike ku şer bi %d re çêbibe?";
+"创建" = "Afirandin";
+"创建游戏失败" = "Çêkirin";
+
+//选择对战
+"对战列表" = "Lîsteya Lîstik";
+"参与游戏失败" = "Tevlî lîstikê têk çû";
+"PK失败" = "PK têk çû";
+
+/*------------------------------------- 红包--------- ------------------------------*/
+
+"红包记录" = "Qeyda pakêta sor";
+"代币" = "Pêkêta sor";
+"总数额" = "Hejmar";
+"最小1" = "Bi kêmanî 1";
+"红包个数" = "Hejmara pakêta sor";
+"恭喜发财, 大吉大利" = "Hêzên herî xweş";
+"拼手气红包" = "Pakêta Sor bi şansê";
+"推广红包" = "Pakêta sor bide nasîn";
+"联系客服" = "Têkilî bi me re bike";
+"可用%@%@" = "%@%@ heye"; //比如 可用100YCC
+"金额或地址未输入" = "Meqdar an navnîşan vala nabe";
+"当前钱包无%@币种\t\n请更换钱包" = "Baletê niha %@\t\n nîne, ji kerema xwe berîka xwe biguherîne."; // \t\n是换行
+"%@个%@已包好" = "%@%@ di pakêta sor de ye"; //比如 10个YCC已包好
+"—— 请选择分享方式 ——" = "—— Ji kerema xwe cureya parvekirinê hilbijêre ——";
+"收到一份%@糖果" = "%@şendî wergirt";
+"原链YCC—企业级区块链SaaS平台" = "Zincîra Yuan - platformek blokê ya SaaS-a asta pargîdanî";
+"一种简单稳定、拓展性强的区块链网络" = "Tora blokê ya sade, stabîl û berbelav";
+"红包已分享，\n可在红包记录里查看领取详情！"
+=
+"Pakêta sor parvekirî ye, \t\n ji kerema xwe bêtir di qeyda pakêta sor de binêre.";
+"托管地址" = "Navnîşana escrow";
+"如需使用其他钱包进行充值，请扫描二维码转币"
+=
+"Heke hûn hewce ne ku ji bo spartinê berîkên din bikar bînin, ji kerema xwe koda QR bişopînin";
+"二维码已保存到相册" = "Koda QR hat tomarkirin";
+
+/*----------------------------------- 我的--------- -------------------------------------*/
+"我" = "Ez";
+"托管账户" = "Hesab hilîne";
+"联系人" = "Têkilî";
+"管理钱包" = "Balça min";
+"消息中心" = "Navenda peyamê";
+"分享下载" = "Parvekirin";
+"关于我们" = "Li ser me";
+"检测更新" = "Ji bo nûvekirinan kontrol bike";
+"更新" = "Nûvekirin";
+"更新提示" = "Pêşniyarkirina nûvekirinê";
+"\n检测到新版本，是否更新" = "\nGuhertoyek nû hat dîtin, tu dixwazî nûve bikî?";
+"暂不更新" = "Na";
+"当前已是最新版本" = "Guhertoya herî dawî ye";
+"红包" = "Pakêta sor";
+"版本%@" = "Versiyon%@";//%@是占位符 比如 版本1.2.4
+"Copyright © 杭州本链科技 版权所有" = "©Hangzhou Benlian Technology Copyright";
+//托管账户
+"托管资产" = "Maliyetên escrow";
+"可用（个）" = "Heye";
+"价值（元）" = "Nirx";
+
+
+
+//联系人
+"搜索" = "Lêgerîn";
+"请输入联系人姓名" = "Ji kerema xwe navekî têkiliyê binivîse";
+"搜索不到联系人" = "Têkilî nayê dîtin";
+"昵称" = "Nasnav";
+"昵称需小于16字符" = "Divê ji 16 tîpan kêmtir be";
+"昵称不能为空" = "Nasnav vala nabe";
+"手机号" = "Hejmara telefonê";
+"请输入正确的手机号" = "Ji kerema xwe jimareya telefonê ya rast binivîse";
+"请输入11位手机号" = "Ji kerema xwe hejmara telefonê binivîse";
+"地址" = "Navnîşan";
+"添加地址" = "Navnîşanek lê zêde bike";
+"主链" = "Zincîra sereke";
+"联系人详情" = "Hûrgiliyên têkiliyê";
+"编辑" = "Biguherîne";
+"编辑联系人" = "Têkiliyê biguherîne";
+"去转账" = "Biçe veguhestinê";
+"首页钱包不含%@" = "Balet %@ nahewîne"; //比如 首页钱包不含BTY
+"保存" = "Save";
+"您还没有添加联系人" = "Têkilî nayê zêdekirin";
+"联系人不存在%@地址" = "Têkilî %@nabe";
+
+//管理钱包
+"钱包" = "Balet";
+"我的钱包" = "Balça min";
+"创建钱包" = "Baletê ava bike";
+"导入钱包" = "Baletê îtxal bike";
+"钱包详情" = "Hûrgiliyên berîka";
+"修改密码" = "Şîfre biguherîne";
+"设置密码" = "Şîfreyê bide";
+"导出私钥" = "Mifteya taybet derxe";
+"删除钱包" = "Baletê jêbirin";
+"安全警告" = "Hişyariya ewlehiyê";
+"\n删除钱包仅能通过助记词和私钥找回，是否确定删除该钱包"
+=
+"\nJêbirina berîka xwe tenê bi rêya tov û bişkojên taybet dikare, tu bawer î?";
+"备份助记词" = "Piştgiriya tovan";
+"私钥二维码" = "Koda QR ya mifteya taybet";
+"助记词二维码" = "Koda du-alî ya peyvên mînemonîk";
+
+
+//修改钱包名称
+"修改钱包名称" = "Navê berîka xwe biguherîne";
+
+//备份助记词
+"请务必抄下助记词，确定之后将进行校验"
+=
+"Ji kerema xwe pê ewle bin ku tovan kopî bikin û piştî piştrastkirinê wê piştrast bikin";
+"下一步" = "Piştre";
+"提示：请勿截图！如果有人获取你的助记词将直接获取你的资产！请抄获取你的助记词将直接获取你的资产！请抄记词将直接获取你的资产！请抄获取你的地方."
+=
+"Sîret: Dîmenek nekêşin! Ger kesek tovên we bidest bixe, malên we dikarin bibin sîgorta! Ji kerema xwe tovan kopî bikin û li cîhek ewle hilînin.";
+"提示：请勿直接截图保存！如果有人获取你的助记词将直接获取您的资你的助记词将直接获取您的资\n\n式一：使用另一离线设备，拍照保存。\n方式二：正确抄写助记词，存放在安全的地方。\n\n点击［开始备份］后，鹀芽后，需轏地方进行校验。" = "Şîret: rasterast dîmenan hilnede! Ger kes peyvên te yên bîrnasî werdigire, ew ê rasterast malûmanan werbigire!\n\nNêzîkatiya rast:\n\nRêbaza 1: Amûrek din a negirêdayî bikar bîne û wêneyan hilîne.\nRêbaz 2: Peyvên bîrmendiyê rast kopî bikin û li cîhek ewle hilînin. \n\nPiştî tikandina [Start Backup], pêdivî ye ku hûn peyvên mînemonîkî yên ku têne bîra we rast bikin.";
+"请务必妥善保存助记词，确定之后将进行校验" = "Bawer bin ku bîrnasiyê bi rêkûpêk hilînin, û piştî piştrastkirina wê piştrast bikin.";
+
+"备份钱包" = "Baletê paşve hilde";
+"请按顺序点击助记词" = "Ji kerema xwe tovan bi rêz hilbijêrin";
+"助记词错误" = "Tovên çewt";
+"备份成功" = "Piştevaniya bi serkeftî";
+
+//导出私钥
+"请选择主链" = "Dereyê hilbijêre";
+"复制" = "Kopîkirin";
+"私钥复制成功" = "Mifteya taybet bi serkeftî hat kopîkirin";
+
+//修改密码
+"请输入旧密码" = "Ji kerema xwe şîfreya kevn binivîse";
+"请输入新密码" = "Ji kerema xwe şîfreya nû binivîse";
+"重新输入新密码" = "Ji kerema xwe şîfreya nû ji nû ve binivîse";
+"两次密码不相同" = "Du şîfre cuda ne";
+"密码修改成功" = "Şîfre bi serkeftî guherî";
+"密码设置成功" = "Şîfre bi serkeftî hat danîn";
+"请为账号 " = "";
+"设置成功！" = "Serkeftin";
+//创建钱包
+"创建钱包" = "Baletê ava bike";
+"中文" = "Çînî";
+"English" = "Ingilîzî";
+"请设置钱包名称！" = "Ji kerema xwe navê berîka xwe deyne";
+"设置钱包名称" = "Navê berîka xwe deyne";
+"钱包名称已存在" = "Navê walletê jixwe heye";
+"更换助记词" = "Guhertina tovan";
+
+
+//导入钱包
+"请输入" = "Têkeve";
+"助记词" = "tovî";
+"请输入英文助记词，用空格隔开" = "Ji kerema xwe tovên bi Îngilîzî binivîsin û bi valahiyê veqetînin";
+"助记词已存在" = "Jixwe tov hene";
+"助记词不存在" = "Tov tune";
+"钱包创建失败" = "Balet bêserkeftin hat afirandin";
+
+
+//消息中心
+"暂无消息" = "Peyama nû tune";
+"转账收款消息" = "Peyama danûstandinê";
+"系统消息" = "Agahdariya pergalê";
+"全部已读" ="Hemû Bixwîne";
+//分享下载
+"复制下载地址" = "Navnîşana daxistinê kopî bike";
+"分享下载地址" = "Navnîşana daxistinê parve bike";
+"分享至" = "Ji bo";
+
+//关于我们
+"币钱包" = "Bwallet";
+"币钱包是一款移动端货币钱包App，旨在为用户提供安全，好用，功能强大"
+=
+"Pwallet serîlêdana berîka dravê mobîl e ku ji bo bikarhênerên ewledar, bi karanîna hêsan, amûrên rêveberiya sermayeya dîjîtal a hêzdar peyda dike.";
+"W钱包" = "Wwallet";
+"W 钱包 是 一 款 移动 端 货币 钱包 App, 旨在 为 用户 提供 安全, 好 用, 功能 强大 强大 资产 管理 管理."
+=
+"Wwallet serîlêdana berîka dravê mobîl e ku ji bo bikarhênerên ewledar, bi karanîna hêsan, amûrên rêveberiya sermayeyên dîjîtal ên hêzdar peyda dike.";
+"豆子钱包" = "Pwallet";
+"豆子钱包是一款移动端货币钱包App，旨在为用户提供安全，奄用，功能引具."
+=
+"Pwallet serîlêdana berîka dravê mobîl e ku ji bo bikarhênerên ewledar, bi karanîna hêsan, amûrên rêveberiya sermayeya dîjîtal a hêzdar peyda dike.";
+"SFTwallet是一款移动端货币钱包App" = "SFTwallet serîlêdana berîka dravê mobîl e ku ji bo bikarhênerên ewledar, karanîna hêsan peyda dike , Amûrên rêveberiya sermayeyên dîjîtal ên hêzdar.";
+
+"%@是一款移动端多链钱包，旨在为用户提供安全好用、功能强大的数字赡 、功能强大的数字赡" = "Bersivên pirzincîr ku ji bo bikarhêneran ewledar, hêsan-hêsan peyda dike hatî çêkirin. bikar bînin, amûrên rêveberiya sermayeyên dîjîtal ên hêzdar.";
+"使用协议" = "Peyman";
+"反馈建议" = "Berpirsîn";
+"反馈意见" = "Bêrîn";
+
+
+//反馈建议
+"您的宝贵意见是我们进步的动力！"
+=
+"Nêrînên we yên giranbiha hêza ajotinê ya pêşveçûna me ne!";
+"还能输入%lu个字" = "%lu tîp mane"; //%lu是占位符
+"请留下您的邮箱、手机号或者微信" = "Ji kerema xwe re email, telefona desta an jî Wechata xwe bihêle";
+"提交" = "bişîne";
+"反馈成功" = "pêşkêş kirin";
+"感谢您对币钱包的关注和支持，我们将会在第一时间认真处理您的反馈。"
+=
+"Spas ji bo baldarî û piştgiriya we ya li ser Pwallet, em ê di zûtirîn dem de li bertekên we bisekinin.";
+
+"已添加" = "Zêde kirin";
+"切换钱包" = "Baletê biguherîne";
+"已备份" = "piştgir kirin";
+"请输入密码" = "Ji kerema xwe şîfreya xwe binivîse";
+"请重新输入密码" = "Ji kerema xwe şîfreya xwe ji nû ve binivîse";
+"设置钱包密码 8-16位数字、字母组合" = "Ji kerema xwe 8-16 reqemên jimare û tîpan binivîse";
+"提示：请勿截图！如果有人获取你的助记词将直接获取你的资产！请抄获取你的助记词将直接获取你的资产！请抄获取你直接获取你的资亹安全的地方，我们会在下一屏进行校验。" = "Tîp: Bike Screenshot nekişîne! Ger kesek tovên we bigire, malên we dikarin bibin sîgorte! Ji kerema xwe sedd-an kopî bikin û li cîhek ewle hilînin. Em ê di gava pêş de kontrol bikin";
+"开始备份" = "destpêkirina hilanînê";
+"验证您备份的助记词" = "seddên ku te piştguh kirine verast bike";
+"请按照正确的顺序点击每个单词" = "Ji kerema xwe tov li gorî rêzê hilbijêrin";
+"导入助记词" = "Baletê derxîne";
+"请输英文助记词，用空格隔开" = "Ji kerema xwe bîrmendî bi Îngilîzî binivîsin, û bi valahiyê veqetînin";
+"请设置钱包密码" = "Şîfreyê bide";
+"确认钱包密码" = "Şîfreyê piştrast bike";
+"开始导入" = "Destpêkirina importê";
+"输入Token名称或合约地址" = "Navê Token an navnîşana peymanê binivîse";
+"请输入Token名称或合约地址，如果没有找到您要添加的币种，请向我们提交反馈。" = " Ji kerema xwe pereyê ku hûn dixwazin lê zêde bikin bibînin nerînên xwe ji me re bişînin";
+"抱歉，未能找到相关币种" = "Mixabin, pereyê nehat dîtin";
+"扫描二维码或输入地址" = "Navnîşanê bişopîne an binivîse";
+"复制下载链接" = "Grêdana daxistinê kopî bike";
+"查看助记词" = "Mnemonîk binêre";
+" 请妥善保管您的助记词，以便丢失后找回" = " Ji kerema xwe ewlekariya xwe ya bîrmendî biparêzin, da ku hûn bikarin wê vegerînin ger we wunda kir";
+"知道了" = "Ez dizanim";
+"输入/扫一扫" = "Ketin/Scan";
+"发送数量" = "Hejmara şandiyan";
+"上链备注(选填)" = "Têbînî li ser zincîrê(vebijarkî)";
+"本地备注(选填)" = "Têbînî li ser herêmî(vebijarkî)";
+"上链备注" = "Têbînî li ser zincîrê";
+"本地备注" = "Têbînî li ser herêmî";
+"上链备注：信息上链，可以在链上查询" = "Têbînî li ser zincîrê: agahdariya li ser zincîrê, hûn dikarin li ser zincîrê bipirsin";
+"本地备注：信息不上链，保存在本地" = "Têbînî li ser herêmî: agahdarî ne li ser zincîrê ye, li herêmî bihêle ";
+"地址有误" = "Navnîşana çewt";
+"收币地址和发币地址一致" = "Navnîşana wergirtinê wek navnîşana şandinê ye";
+"转账金额不能小于矿工费" = "Meqdarê veguheztinê nikare ji heqê miner kêmtir be";
+"手续费不足" = "Xerca pêvajoyê ne bes e";
+"请输入转币金额" = "Meqdara veguheztinê binivîse";
+"地址复制成功" = "Navnîşan hat kopîkirin";
+"区块" = "Block";
+"交易时间" = "Dema danûstandinê";
+"区块查询" = "Lêpirsînê asteng bike";
+"暂无简介" = "Pêşgotin tune";
+"语言" = "Ziman";
+"8-20位数字、字母组合" = "Ji kerema xwe 8-20 reqemên jimare û tîpan binivîsin";
+"(当前钱包)" = "(Baletê niha)";
+"请前往设置打开相册访问权限" = "Ji kerema xwe ji bo vekirina gihîştina albûmê here Mîhengê";
+"请选择币种" = "Ji kerema xwe pereyê hilbijêre";
+"钱包设置" = "Mîheng";
+"修改本地备注" = "Notên herêmî biguherîne";
+"无" = "tune";
+"最佳" = "optimal";
+
+//新版登录
+
+"密码最大长度为20位" = "Dirêjahiya şîfreya herî zêde 20 reqem e.";
+
+"密码登录" = "Şîfreya têketinê";
+
+"已发送(%dS)" = "sent(%dS)";
+
+"忘记密码？" = "Şîfre ji bîr kir?";
+
+"我们会以电话的方式告知您验证码，请注意接听！" = "Em ê bi têlefonê koda verastkirinê agahdar bikin, ji kerema xwe bala xwe bidin!";
+
+"手机登录" = "têketina jimareya telefonê";
+
+"收不到验证码？" = "Nikare koda verastkirinê bistînî?";
+
+"新用户登录将自动注册" = "Têketina bikarhênerê nû dê bixweber were tomar kirin";
+
+"用手机号重置" = "Bi nimreya telefonê vegerîne";
+
+"用邮箱重置" = "Bi qutiya posteyê vegerîne";
+
+"绑定手机" = "Telefonê girêde";
+
+"绑定邮箱" = "Qutiya posteyê girêde";
+
+"设置新密码" = "Şîfreya nû destnîşan bike";
+
+"设置新密码 (6-20位)" = "Şîfreyek nû (6 - 20 reqeman) deyne";
+
+"请输入手机号" = "Ji kerema xwe hejmara telefonê binivîse";
+
+"请输入邮箱" = "Ji kerema xwe qutiya posteyê binivîse";
+
+"输入的密码过短" = "Şîfre pir kurt e";
+
+"邮箱登录" = "Têketina qutiya posteyê";
+
+"验证码登录" = "Koda verastkirinê têketinê";
+
+"个人中心" = "Navenda Kesane";
+
+"请输入正确的手机号！" = "Ji kerema xwe jimareyek têlefonê derbasdar binivîse";
+"您还没有绑定邮箱" = "Mailbox ne girêdayî ye";
+"请输入6位验证码" = "Koda verastkirinê binivîse";
+"创建失败，请重新登录" = "Afirandin bi ser neket, ji kerema xwe dîsa têkeve";
+"您还没有绑定手机" = "Jimara telefonê ne girêdayî ye";
+"您尚未注册" = "Ne qeydkirî";
+"语音验证" = "Verrastkirina deng";
+"请填写完整邮箱" = "Ji kerema xwe qutiya posteyê tijî bikin";
+"请输入4位语音验证码" = "Ji kerema xwe koda verastkirina dengê 4-reqemî binivîse";
+"两次输入不一致" = "Du şîfre nakok in";
+"修改成功！" = "Serkeftin！";
+"提示：请勿截图！如果有人获取你的助记词将直接获取你的资产！请抄获取你的助记词将直接获取你的资产！请抄获写写全的地方，我们会在下一屏进行校验。" = "Tîp: Bike dîmenek nekişîne! Ger kesek tovên we bi dest bixe, hûn dikarin bibin sîgorta! Ji kerema xwe tovan kopî bikin û li cîhek ewle hilînin.";
+"请输入%@收到的验证码" = "Kodê binivîse";
+"请输入邮箱%@收到的验证码" = "Kodê binivîse";
+"请输入手机号%@收到的验证码" = "Kodê binivîse";
+
+"邮箱" = "postbox";
+"登录密码" = "şîfreya têketinê";
+"支付密码" = "şîfreya peredanê";
+"去设置" = "Mîheng";
+"去修改" = "Guhertin";
+"去绑定" = "Girêdan";
+"服务器开小差了" = "Çewtiya pêşkêşker";
+"安全验证" = "Rastkirina ewlehiyê";
+"转账金额" = "Heqê veguheztin";
+"邀请好友领奖励" = "Hevalan vexwîne ku xelatan bistînin";
+"规则" = "Qanûn";
+"发送邀请给您好友" = "Dawetnameyek ji hevalê xwe re bişîne";
+"好友注册完成相应任务" = "Ji bo temamkirina peywira têkildar qeydkirina hevalan";
+"获得奖励" = "Xelatan qezenc bike";
+"我的收益" = "Dahat";
+"已邀请%@人 太棒了！" = "mirov hatine vexwendin, mezin!";
+"邀请列表" = "Lîsteya vexwendinê";
+"邀请小技巧" = "Şîretên vexwendinê";
+"1.邀请您的家人/朋友/同学同事等熟人的成功率最高。\n2.分享至微信群/Q邀请几率。\n3.多多关注公告，可能会有新的奖励活动哦。\n4.每天坚持分享，你会比别人得到更多。" = "1. Malbata/heval/hevalbendên xwe û nasên xwe yên din vexwînin bi rêjeya herî bilind a koma Sharq. şansê vexwendina serketî. \n3. Zêdetir bala xwe bidin ragihandinê, dibe ku çalakiyên xelata nû hebin. \n4. Her roj parve bikin, hûn ê ji yên din bêtir bistînin~";
+"生成邀请海报" = "Postera vexwendinê çêbike";
+"生成邀请链接" = "Grêdanka vexwendinê çêbike";
+"面对面邀请" = "Dawetname rû bi rû";
+"筛选" = "Parz";
+"邀请人数(人)" = "Vewet (kes)";
+"收益" = "Dahat";
+"我的邀请" = "Dawetnameya min";
+"已注册" = "Qeydkirî";
+"未实名" = "Nerastkirî";
+"已实名" = "Perastkirî";
+"奖励明细" = "Hayitên xelatê";
+"任务" = "Kar";
+"奖励" = "Xelatê";
+"发放时间" = "Dema berdanê";
+"注册" = "Qeyd bike";
+"实名" = "Verast bike";
+"推荐等级" = "Asta pêşniyar bike";
+"一级" = "Asta yekem";
+"二级" = "Asta duyem";
+"三级" = "Asta sêyem";
+"重置" = "Vegere";
+"月份筛选" = "Li gor mehê fîlter bike";
+"安全好用多链钱包" = "Baletê ewle û hêsan";
+"支持海量币种存储" = "Piştgiriya hilanîna diravên mezin";
+"年" = "Sal";
+"月" = "Meh";
+"口令分享" = "Şîfreya parvekirinê";
+"口令复制成功" = "Serkeftin";
+"分享到" = "Ji bo parvekirinê";
+"选择海报" = "Posterek hilbijêre";
+"保存图片" = "Wêne tomar bike";
+"全部" = "Hemû";
+"助你畅游日本的加密资产钱包" = "Baletek krîpto ku dikare ji we re bibe alîkar ku hûn li Japonyayê sefer bikin";
+"签到" = "Têkeve";
+"个人中心" = "Navenda Kesane";
+"邀请有礼" = "Vexwendname ji kerema xwe";
+"欢迎使用" = "Bi xêr hatî";
+"长按识别二维码" = "Ji bo tesbîtkirina koda QR-ê demeke dirêj bitikîne";
+"已邀请0人，继续加油哦" = "0 Vexwendin, Bi şahiyê bidomînin";
+"实名才有奖励哦" = "Sertîfîkaya navê rast tê xelatkirin";
+"签到有礼" = "Têkeve bi xêrxwazî";
+//探索
+
+"分享" = "Parvekirin";
+"复制链接" = "Grêdanê kopî bike";
+"在浏览器中打开" = "Gerokê veke";
+//计价货币
+"计价货币" = "Pereyê bihayê";
+"人民币" = "RMB";
+"美元" = "Dolar";
+"英镑" = "GBP";
+"港币" = "HKD";
+"日元" = "JPY";
+
+"点击登录" = "Têkeve";
+"请输入账号" = "Hesabê bikeve";
+"获取验证码" = "Kodê bistînin";
+"请输入验证码" = "Koda verastkirinê binivîse";
+"登录" = "Têketin";
+"已发送" = "şandin";
+"个人信息" = "Agahiyên şexsî";
+"头像" = "Avatar";
+"设置支付密码" = "Şîfreya dravdanê destnîşan bike";
+"身份认证" = "Nasnameyê piştrast bike";
+"去认证" = "Ji bo verastkirinê";
+"已认证" = "Perastkirî";
+"退出登录" = "Derketin";
+"验证码已经发送到您的手机" = "şandin";
+"6位数字验证码" = "Koda verastkirinê ya 6 reqî";
+"您可以使用设置的密码来确认%@账号的操作" = "Hûn dikarin bi şîfreya destnîşankirî operasyonê piştrast bikin.";
+"确认密码" = "Şîfreyê piştrast bike";
+"再次输入密码" = "Dîsa şîfreyê binivîse";
+"退出" = "Derketin";
+"进入" = "keve";
+
+"\n托管账户未设置支付密码，请先设置支付密码" = "\nŞîfreya dravdanê ji bo hesabê escrow nehatiye danîn. Ji kerema xwe pêşî şîfreya dravdanê bicîh bikin";
+"托管账户未设置支付密码，请先设置支付密码" = "Şîfreya dravdanê ji bo hesabê escrow nehatiye danîn. Ji kerema xwe pêşî şîfreya dravdanê bicîh bikin";
+
+"多地址" = "Navnîşana pirjimar";
+"交易记录" = "Dîroka danûstandinê";
+"修改支付密码" = "Şîfreyê biguherîne";
+"请输入6位原密码" = "Ji kerema xwe 6 şîfreyên orîjînal binivîse";
+"忘记密码" = "Şîfre ji bîr bike";
+"原密码修改" = "Şîfre biguherîne";
+"设置6位数字支付密码" = "Şîfreyek dravdanê ya 6-hejmarî destnîşan bike";
+"确认支付密码" = "Şîfreya dravdanê piştrast bike";
+"实名认证" = "Sertîfîka";
+"热门专题" = "Mijarên germ";
+
+//"请上传身份证人像面" = "请上传身份证人像面";
+//"大陆公民持有的本人有效二代身份证" = "大陆公民持有的本人有效二代证";
+//"证件拍摄须知" = "大陆公民持有的本人有效二代身份证";
+//"拍摄" = "拍摄";
+//"相册上传" = "相册上传";
+//"姓名" = "Bijî";
+//"身份证" = "身份证";
+"请输入真实姓名" = "Ji kerema xwe navê xwe yê rast binivîse";
+//"下一步" = "下一步";
+//"暂未开放" = "暂未开放";
+"真实姓名" = "navê rastîn";
+"所属国家" = "Welat";
+"请选择国籍" = "ji kerema xwe neteweyê hilbijêre";
+"证件类型" = "Cûreya sertîfîkayê";
+"请选择证件类型" = "Ji kerema xwe cureyê sertîfîkayê hilbijêre";
+"证件号码" = "Nimreya nasnameyê";
+"请输入有效证件号码" = "Ji kerema xwe jimareyek nasnameyê ya derbasdar binivîse";
+//"有效证件正面照" = "有效证件正面照";
+//"手持证件照" = "手持证件照";
+"图片示例" = "Mînaka wêneyê";
+"拍照" = "Wêneyek bigire";
+"从相册选择" = "Ji albûmê hilbijêre";
+"请上传手持证件正面照" = "Ji kerema xwe wêneyekî karta nasnameya desta (erênî) bar bikin";
+"请上传手持证件反面照" = "Ji kerema xwe karta nasnama min a destan (neyînî) bar bike";
+"提交审核" = "Bişîne";
+"您的申请已提交，请等待客服审核。若3个工作日内仍然没有结果，请及。" = "Serlêdana te hat şandin, ji kerema xwe li benda nirxandina karûbarê xerîdar bisekinin. Ger hîn tune be encam di nav 3 rojên xebatê de, ji kerema xwe e-nameyek bişînin da ku bi karûbarê xerîdar re têkilî daynin.";
+"客服邮箱：" = "Qutiya posteyê ya xizmetê：";
+"您的申请已提交，请等待客服审核。" = "Serlêdana we hat şandin, ji kerema xwe li benda nirxandina karûbarê xerîdar bisekinin.";
+
+"客服微信：" = "Xizmeta Wechat：";
+//"温馨提示" = "温馨提示";
+//"1.认证提交后不能修改证件类型 2.目前我们不接受来自阿尔及利亚、厄类型、伊朗、朝鲜、缅甸、叙利亚共和国以及美国等国家和地区的用户" = "1.萎亚共和国以及美国等国家和地区的用户" = "1.修改证件类型 2.目前我们不接受来自阿尔及利亚、厄瓜多尔、印度尊伺甸、叙利亚共和国以及美国等国家和地区的用户";
+//"边角完整" = "Pêşkêşî";
+//"字体清晰" = "字体清晰";
+//"亮度均匀" = "Pêdivî ye";
+//"请核对您的身份信息是否正确" = "请核对您的身份信息是否正确";
+//"重新上传" = "重新上传";
+//"摄像头" = "摄像头";
+//"未授权" = "未授权";
+//"动作错误，请根据提示做相应的动作" = "动作错误，请根据提示做相庺作";
+//"请前往手机设置->%@,打开相机权限" = "请前往手机设置->%@,打开相机权限";
+//"检测超时，请稍后再试" = "检测超时，请稍后再试";
+//"检测失败,请稍后再试" = "检测失败,请稍后再试";
+//"认证成功" = "认证成功";
+//"认证失败，是否重试" = "认证失败，是否重试";
+//"是" = "是";
+//"否" = "Bijî";
+"1.脸部清晰无遮挡证件\n 2.全部信息清晰无遮挡\n 3.完全露出双手" = "1. Belgeyên rûbirî\ zelal û bêpergal in. Bi tevahî herdu destan eşkere bikin";
+"人工认证" = "Sertîfîkasyona bi destan";
+"很遗憾，您未通过人工审核" = "Bibore, te nirxandin derbas nekir";
+"重新提交资料" = "Ji nû ve bişîne";
+"待审核" = "li benda Çavdêriyê bisekinin";
+"未通过" = "Ne derbas dibe";
+"中国大陆" = "Çîn";
+"非中国大陆" = "Ne Çîn";
+"日本及国际用户" = "Japonya û navneteweyî";
+
+"1.认证提交后不能修改证件类型 2.目前我们不接受来自阿尔及利亚、厄类型、伊朗、朝鲜、缅甸、叙利亚共和国以及美国等国家和地区的用户" = "";
+"您的好友邀请你注册币钱包，登录即享好礼！" = "Hûn hatine vexwendin ji bo qeydkirina B wallet. Têkeve ji bo kêfê ji diyariyê! ";
+"币钱包&上链购狂撒百万STO奖励，可兑换阳澄湖大闸蟹，先到先得！" = "B Chain wallet daying to andwards kêvroşk, yekem pêşî tê xizmet kirin!";
+"切换语言" = "Ziman";
+
+"网络不给力，请稍后重试" = "Çewtiya torê";
+"请输入中文助记词，以3个字为一组" = "Ji kerema xwe tovên çînî di komên 3 peyvan de binivîsin";
+"分享二维码" = "Koda QR parve bike";
+"验证码已发送，请耐心查收。" = "Şandin!";
+"请输入支付密码" = "Şîfreya dravdanê binivîse";
+"操作成功！" = "Serkeftin";
+
+"暂未开放" = "Hê ne vekirî ye";
+"未检测到托管账户，前往登录？" = "Hesabê escrow nedît, here têketinê?";
+"已检测到托管账户，前往切换？" = "Te hesabê escrow tesbît kir û çû ser guhertinê?";
+"未检测到去中心化钱包，前往创建？" = "Baletê nenavendî tesbît nekir û çû afirandinê?";
+"已检测到去中心化钱包，前往切换？" = "We berîka nenavendî tesbît kir û çû ser guhertinê?";
+
+"正在加载" = "barkirin";
+
+"热门币种" = "Pereyên Germ";
+"自选" = "Favorite";
+"名称" = "Nav";
+"最新价" = "Bihayê bazarê";
+"24H涨跌" = "Guhertin/24H";
+"24H最高" = "Bilind/24H";
+"24H最低" = "Kêm/24H";
+"24H数量" = "Heq/24H";
+"添加自选成功" = "Li bijartan hat zêdekirin";
+"移除自选成功" = "Jêbirin";
+"资讯" = "Nûçe";
+"快讯" = "Nûçename";
+"公告" = "Bulten";
+"文章" = "Gotar";
+"今天" = "Îro";
+"昨天" = "Duh";
+"星期一" = "Dube";
+"星期二" = "Sêşem";
+"星期三" = "Çar";
+"星期四" = "Tu";
+"星期五" = "În";
+"星期六" = "Şêtî";
+"星期日" = "Roj";
+"查看详情" = "Haydar";
+"扫码下载「%@」APP" = "Daxistina kodê bişopîne";
+"公告详情" = "Haydar";
+"文章详情" = "Haydar";
+"收起" = "Pakêt bike";
+"热门搜索" = "Germ";
+"历史搜索" = "Dîrok";
+"清空全部" = "Paqij";
+"找币" = "zhaobi";
+"币安网" = "binance";
+"火币全球站" = "huobi";
+"比特纳斯达克" = "BitNasdaq";
+"您还未添加自选，快去左滑添加吧" = "Te pereyê xweya bijare zêde nekiriye, here milê çepê û lê zêde bike.";
+
+"线路切换" = "Rêzê biguherîne";
+"中国" = "Çîn";
+"日本" = "Japonya";
+
+"责任声明" = "Daxuyaniya berpirsiyariyê";
+"您即将使用第三方DApp,确认即同意第三方的用户协议和隐私政策，您在为迸上使用情况，均由该DApp的供应商负责。" = "Hûn ê bikar bînin. DApp-yek sêyemîn, piştrast bikin ku hûn bi peymana bikarhênerê sêyemîn û polîtîkaya nepenîtiyê qebûl dikin, û hemî kiryar û karanîna we di vê DApp-ê de berpirsiyariya firoşkarê DApp-ê ye.";
+"立即创建" = "Niha biafirîne";
+"立即切换" = "Niha biguhere";
+"立即登录" = "têkeve";
+"考虑一下" = "Piştre";
+"开始体验" = "Destpêk";
+"探索精彩DApp" = "Dappê keşif bike";
+"什么是DApp?DApp就是区块链上的应用，快和我一起来体验下吧" = "DApp çi ye? DApp serîlêdanek Come û ezmûna wê ye.";
+"最近使用" = "Di Dawî de Bikaranîn";
+"全部" = "Hemû";
+"应用" = "serlêdan";
+"确认" = "Tiştrast bike";
+"提示" = "Tîp";
+"此 应用 需要 满足 条件 才 可 进入 \ n · · 绑定 \ n · · 认证 认证 \ n · 实名 认证 成功" =" qutiya posteyê\n· Serkeftinê verast bike";
+"此应用需要满足条件才可进入：\n· 手机号绑定\n· 实名认证成功" = "Pêdivî ye ku sepanê şert û mercan pêk bîne da ku têkevinê:\n··";
+"此应用需要满足条件才可进入：\n· 邮箱绑定\n· 实名认证成功" = "Pêdivî ye ku sepan şertên ku têkevinê:\n·n·";
+"此应用需要满足条件才可进入：\n· 手机号绑定" = "Pêdivî ye ku sepan ji bo têketina şertan pêk bîne：\n· Telefonê girêde";
+"此应用需要满足条件才可进入：\n· 邮箱绑定" = "Pêdivî ye ku sepan ji bo têkeve şert û mercên:\n· qutiya posteyê girêbide";
+"此应用需要满足条件才可进入：\n· 实名认证成功" = "Pêdivî ye ku sepan şert û mercan pêk bîne da ku bikeve：\n· Serkeftinê verast bike";
+"前往个人中心" = "Biçe Navenda Kesane";
+"面容支付" = "Pêdana Rûyê";
+"指纹支付" = "Pêş Bike";
+"登录注册解锁更多功能" = "Têkeve ji bo vekirina kilîtkirina bêtir taybetmendiyan";
+"本机号码一键登录" = "Ji bo jimareya telefonê têketinek bilez";
+"其它方式登录" = "Rêbazê biguherîne";
+"确定关闭指纹支付?" = "Bi rastî jî Touch Pay neçalak bike?";
+"确定关闭面容支付?" = "Bi rastî Face Pay neçalak bike?";
+"开通成功" = "Serkeftin";
+// 新首页
+
+"请输入助记词，用空格分隔" = "Ji kerema xwe bîrmendî, bi valahiyan veqetînin";
+"请输入私钥或者扫描私钥生成的二维码录入" = "Ji kerema xwe mifteya taybet binivîsin an jî koda QR ya ku bi şopandina mifteya taybet hatî çêkirin têkevin";
+"请输入地址或者扫描地址生成的二维码录入" = "Ji kerema xwe navnîşan binivîsin an jî koda QR ya ku bi skanandina mifteya taybet hatî çêkirin têkevin";
+"%@支持导入所有遵循BIP标准生成的助记词" = "%@ piştgirî dide îtxalkirina hemû peyvên menemonîk ên ku li gorî standarda BIP-ê hatine çêkirin";
+"钱包支持导入所有遵循BIP标准生成的助记词" = "Wallet piştgirî dide îtxalkirina hemû peyvên menemonîk ên ku li gorî standarda BIP-ê hatine çêkirin";
+"主链:" = "Zincîra sereke:";
+"导入助记词" = "Mnemonîk derxîne";
+"导入私钥" = "Kîlîda taybet derxîne";
+"导入地址" = "Navnîşan derxîne";
+"私钥有误" = "Mifteya taybet çewt";
+"助记词重复!" = "Gotinên bîrmendî dubare kirin!";
+"当前钱包不支持该项目" = "Piştgir nayê";
+"创建/导入" = "Afirandin/Import";
+"观察钱包" = "Baletê bişopîne";
+"注册/登录" = "Qeyd/Têketin";
+"助记词钱包" = "Baletê bîrmendî";
+"修改钱包名称" = "Navê walletê biguherîne";
+"请先勾选协议" = "Ji kerema xwe pêşî peymanê kontrol bikin";
+"钱包设置" = "Mîheng";
+"请添加对应币种" = "Ji kerema xwe pereyê têkildar lê zêde bike";
+"HD钱包" = "HDwallet";
+"区块链钱包" = "Blockchain wallet";
+"我已阅读并同意" = "Qebûl";
+"隐私服务协议" = "Peymana Xizmeta Nepenîtiyê";
+"暂不支持" = "Bi demkî nayê piştgirî kirin";
+"登录/注册" = "Têketin/Qeydkirin";
+"托管钱包" = "Hesab hilîne";
+"选择主链" = "Zincîra Sereke ya Hilbijartinê";
+"钱包名称" = "Navê Wallet";
+"当前钱包" = "Baletê niha";
+"请输入钱包名称" = "Ji kerema xwe Navê Walletê binivîse";
+"私钥钱包" = "Baletê kilîta taybet";
+"导出助记词" = "Mnemonîk derxe derve";
+"通用" = "Universal";
+"专属" = "Taybetî";
+"适用于所有钱包收款" = "Ji bo hemî berîkan tê sepandin";
+"仅适用于%@收款" = "Tenê ji %@ re derbasdar e";
+"请转入" = "Ji kerema xwe veguhezîne";
+"指定金额" = "Hejmarê diyar bike";
+"指定收款" = "Hejmarê diyar bike";
+"请输入转币数量" = "Ji kerema xwe mîqdara têkevin";
+"修改金额" = "Hejmarê biguherîne";
+"通用二维码适用于所有钱包收款" = "Koda QR ya gerdûnî ji bo hemî walletan derbasdar e";
+"专属二维码仅适用于%@收款" = "Koda QR ya taybetî tenê ji %@ re derbasdar e";
+"账户管理" = "Rêveberiya Hesabê";
+"设置" = "Mîheng";
+"应用下载" = "Daxistin";
+"语言切换" = "Ziman";
+"客服微信" = "Xizmeta Wechat";
+"客服邮箱" = "Qutiya posteyê ya xizmetê";
+"钱包地址" = "Navnîşana berîka";
+"扫码下载APP" = "APPS koda APPS dakêşîne APP";
+"客服微信已复制" = "Kopî kirin";
+"已复制" = "Kopî kirin";
+"去微信粘贴" = "Li WeChatê bixin";
+"暂无资产，快去添加吧" = "Tê hebûn, niha lê zêde bike";
+"快来创建一个区块链钱包，私钥自主管理，海量币种支持，畅游各类戺inê û blokek taybet biafirîne Piştgiriya diravê ive, û peymanên cûrbecûr ên hişmend";
+"币钱包下载页" = "Rûpela dakêşana Bwallet";
+"BNwallet下载页" = "Rûpela daxistina BNwallet";
+"极速收发数字资产，让您感受不一样的红包体验" = "Hêzên dîjîtal bi leza bilind bişînin û bistînin, bihêlin hûn ezmûnek zerfa sor a cûda biceribînin";
+"好友给你发了一个%@大红包，快来领取！" = "Hevalek ji te re zerfeke mezin a sor %@ şand, were û wê berhev bike!";
+// 币种管理y页面
+"首页币种" = "Pereyê Malê";
+"退出排序" = "Rastkirin";
+"重新加载" = "Ji nû ve barkirin";
+"该币种维护中..." = "Parastin...";
+"云矿机" = "Cloud Miner";
+"通证介绍" = "Destpêka Token";
+"人脸识别" = "Naskirina rû";
+"人工认证" = "Authentication bi destan";
+"用户名" = "Navê Bikarhêner";
+"修改成功" = "Bi serketî hat guherandin";
+

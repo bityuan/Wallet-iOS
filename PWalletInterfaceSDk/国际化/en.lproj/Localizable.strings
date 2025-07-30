@@ -1,0 +1,906 @@
+/*
+ Localizable.strings
+ PWallet
+ 
+ Created by 陈健 on 2018/9/18.
+ Copyright © 2018年 陈健. All rights reserved.
+ */
+
+//通用
+"完成"                            = "Done";
+"确定"                            = "Confirm";
+"取消"                            = "Cancel";
+"余额"                            = "Balance";
+"返回"                            = "Return";
+"退出"                            = "Exit";
+"确认退出"                         = "Confirm Exit";
+"游戏币"                           = "Game Currency";
+"币"                              = "Coin";
+"个"                              = ""; //(对可数名词，无需“个”，不可数名词，“个”有不同的表达）
+"钱包余额不足"                      = "Insufficient Balance of the Wallet";
+"余额不足"                         = "Insufficient Balance ";
+"暂无数据"                         = "No Data";
+"密码错误"                         = "Incorrect Password";
+"删除"                            = "Delete";
+"确认删除"                         = "Confirm to delete";
+"删除成功"                         = "Deleted Successfully";
+"删除失败"                         = "Failed to delete";
+"请输入钱包密码"                    = "Enter Password";
+"充值"                            = "Deposit";
+"去充值"                          = "Deposit now ";
+"充值成功"                        = "Deposited Successfully";
+"充值失败"                        = "Failed to deposit";
+"提现"                           = "Withdraw";
+"提现成功"                        = "Withdrawed Successfully";
+"提现失败"                        = "Failed to Withdraw";
+"错误"                           = "Error";
+"朋友圈"                          = "Moments";
+"微信好友"                        = "Wechat";
+"收款码"                          = "Receive QR Code";
+"确定转币"                        = "Confirm to transfer";
+"构造签名失败"                     = "Signature failed";
+"转币成功"                        = "Transferred Successfully";
+"转币失败"                        = "Failed to transfer";
+"点击二维码复制地址"                = "Press the code to copy address";
+"复制成功"                        = "Copied";
+"相册"                           = "Album";
+"请将镜头对准二维码进行扫描"         = "Scan the QR code";
+"冷钱包-导出地址-二维码"            = "Cold Wallet - export address - QR code";
+"摄像头"                         = "Camera";
+"请前往设置打开摄像头权限"           = "Please allow Pwallet to access your camera";
+"摄像头故障"                      = "Error on Camera";
+"请检查手机摄像头设备"              = "Please check the camera";
+"访问受限"                        = "Limited Access";
+"请前往设置打开照片权限"             = "Go to “Settings”and turn on Album authorization";
+"请输入8～16位数字、字母组合"        = "Please enter 8-16 digits of numbers and letters";
+"网络请求失败"                     = "Network request failed";
+
+
+
+//tabBar
+"首页"        = "Home";
+"探索"        = "Explore";
+"我的"        = "Me";
+"行情"        = "Market";
+"资讯"        = "News";
+"聊天"        = "Chat";
+
+/*------------------------------------------------首页------------------------------------*/
+"总资产"                             = "Total Assets";
+"一键小钱包"                          = "One Key Wallet";
+"我已阅读并同意《用户协议》"             = "I have read and agreed with 《User Agreement》";
+"用户协议"                            = "User Agreement";
+"小钱包提示"                          = "Wallet reminder";
+"是否已经备份助记词？"                  = "Do you back up the mnemonic word？";
+"为了您的资金安全，请前往备份助记词！"     = "Go to back up your mnemonic word ";
+"稍后备份"                            = "back up latter";
+"去备份"                              = "Back up";
+"备份提示"                            = "Backup reminder";
+"请备份您的钱包，以便钱包丢失后找回"       = "Please back up your wallet so you may get your wallet back";
+"这是我的第一个钱包"                    = "My first Wallet";
+"未备份"                              = "No Backup";
+"总资产"                         = "Total Assets";
+//交易记录列表
+"简介"           = "Introduction";
+"转账"           = "Transfer";
+"收款"           = "Receive";
+"交易成功"        = "successful transaction";
+"交易失败"        = "Failed Transaction";
+"确认中"         = "Transaction confirming";
+"  交易记录"       = "Transaction History";
+"暂无交易记录"    = "No transactions";
+"钱包收币"     = "Share QR Code";
+
+//交易详情
+"交易详情"           = "Transaction details";
+"数量"              = "Amount";
+"矿工费"            = "miner fee";
+"转账地址"          = "Payee Address";
+"收款地址"          = "Receive Address";
+"区块信息"          = "Block Information";
+"交易哈希"          = "Trade Hash";
+"备注"             = "Comment";
+"暂无备注"          = "No Comment";
+"添加联系人"        = "Add Contact";
+"发至:%@"          = "Send to:%@"; //%@是占位符 比如 发至:张伟
+"来自:%@"          = "From:%@"; //%@是占位符 比如 来自:小明
+"已经是好友"         = "Added as friend";
+
+//转账
+"请输入数量"        = "Amount";
+"备注（选填）"      = "Comment（Optional）";
+"收币地址"         = "Receiver Address";
+"发币地址"         = "Sender Address";
+"矿工费"           = "Miner fee";
+"慢"              = "Slow";
+"正常"            = "Normal";
+"快"              = "Fast";
+"扫一扫"           = "Scan";
+"请使用冷钱包扫码"   ="Please scan code with cold wallet";
+
+
+//收款
+
+"最新交易"  = "Latest";
+"分享地址"  = "Share Address";
+
+
+//简介
+"基本资料"              = "Information";
+"币种介绍"              = "Introduction";
+"全称"                 = "Full Name";
+"简称"                 = "Short Name";
+"发行时间"              = "Issue Date";
+"发行总量"              = "Issued Supply";
+"流通总量"              = "Circulating Supply";
+"众筹价格"              = "Crowdfunding Price";
+"官网"                 = "Official Website";
+"白皮书"               = "Whitepaper";
+"区块链浏览器"           = "Blockchain Browser";
+"社群"                 = "Community";
+"上架交易所"            = "Listed in exchange";
+"暂无"                 = "No Information";
+
+//添加币种
+"添加币种"            = "Add Coin";
+"搜索币种"            = "Search for Coin";
+"请输入币种名称"       = "Please enter the coin name";
+"搜索不到该币种哦"      = "This coin is not found";
+
+/*---------------------------------------Rock Paper Scissors --------------------------------------*/
+"石头"                      = "Rock";
+"剪刀"                      = "Scissors";
+"布"                        = "Paper";
+"设置昵称"                   = "Set Nickname";
+"请输入昵称"                 = "Enter your nickname";
+"昵称不能为空"               = "Nickname cannot be empty";
+"请返回钱包添加BTY币种"       = "Please go back to the wallet and add BTY";
+"昵称设置成功"               = "Nickname set up";
+"创建对局"                  = "Create Game";
+"选择对战"                  = "Select Game";
+"我的对局"                  = "My Game";
+"未知\n"                   = "Unknown";
+"创建者"                   = "Creator";
+"奖池"                     = "Jackpot";
+"奖池(币)"                 = "Jackpot(coin)";
+"创建时间"                 = "Creation time";
+"完成时间"                 = "Complete time";
+"胜"                      = "Win";
+"负"                      = "Lose";
+"平"                      = "Draw";
+"超时"                    = "Over time";
+"匹配中"                  = "Matching";
+"历史战绩"                 = "Game History";
+"取消对决"                  = "Cancel the battle";
+
+"等待开奖"                  = "Waiting for draw";
+"等待匹配"                  = "Waiting for matching";
+"已取消"                   = "Canceled";
+"已开奖"                   = "Drawed";
+"开奖中..."                = "Drawing...";
+"参与中..."                = "Joining...";
+"取消中..."                = "canceling...";
+
+"已结算，保证金已退"         = "Settled and the deposit is returned";
+"已结算，奖金已到账"         = "Settled and bonus arrived ";
+"已结算，保证金已退"         = "Settled and the deposit is returned";
+"开奖超时，保证金已扣"       = "Drar overtime，deposit deducted";
+
+
+"已结算，资金已退"          = "Settled，fund returned";
+"已结算"                  = "Settled";
+"已结算，奖金已到账"        = "Settled，fund arrived";
+"开奖超时，奖金已到账"       = "draw times out，fund arrived";
+
+
+//匹配中
+"确认取消对局"                    = "Confirm to cancel  the game";
+"正在取消"                       = "Canceling";
+"游戏取消失败"                    = "Failed to cancel the game";
+"游戏已取消\n 这需要一点时间"       = "Game canceled\n Wait for additional time";
+
+//游戏详情
+"保证金:%.0f币"            = "Deposit:%.0f Coin";
+"敌方"                    = "The other party";
+"我方"                    = "Our party";
+"未进入"                  = "Not entering";
+"等待对手进入"             = "Waiting for the other party to enter";
+"Game ID 复制成功"        = "Game ID Copied";
+
+//商店
+"游戏币充值"              = "Recharge the game currency";
+"游戏币提现"              = "Withdraw the game currency";
+"全部兑换"                = "exchange all";
+"游戏币不足"              = "insufficient game currency";
+"请选择充值金额"           = "select the recharge amount";
+"确定充值 %@ 游戏币"       = "Confirm to recharge %@ game currency"; //%@是占位符 比如 确定充值 5 游戏币
+"请输入提现金额"           = "Enter the amount to withdraw";
+"确定提现 %@ 游戏币"       = "Confirm to withdraw %@ 游戏币"; //%@是占位符 比如 确定提现 8 游戏币
+"%@币可兑换%@BTY"         = "%@ can exchange for%@BTY";  //%@是占位符  比如 6币可兑换9BTY
+"充值提示： \n1.进行游戏的钱包中至少保留1BTY作为游戏燃料。 \n2.游戏币与比特元1:1数量锚定，充值/提现都需要一定时间。请耐心等待，如长时间未到账，请联系官方客服。 "
+=
+"Reminder： \n1.At least 1 1BTY in the game wallet as gas. \n2.The exchange rate of game currency and BTY is 1:1，It takes time to deposit or withdraw。If the fund doesn’t arrive, please contact the customer service。 ";
+//创建对局
+"参与金额"                      = "The Game Amount";
+"需暂扣和参与个数等额的保证金"      = "The deposit the same with the Game amount is required ";
+"已选中"                        = "Selected";
+"随机"                         = "Random";
+"\n创建规则： \n1.创建对战需要质押参与金额双倍数量的游戏币\n"
+=
+"\nCreate rule： \n1.To create a battle,twice of the game amount is required as pledge \n";
+"创建游戏失败"                   = "Failed to create the game";
+"\n游戏币不足，请充值"            = "Insufficient game currency，please recharge";
+"钱包BTY余额不足\n\n钱包中至少保留1BTY作为游戏燃料"
+=
+"Insufficient BTY in the wallet\nAt least 1BTY should be in the wallet as gas";
+"确定使用 %d币 创建对局?"         = "Confirm to create battle with %d?";
+"创建"                         = "Create";
+"创建游戏失败"                   = "Failed to create";
+
+//选择对战
+"对战列表"                     = "Game List";
+"参与游戏失败"                  = "Failed to join the game";
+"PK失败"                      = "PK failed";
+
+/*---------------------------------------红包--------------------------------------*/
+
+"红包记录"                     = "Red packet record";
+"代币"                        = "Red packet coin";
+"总数额"                       = "Total amount";
+"最小1"                       = "At least 1";
+"红包个数"                     = "The number of the red packet";
+"恭喜发财, 大吉大利"             = "Best Wishes";
+"拼手气红包"                    = "Red Packet by luck";
+"推广红包"                      = "Promote the red packet";
+"联系客服"                      = "Contact us";
+"可用%@%@"                     = "%@%@ available";  //比如 可用100YCC
+"金额或地址未输入"               = "Amount or address cannot be empty";
+"当前钱包无%@币种\t\n请更换钱包"   = "Current wallet doesn’t have %@\t\n, please change your wallet.";  // \t\n是换行
+"%@个%@已包好"                  = "%@%@ is in the red packet"; //比如 10个YCC已包好
+"—— 请选择分享方式 ——"           = "—— Please choose the share type ——";
+"收到一份%@糖果"                 = "Received a %@candy";
+"原链YCC—企业级区块链SaaS平台"     = "Yuan Chain - a corporate-level SaaS blockchain platform";
+"一种简单稳定、拓展性强的区块链网络" = "A simple, stable and scalable blockchain network";
+"红包已分享，\t\n可在红包记录里查看领取详情！"
+=
+"The red packet is shared, \t\n please view more in the red packet record.";
+"托管地址"                      = "Escrow address";
+"如需使用其他钱包进行充值，请扫描二维码转币"
+=
+"If you need to use other wallets for deposit, please scan the QR code";
+"二维码已保存到相册"              = "QR code is saved";
+
+/*-------------------------------------我的----------------------------------------------*/
+"我"                      = "Me";
+"托管账户"                 = "Escrow accounts";
+"联系人"                   = "Contacts";
+"管理钱包"                 = "My wallet";
+"消息中心"                 = "Message center";
+"分享下载"                 = "Share";
+"关于我们"                 = "About us";
+"检测更新"                 = "Check for updates";
+"更新"                    = "Update";
+"更新提示"                 = "Update hint";
+"\n检测到新版本，是否更新"    = "\nA new version has been detected, do you want to update?";
+"暂不更新"                 = "No";
+"当前已是最新版本"          = "It is the latest version";
+"红包"                    = "Red packet";
+"版本%@"                  = "Version%@";//%@是占位符  比如 版本1.2.4
+"Copyright ©  杭州本链科技 版权所有"  =  "©Hangzhou Benlian Technology Copyright";
+//托管账户
+"托管资产"                  = "Escrow assets";
+"可用（个）"                = "Available";
+"价值（元）"                = "Value";
+
+
+
+//联系人
+"搜索"                           = "Search";
+"请输入联系人姓名"                 = "Please enter a contact name";
+"搜索不到联系人"                   = "Contact cannot be found";
+"昵称"                           = "Nickname";
+"昵称需小于16字符"                 = "Has to be less than 16 characters";
+"昵称不能为空"                     = "Nickname cannot be empty";
+"手机号"                          = "Phone number";
+"请输入正确的手机号"                = "Please enter correct phone number";
+"请输入11位手机号"                  = "Please enter phone number";
+"地址"                            = "Address";
+"添加地址"                         = "Add an address";
+"主链"                            = "Main Chain";
+"联系人详情"                        = "Contacts detail";
+"编辑"                             = "Edit";
+"编辑联系人"                         = "Edit contact";
+"去转账"                            = "Go to transfer";
+"首页钱包不含%@"                     = "Wallet does not contain%@"; //比如  首页钱包不含BTY
+"保存"                              = "Save";
+"您还没有添加联系人"                   = "Contact is not added";
+"联系人不存在%@地址"                   = "Contact %@doesn’t exist";
+
+//管理钱包
+"钱包"                                 = "Wallet";
+"我的钱包"                              = "My wallet";
+"创建钱包"                              = "Create wallet";
+"导入钱包"                              = "Import wallet";
+"钱包详情"                              = "Wallet detail";
+"修改密码"                              = "Change password";
+"设置密码"                              = "Set password";
+"导出私钥"                              = "Export private key";
+"删除钱包"                              = "Delete wallet";
+"安全警告"                              = "Security warning";
+"\n删除钱包仅能通过助记词和私钥找回，是否确定删除该钱包"
+=
+"\nDeleting a wallet can only via seeds and private keys, are you sure?";
+ "备份助记词"                           = "Back up seeds";
+"私钥二维码"                            = "Private key QR code";
+"助记词二维码"                            = "Two dimensional code of mnemonic words";
+
+
+//修改钱包名称
+"修改钱包名称"                          = "Change name of wallet";
+
+//备份助记词
+"请务必抄下助记词，确定之后将进行校验"
+=
+"Please be sure to copy the seeds and verify it after confirm";
+"下一步"                               = "Next";
+"提示：请勿截图！如果有人获取你的助记词将直接获取你的资产！请抄下助记词并存放在安全的地方。"
+=
+"Tip: Do not take a screenshot! If someone gets your seeds, you assets can be insure! Please copy the seeds and store them in a safe place.";
+"提示：请勿直接截图保存！如果有人获取你的助记词将直接获取您的资产！\n\n正确做法：\n\n方式一：使用另一离线设备，拍照保存。\n方式二：正确抄写助记词，存放在安全的地方。\n\n点击［开始备份］后，需要对你记住的助记词进行校验。" = "Tip: Do not save screenshots directly! If someone gets your mnemonic words, they will directly get assets!\n\nCorrect approach:\n\nMethod 1: Use another offline device and take photos to save.\nMethod 2: Copy mnemonic words correctly and store them in a safe place.\n\nAfter clicking [Start Backup], you need to verify the mnemonic words you remember.";
+"请务必妥善保存助记词，确定之后将进行校验" = "Be sure to save the mnemonic properly, and verify it after confirming it.";
+
+"备份钱包"                              = "Back up wallet";
+"请按顺序点击助记词"                      = "Please select the seeds in order";
+"助记词错误"                            = "Wrong seeds";
+"备份成功"                              = "Back up successfully";
+
+//导出私钥
+"请选择主链"                             = "Select the coin";
+"复制"                                  = "Copy";
+"私钥复制成功"                            = "Private key copied successfully";
+
+//修改密码
+"请输入旧密码"                            = "Please enter old password";
+"请输入新密码"                            = "Please enter new password";
+"重新输入新密码"                           = "Please reenter new password";
+"两次密码不相同"                           = "Two passwords are different";
+"密码修改成功"                             = "Password changed successfully";
+"密码设置成功"                             = "Password set successfully";
+"请为账号 " = "";
+"设置成功！" = "Successfully";
+//创建钱包
+"创建钱包"                                = "Create wallet";
+"中文"                                   = "Chinese";
+"English"                               = "English";
+"请设置钱包名称！"                         = "Please set your wallet name";
+"设置钱包名称"                            = "Set your wallet name";
+"钱包名称已存在"                           = "Wallet name already exist";
+"更换助记词"                              = "Change seeds";
+
+
+//导入钱包
+"请输入"                           = "Enter";
+"助记词"                           = "seeds";
+"请输入英文助记词，用空格隔开"         = "Please enter seeds in English, and separate by space";
+"助记词已存在"                      = "Seeds already exist";
+"助记词不存在"                      = "Seeds does not exist";
+"钱包创建失败"                      = "Wallet created unsuccessfully";
+
+
+
+//消息中心
+"暂无消息"                          = "No new message";
+"转账收款消息"                       = "Transaction message";
+"系统消息"                          = "System information";
+"全部已读"                          ="Read All";
+//分享下载
+"复制下载地址"                       = "Copy download address";
+"分享下载地址"                       = "Share download address";
+"分享至"                            = "Share to";
+
+//关于我们
+"币钱包"                            = "Bwallet";
+"币钱包是一款移动端货币钱包App，旨在为用户提供安全，好用，功能强大数字资产管理工具。"
+=
+"Pwallet is a mobile money wallet app designed to provide users with secure, easy-to-use, powerful digital asset management tools.";
+"W钱包"                              = "Wwallet";
+"W钱包是一款移动端货币钱包App，旨在为用户提供安全，好用，功能强大数字资产管理工具。"
+=
+"Wwallet is a mobile money wallet app designed to provide users with secure, easy-to-use, powerful digital asset management tools.";
+"豆子钱包"                            = "Pwallet";
+"豆子钱包是一款移动端货币钱包App，旨在为用户提供安全，好用，功能强大数字资产管理工具。"
+=
+"Pwallet is a mobile money wallet app designed to provide users with secure, easy-to-use, powerful digital asset management tools.";
+"MyDao是一款移动端货币钱包App，旨在为用户提供安全，好用，功能强大数字资产管理工具。" = "MyDao is a mobile money wallet app designed to provide users with secure, easy-to-use, powerful digital asset management tools.";
+
+"%@是一款移动端货币钱包App，旨在为用户提供安全，好用，功能强大数字资产管理工具。" = "%@ is a mobile money wallet app designed to provide users with secure, easy-to-use, powerful digital asset management tools.";
+"%@是一款移动数字钱包App，旨在为用户提供安全好用、功能强大的数字资产管理工具。" = "%@ is a mobile digital wallet app designed to provide users with secure, easy-to-use, powerful digital asset management tools.";
+"%@是一款移动端多链钱包，旨在为用户提供安全好用、功能强大的数字资产管理工具。" = "%@ is a mobile Multichain wallet  designed to provide users with secure, easy-to-use, powerful digital asset management tools.";
+"使用协议"                             = "Agreement";
+"反馈建议"                             = "Feedback";
+"反馈意见"                             = "Feedback";
+
+
+//反馈建议
+"您的宝贵意见是我们进步的动力！"
+=
+"Your valuable opinions are the driving force for our progress!";
+"还能输入%lu个字"                       = "%lu characters remaining ";  //%lu是占位符
+"请留下您的邮箱、手机号或者微信"           = "Please leave your email, mobile phone or Wechat";
+"提交"                                = "submit";
+"反馈成功"                             = "submitted";
+"感谢您对币钱包的关注和支持，我们将会在第一时间认真处理您的反馈。"
+=
+"Thank you for your attention and support on the Pwallet, we will take care of your feedback as soon as possible.";
+
+"已添加"   = "Added";
+"切换钱包" = "Switch wallet";
+"已备份" = "backed up";
+"请输入密码" = "Please enter your password";
+"请重新输入密码" = "Please re-enter your password";
+"设置钱包密码 8-16位数字、字母组合" = "Please enter 8-16 digits of numbers and letters";
+"提示：请勿截图！如果有人获取你的助记词将直接获取你的资产！请抄写下 助记词并存放在安全的地方，我们会在下一屏进行校验。" = "Tip: Do not take a screenshot! if someone gets your seeds,you assets can be insure! Please copy the sedds and store them in a safe place. We will check on the next step";
+"开始备份" = "start backup";
+"验证您备份的助记词" = "verify the sedds you have backed up";
+"请按照正确的顺序点击每个单词" = "Please selected the seeds in order";
+"导入助记词" = "Import wallet";
+"请输英文助记词，用空格隔开" = "Please enter mnemonic in English,and separate by space";
+"请设置钱包密码" = "Set password";
+"确认钱包密码" = "Confirm password";
+"开始导入" = "Start import";
+"输入Token名称或合约地址" = "Enter the Token name or contract address";
+"请输入Token名称或合约地址，如果没有找到您要添加的币种，请向我们提交反馈。" = "Enter the Token name or contract address. If you don't find the currency you want to add, please submit feedback to us";
+"抱歉，未能找到相关币种" = "Sorry,could not find the currency";
+"扫描二维码或输入地址" = "Scan or inpuyt the address";
+"复制下载链接" = "Copy the download link";
+"查看助记词" = "View mnemonic";
+" 请妥善保管您的助记词，以便丢失后找回" = " Please keep your mnemonic safety, so that you can retrieve it if you lost it";
+"知道了" = "I konw";
+"输入/扫一扫" = "Input/Scan";
+"发送数量" = "The number of sent";
+"上链备注(选填)" = "Note on the chain(optional)";
+"本地备注(选填)" = "Note on the local(optional)";
+"上链备注" = "Note on the chain";
+"本地备注" = "Note on the local";
+"上链备注：信息上链，可以在链上查询" = "Note on the chain:information on the chain, you can query on the chain";
+"本地备注：信息不上链，保存在本地" = "Note on the local:information is not on the chain,keep it locally ";
+"地址有误" = "Wrong address";
+"收币地址和发币地址一致" = "The receiving address is the same as sending address";
+"转账金额不能小于矿工费" = "The transfer amount cannot be less than teh miner fee";
+"手续费不足" = "Insufficient processing fee";
+"请输入转币金额" = "Enter the amount to transfer";
+"地址复制成功" = "Address copied";
+"区块" = "Block";
+"交易时间" = "Transaction time";
+"区块查询" = "Block inquire";
+"暂无简介" = "No Introduction";
+"语言"   = "Language";
+"8-20位数字、字母组合" = "Please enter 8-20 digits of numbers and letters";
+"(当前钱包)" = "(Current wallet)";
+"请前往设置打开相册访问权限" = "Please go to Setting to open album access";
+"请选择币种" = "Please select a currency";
+"钱包设置" = "Setting";
+"修改本地备注" = "Modify local notes";
+"无" = "none";
+"最佳" = "optimal";
+
+//新版登录
+
+"密码最大长度为20位" = "The maximum password length is 20 digits.";
+
+"密码登录" = "Password login";
+
+"已发送(%dS)" = "sent(%dS)";
+
+"忘记密码？" = "Forget password?";
+
+"我们会以电话的方式告知您验证码，请注意接听！" = "We will inform you of the verification code by phone, please pay attention!";
+
+"手机登录" = "phone number login";
+
+"收不到验证码？" = "Can't receive the verification code?";
+
+"新用户登录将自动注册" = "New user login will be automatically registered";
+
+"用手机号重置" = "Reset with phone number";
+
+"用邮箱重置" = "Reset with mailbox";
+
+"绑定手机" = "Bind phone";
+
+"绑定邮箱" = "Bind mailbox";
+
+"设置新密码" = "Set new password";
+
+"设置新密码 (6-20位)" = "Set a new password (6 - 20 digits)";
+
+"请输入手机号" = "Please enter phone number";
+
+"请输入邮箱" = "Please enter mailbox";
+
+"输入的密码过短" = "Password too short";
+
+"邮箱登录" = "Mailbox login";
+
+"验证码登录" = "Verification code login";
+
+"个人中心" = "Personal center";
+
+"请输入正确的手机号！" = "Please enter a valid phone number";
+"您还没有绑定邮箱" = "Mailbox is not bound";
+"请输入6位验证码" = "Pease enter verification code";
+"创建失败，请重新登录" = "Creation failed, please log in again";
+"您还没有绑定手机" = "Phone number is not bound";
+"您尚未注册" = "Unregistered";
+"语音验证" = "Voice verification";
+"请填写完整邮箱" = "Please fill in the full mailbox";
+"请输入4位语音验证码" = "Please enter a 4-digit voice verification code";
+"两次输入不一致" = "The two passwords are inconsistent";
+"修改成功！" = "Success！";
+"提示：请勿截图！如果有人获取你的助记词将直接获取你的资产！请抄写下助记词并存放到安全的地方，我们会在下一屏进行校验。" = "Tip: Do not take a screenshot! If someone gets your seeds, you assets can be insure! Please copy the seeds and store them in a safe place.";
+"请输入%@收到的验证码" = "Enter code";
+"请输入邮箱%@收到的验证码" = "Enter code";
+"请输入手机号%@收到的验证码" = "Enter code";
+
+"邮箱" = "mailbox";
+"登录密码" = "login password";
+"支付密码" = "payment password";
+"去设置" = "Setting";
+"去修改" = "Change";
+"去绑定" = "Bind";
+"服务器开小差了" = "Server error";
+"安全验证" = "Safety verification";
+"转账金额" = "Transfer amount";
+"邀请好友领奖励" = "Invite friends to receive rewards";
+"规则" = "Rule";
+"发送邀请给您好友" = "Send an invitation to your friend";
+"好友注册完成相应任务" = "Friend registration to complete the corresponding task";
+"获得奖励" = "Earn rewards";
+"我的收益" = "Income";
+"已邀请%@人 太棒了！" = "people have been invited， great!";
+"邀请列表" = "Invitation list";
+"邀请小技巧" = "Invitation tips";
+"1.邀请您的家人/朋友/同学同事等熟人的成功率最高。\n2.分享至微信群/QQ群，可以提升成功邀请几率。\n3.多多关注公告，可能会有新的奖励活动哦。\n4.每天坚持分享，你会比别人得到更多。" = "1. Invite your family/friends/classmates and other acquaintances with the highest success rate. \n2. Sharing to WeChat group/qq group can increase the chance of successful invitation. \n3. Pay more attention to the announcement, there may be new reward activities. \n4. Keep sharing every day, you will get more than others~";
+"生成邀请海报" = "Generate invitation poster";
+"生成邀请链接" = "Generate invitation link";
+"面对面邀请" = "Face-to-face invitation";
+"筛选" = "Filter";
+"邀请人数(人)" = "Invite（person）";
+"收益" = "Income";
+"我的邀请" = "My invitation";
+"已注册" = "Registered";
+"未实名" = "Unverified";
+"已实名" = "Verified";
+"奖励明细" = "Reward details";
+"任务" = "Task";
+"奖励" = "Reward ";
+"发放时间" = "Release time";
+"注册" = "Registe";
+"实名" = "Verify";
+"推荐等级" = "Recommend level";
+"一级" = "First level";
+"二级" = "Second level";
+"三级" = "Third level";
+"重置" = "Reset";
+"月份筛选" = "Filter by month";
+"安全好用多链钱包" = " Safe and easy wallet";
+"支持海量币种存储" = "Support massive currency storage";
+"年" = "Year";
+"月" = "Month";
+"口令分享" = "Sharing password";
+"口令复制成功" = "Success";
+"分享到" = "Share to";
+"选择海报" = "Choose a poster";
+"保存图片" = "Save picture";
+"全部" = "All";
+"助你畅游日本的加密资产钱包" = "A cryptocurrency wallet that can help you travel in Japan";
+"签到" = "Sign in";
+"个人中心" = "Personal center";
+"邀请有礼" = "Invitation courtesy";
+"欢迎使用" = "Welcome to";
+"长按识别二维码" = "Long press to identify the QR code";
+"已邀请0人，继续加油哦" = "0 Invited,Continue to cheer";
+"实名才有奖励哦" = "Real-name certification is rewarded";
+"签到有礼" = "Sign in courtesy";
+//探索
+
+"分享" = "Share";
+"复制链接" = "Copy link";
+"在浏览器中打开" = "Open the browser";
+//计价货币
+"计价货币" = "Pricing currency";
+"人民币" = "RMB";
+"美元" = "Dollar";
+"英镑" = "GBP";
+"港币" = "HKD";
+"日元" = "JPY";
+
+"点击登录" = "Log in";
+"请输入账号" = "Enter account";
+"获取验证码" = "Get Code";
+"请输入验证码" = "Enter verification code";
+"登录" = "Login";
+"已发送" = "sent";
+"个人信息" = "Personal information";
+"头像" = "Avatar";
+"设置支付密码" = "Set payment password";
+"身份认证" = "Identity verify";
+"去认证" = "To verify";
+"已认证" = "Verified";
+"退出登录" = "Log out";
+"验证码已经发送到您的手机" = "sent";
+"6位数字验证码" = "6 digit verification code";
+"您可以使用设置的密码来确认%@账号的操作" = "You can confirm the operation with the set password.";
+"确认密码" = "Confirm password";
+"再次输入密码" = "Enter password again";
+"退出" = "Log out";
+"进入" = "enter";
+
+"\n托管账户未设置支付密码，请先设置支付密码" = "\nThe payment password is not set for the escrow account. Please set the payment password first";
+"托管账户未设置支付密码，请先设置支付密码" = "The payment password is not set for the escrow account. Please set the payment password first";
+
+"多地址" = "Multiple address";
+"交易记录" = "Transaction History";
+"修改支付密码" = "Change password";
+"请输入6位原密码" = "Please enter 6 original passwords";
+"忘记密码" = "Forget password";
+"原密码修改" = "Change password";
+"设置6位数字支付密码" = "Set a 6-digit payment password";
+"确认支付密码" = "Confirm payment password";
+"实名认证" = "Certification";
+"热门专题" = "Hot topics";
+
+//"请上传身份证人像面" = "请上传身份证人像面";
+//"大陆公民持有的本人有效二代身份证" = "大陆公民持有的本人有效二代身份证";
+//"证件拍摄须知" = "大陆公民持有的本人有效二代身份证";
+//"拍摄" = "拍摄";
+//"相册上传" = "相册上传";
+//"姓名" = "姓名";
+//"身份证" = "身份证";
+"请输入真实姓名" = "Please enter your real name";
+//"下一步" = "下一步";
+//"暂未开放" = "暂未开放";
+"真实姓名" = "real name";
+"所属国家" = "Country";
+"请选择国籍" = "please select nationality";
+"证件类型" = "Type of certificate";
+"请选择证件类型" = "Please select the type of certificate";
+"证件号码" = "ID number";
+"请输入有效证件号码" = "Please enter a valid ID number";
+//"有效证件正面照" = "有效证件正面照";
+//"手持证件照" = "手持证件照";
+"图片示例" = "Photo example";
+"拍照" = "Take a photo ";
+"从相册选择" = "Choose from album";
+"请上传手持证件正面照" = "Please upload a photo of hand-held ID card(positive)";
+"请上传手持证件反面照" = "Please upload my hand-held ID card(Negative)";
+"提交审核" = "Submit";
+"您的申请已提交，请等待客服审核。若3个工作日内仍然没有结果，请及时发送邮件联系客服。" = "Your application has been submitted, please wait for customer service review. If there is still no result within 3 working days, please send an email to contact customer service.";
+"客服邮箱：" = "Service Mailbox：";
+"您的申请已提交，请等待客服审核。" = "Your application has been submitted, please wait for customer service review.";
+"您的申请已提交，请等待客服审核。若3个工作日内仍然没有结果，请及时联系客服。" = "Your application has been submitted, please wait for customer service review. If there is still no result within 3 working days, please contact customer service.";
+"客服微信：" = "Service Wechat：";
+//"温馨提示" = "温馨提示";
+//"1.认证提交后不能修改证件类型 2.目前我们不接受来自阿尔及利亚、厄瓜多尔、印度尼西亚、伊朗、朝鲜、缅甸、叙利亚共和国以及美国等国家和地区的用户" = "1.认证提交后不能修改证件类型 2.目前我们不接受来自阿尔及利亚、厄瓜多尔、印度尼西亚、伊朗、朝鲜、缅甸、叙利亚共和国以及美国等国家和地区的用户";
+//"边角完整" = "边角完整";
+//"字体清晰" = "字体清晰";
+//"亮度均匀" = "亮度均匀";
+//"请核对您的身份信息是否正确" = "请核对您的身份信息是否正确";
+//"重新上传" = "重新上传";
+//"摄像头" = "摄像头";
+//"未授权" = "未授权";
+//"动作错误，请根据提示做相应的动作" = "动作错误，请根据提示做相应的动作";
+//"请前往手机设置->%@,打开相机权限" = "请前往手机设置->%@,打开相机权限";
+//"检测超时，请稍后再试" = "检测超时，请稍后再试";
+//"检测失败,请稍后再试" = "检测失败,请稍后再试";
+//"认证成功" = "认证成功";
+//"认证失败，是否重试" = "认证失败，是否重试";
+//"是" = "是";
+//"否" = "否";
+"1.脸部清晰无遮挡证件\n 2.全部信息清晰无遮挡\n 3.完全露出双手" = "1. The face is clear and unobstructed\n 2. All documents are clear and unobstructed\n 3. Fully expose both hands";
+"人工认证" = "Manual certification ";
+"很遗憾，您未通过人工审核" = "Sorry, you have not passed the review";
+"重新提交资料" = "Resubmit";
+"待审核" = "wait for Review";
+"未通过" = "Not pass";
+"中国大陆" = "China";
+"非中国大陆" = "NonChina";
+"日本及国际用户" = "Japan and international";
+
+"1.认证提交后不能修改证件类型 2.目前我们不接受来自阿尔及利亚、厄瓜多尔、印度尼西亚、伊朗、朝鲜、缅甸、叙利亚共和国以及美国等国家和地区的用户" = "";
+"您的好友邀请你注册币钱包，登录即享好礼！" = "You are invited to register B wallet，log in to enjoy gift! ";
+"币钱包&上链购狂撒百万STO奖励，可兑换阳澄湖大闸蟹，先到先得！" = "B wallet & Shopping To Chain giving away crazy STO reward, can be exchanged Yangcheng Lake hairy crabs, first come first served!";
+"切换语言" = "Language";
+
+"网络不给力，请稍后重试" = "Network error";
+"请输入中文助记词，以3个字为一组" = "Please enter Chinese seeds in groups of 3 words";
+"分享二维码" = "Share QR code";
+"验证码已发送，请耐心查收。" = "Sent!";
+"请输入支付密码" = "Enter the payment password";
+"操作成功！" = "Success";
+
+"暂未开放" = "Not yet open";
+"未检测到托管账户，前往登录？" = "Did not detect the escrow account, go to login?";
+"已检测到托管账户，前往切换？" = "Have you detected the escrow account and went to switch?";
+"未检测到去中心化钱包，前往创建？" = "Did not detect the decentralized wallet and go to create?";
+"已检测到去中心化钱包，前往切换？" = "Have you detected the decentralized wallet and went to switch?";
+
+"正在加载" = "loading";
+
+"热门币种" = "Hot Coins";
+"自选" = "Favorites";
+"名称" = "Name";
+"最新价" = "Market Price";
+"24H涨跌" = "Change/24H";
+"24H最高" = "High/24H";
+"24H最低" = "Low/24H";
+"24H数量" = "Amount/24H";
+"添加自选成功" = "Added to favorites";
+"移除自选成功" = "Deleted";
+"资讯" = "News";
+"快讯" = "Newsletter";
+"公告" = "Bulletin";
+"文章" = "Article";
+"今天" = "Today";
+"昨天" = "Yestoday";
+"星期一" = "Mon";
+"星期二" = "Tue";
+"星期三" = "Wed";
+"星期四" = "Thu";
+"星期五" = "Fri";
+"星期六" = "Sat";
+"星期日" = "Sun";
+"查看详情" = "Details";
+"扫码下载「%@」APP" = "Scan code download";
+"公告详情" = "Details";
+"文章详情" = "Details";
+"收起" = "Pack up";
+"热门搜索" = "Hot";
+"历史搜索" = "History";
+"清空全部" = "Clean";
+"找币" = "zhaobi";
+"币安网" = "binance";
+"火币全球站" = "huobi";
+"比特纳斯达克" = "BitNasdaq";
+"您还未添加自选，快去左滑添加吧" = "You have not added your favorite coin, go to the left and add it.";
+
+"线路切换" = "Switch line";
+"中国" = "China ";
+"日本" = "Japan";
+
+"责任声明" = "Statement of liability";
+"您即将使用第三方DApp,确认即同意第三方的用户协议和隐私政策，您在这一DApp中的所有行为和使用情况，均由该DApp的供应商负责。" = "You are about to use a third-party DApp, confirm that you agree to the third-party user agreement and privacy policy, and all your actions and usage in this DApp are the responsibility of the DApp vendor.";
+"立即创建" = "Create now";
+"立即切换" = "Switch now";
+"立即登录" = "log in";
+"考虑一下" = "Later";
+"开始体验" = "Start";
+"探索精彩DApp" = "Explore theDapp";
+"什么是DApp?DApp就是区块链上的应用，快和我一起来体验下吧" = "What is DApp? DApp is an application on the blockchain. Come and experience it.";
+"最近使用" = "Recently Used";
+"全部" = "All";
+"应用" = "application";
+"确认" = "Confirm";
+"提示" = "Tip";
+"此应用需要满足条件才可进入：\n· 手机号绑定\n· 邮箱绑定\n· 实名认证成功" = "The app needs to meet conditions to enter：\n· Bind phone\n· Bind mailbox\n· Verify success";
+"此应用需要满足条件才可进入：\n· 手机号绑定\n· 邮箱绑定" = "The app needs to meet conditions to enter：\n· Bind phone\n· Bind mailbox";
+"此应用需要满足条件才可进入：\n· 手机号绑定\n· 实名认证成功" = "The app needs to meet conditions to enter：\n· Bind phone\n· Verify success";
+"此应用需要满足条件才可进入：\n· 邮箱绑定\n· 实名认证成功" = "The app needs to meet conditions to enter：\n· Bind mailbox\n· Verify success";
+"此应用需要满足条件才可进入：\n· 手机号绑定" = "The app needs to meet conditions to enter：\n· Bind phone";
+"此应用需要满足条件才可进入：\n· 邮箱绑定" = "The app needs to meet conditions to enter：\n· Bind mailbox";
+"此应用需要满足条件才可进入：\n· 实名认证成功" = "The app needs to meet conditions to enter：\n· Verify success";
+"前往个人中心" = "Go to the Personal Center";
+"面容支付" = "Face Pay";
+"指纹支付" = "Touch Pay";
+"登录注册解锁更多功能" = "Sign in to unlock more features";
+"本机号码一键登录" = "Quick log for phone number";
+"其它方式登录" = "Switch method";
+"确定关闭指纹支付?" = "Really disable Touch Pay?";
+"确定关闭面容支付?" = "Really disable Face Pay?";
+"开通成功" = "Success";
+// 新首页
+
+"请输入助记词，用空格分隔" = "Please enter mnemonics, separated by spaces";
+"请输入私钥或者扫描私钥生成的二维码录入" = "Please enter the private key or enter the QR code generated by scanning the private key";
+"请输入地址或者扫描地址生成的二维码录入" = "Please enter the address or enter the QR code generated by scanning the private key";
+"%@支持导入所有遵循BIP标准生成的助记词" = "%@ supports importing all mnemonic words generated following the BIP standard";
+"钱包支持导入所有遵循BIP标准生成的助记词" = "Wallet supports importing all mnemonic words generated following the BIP standard";
+"主链:" = "Main chain:";
+"导入助记词" = "Import mnemonics";
+"导入私钥" = "Import private key";
+"导入地址" = "Import address";
+"私钥有误" = "Incorrect private key";
+"助记词重复!" = "Mnemonic words repeated!";
+"当前钱包不支持该项目" = "Not supported";
+"创建/导入" = "Create/Import";
+"观察钱包" = "Observe wallet";
+"注册/登录" = "Register/Login";
+"助记词钱包" = "Mnemonic wallet";
+"修改钱包名称" = "Modify wallet name";
+"请先勾选协议" = "Please check the agreement first";
+"钱包设置" = "Setting";
+"请添加对应币种" = "Please add the corresponding currency";
+"HD钱包" = "HDwallet";
+"区块链钱包" = "Blockchain wallet";
+"我已阅读并同意" = "Accept";
+"隐私服务协议" = "Privacy Service Agreement";
+"暂不支持" = "Temporarily not supported";
+"登录/注册" = "Login/Register";
+"托管钱包" = "Escrow account";
+"选择主链" = "Choice Main chain";
+"钱包名称" = "Wallet Name";
+"当前钱包" = "Current wallet";
+"请输入钱包名称" = "Please Enter Wallet Name";
+"私钥钱包" = "Private key wallet";
+"导出助记词" = "Export mnemonic";
+"通用" = "Universal";
+"专属" = "Exclusive";
+"适用于所有钱包收款" = "Applicable to all wallet";
+"仅适用于%@收款" = "Only applicable to %@";
+"请转入" = "Please transfer";
+"指定金额" = "Specify amount";
+"指定收款" = "Specify amount";
+"请输入转币数量" = "Please input amount";
+"修改金额" = "Modify amount";
+"通用二维码适用于所有钱包收款" = "Universal QR code applicable to all wallets";
+"专属二维码仅适用于%@收款" = "The exclusive QR code is only applicable to the %@";
+"账户管理" = "Account management";
+"设置" = "Setting";
+"应用下载" = "Download";
+"语言切换" = "Language";
+"客服微信" = "Service Wechat";
+"客服邮箱" = "Service Mailbox";
+"钱包地址" = "Wallet address";
+"扫码下载APP" = "APPScan code download APP";
+"客服微信已复制" = "Copied";
+"已复制" = "Copied";
+"去微信粘贴" = "Paste to WeChat";
+"暂无资产，快去添加吧" = "No assets, add it now";
+"快来创建一个区块链钱包，私钥自主管理，海量币种支持，畅游各类智能合约" = "Come and create a blockchain wallet, private key management, massive currency support, and various smart contracts";
+"币钱包下载页" = "Bwallet download page";
+"BNwallet下载页" = "BNwallet download page";
+"极速收发数字资产，让您感受不一样的红包体验" = "Send and receive digital assets at high speed, let you experience a different red envelope experience";
+"好友给你发了一个%@大红包，快来领取！" = "A friend sent you a big red envelope %@, come and collect it!";
+// 币种管理y页面
+"首页币种" = "Home Coin";
+"退出排序" = "Sort Out";
+"重新加载" = "Reload";
+"该币种维护中..." = "Maintenance...";
+"云矿机" = "Cloud Miner";
+"通证介绍" = "Token Introduction";
+"人脸识别" = "Face recognition";
+"人工认证" = "Manual authentication";
+"用户名" = "User Name";
+"修改成功" = "Successfully modified";
+//*************找回钱包***//
+"探索" = "explore";
+"请输入网址" = "Please enter the website address";
+"以太坊生态" = "Ethereum Ecology";
+"比特元生态" = "Bityuan Ecology";
+"原链生态" = "Yuanchain Ecology";
+"设置找回参数" = "Set retrieval parameters";
+"控制地址:" = "Controlling address:";
+"控制地址" = "Controlling address";
+"二维码" = "QR code";
+"用户备份公钥" = "User backup public key";
+"余额:" = "balance:";
+"请输入备份地址对应的公钥" = "Please enter the public key corresponding to the backup address";
+"mydao官方备份公钥" = "Mydao official backup public key";
+"请输入找回邮箱" = "Please enter the retrieval email";
+"找回时间设置" = "Retrieval time setting";
+"7天" = "7 days";
+"30天" = "30 days";
+"90天" = "90 days";
+"搜索历史" = "history";
+"清空" = "clear";
+"请输入备份公钥" = "please enter backup public key";
+"导出公钥" = "export public key";
+"绑定找回钱包" = "Bind to retrieve wallet";
+
+"请输入控制地址的私钥" = "please enter the controlling address private key";
+"请输入找回地址" = "plesae enter the retrieve address";
+"账户名称" = "Wallet Name";
+"请设置账户密码" = "Set password";
+"确认账户密码" = "Confirm password";
+"请输入找回地址或扫码找回地址生成的二维码录入" = "Please enter the retrieve addressy or enter the QR code generated by scanning the retrieve address";
+"导入找回钱包" = "import retrieve wallet";
